@@ -6,7 +6,7 @@
   <link href="https://blog.btwoa.com/atom.xml" rel="self"/>
   
   <link href="https://blog.btwoa.com/"/>
-  <updated>2024-01-25T13:48:34.291Z</updated>
+  <updated>2023-08-27T12:26:11.000Z</updated>
   <id>https://blog.btwoa.com/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://blog.btwoa.com/4a17b156/"/>
-    <id>https://blog.btwoa.com/4a17b156/</id>
-    <published>2024-01-25T13:40:09.841Z</published>
-    <updated>2024-01-25T13:48:34.291Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://blog.btwoa.com/go/#aHR0cHM6Ly9oZXhvLmlvLw==&quot; rel=&quot;noopener external nofollow noreferrer&quot;&gt;Hexo&lt;/a&gt;! This is</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>人性化的QQ机器人框架 | Koishi</title>
@@ -577,6 +556,36 @@
     
     
     <category term="完美编译" scheme="https://blog.btwoa.com/categories/Compiles-Perfectly/"/>
+    
+    
+    <category term="Router" scheme="https://blog.btwoa.com/tags/Router/"/>
+    
+    <category term="BREED" scheme="https://blog.btwoa.com/tags/BREED/"/>
+    
+    <category term="OpenWRT" scheme="https://blog.btwoa.com/tags/OpenWRT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为小米路由器4C刷入固件 | OpenWRT</title>
+    <link href="https://blog.btwoa.com/e08b2435/"/>
+    <id>https://blog.btwoa.com/e08b2435/</id>
+    <published>2022-03-10T10:57:26.000Z</published>
+    <updated>2022-03-10T10:57:26.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为小米路由器4C刷入OpenWRT的两类方法，图省事直接用第二种官网的方法&lt;/p&gt;
+&lt;h2 id=&quot;获取root权限&quot;&gt;&lt;a href=&quot;#获取root权限&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="完美刷机" scheme="https://blog.btwoa.com/categories/Perfect-Brush/"/>
     
     
     <category term="Router" scheme="https://blog.btwoa.com/tags/Router/"/>

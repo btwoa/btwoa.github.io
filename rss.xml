@@ -15,31 +15,8 @@
     <atom:link href="https://blog.btwoa.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>我仍相信人间滚烫</description>
-    <pubDate>Thu, 25 Jan 2024 13:48:34 GMT</pubDate>
+    <pubDate>Sun, 27 Aug 2023 12:26:11 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://blog.btwoa.com/4a17b156/</link>
-      <guid>https://blog.btwoa.com/4a17b156/</guid>
-      <pubDate>Thu, 25 Jan 2024 13:40:09 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;Welcome to &lt;a href=&quot;https://blog.btwoa.com/go/#aHR0cHM6Ly9oZXhvLmlvLw==&quot; rel=&quot;noopener external nofollow noreferrer&quot;&gt;Hexo&lt;/a&gt;! This is</description>
-          
-        
-      
-      
-      
-      
-      
-      
-      <comments>https://blog.btwoa.com/4a17b156/#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>人性化的QQ机器人框架 | Koishi</title>
@@ -626,6 +603,38 @@
       
       
       <comments>https://blog.btwoa.com/f8f1c502/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>为小米路由器4C刷入固件 | OpenWRT</title>
+      <link>https://blog.btwoa.com/e08b2435/</link>
+      <guid>https://blog.btwoa.com/e08b2435/</guid>
+      <pubDate>Thu, 10 Mar 2022 10:57:26 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;为小米路由器4C刷入OpenWRT的两类方法，图省事直接用第二种官网的方法&lt;/p&gt;
+&lt;h2 id=&quot;获取root权限&quot;&gt;&lt;a href=&quot;#获取root权限&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.btwoa.com/categories/Perfect-Brush/">完美刷机</category>
+      
+      
+      <category domain="https://blog.btwoa.com/tags/Router/">Router</category>
+      
+      <category domain="https://blog.btwoa.com/tags/BREED/">BREED</category>
+      
+      <category domain="https://blog.btwoa.com/tags/OpenWRT/">OpenWRT</category>
+      
+      
+      <comments>https://blog.btwoa.com/e08b2435/#disqus_thread</comments>
       
     </item>
     
