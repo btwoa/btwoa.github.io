@@ -4010,7 +4010,9 @@ span.tagsPageCount {
   width: fit-content;
 }
 .cf-article .cf-img-avatar {
-  border-radius: 50%;
+  border-radius: 50% !important;
+  right: -30px !important;
+  bottom: -30px !important;
 }
 #page .title-h2-a {
   display: flex;
@@ -4024,7 +4026,7 @@ span.tagsPageCount {
   font-weight: 700;
 }
 #page .title-h2-a a:hover {
-  color: var(--sco-hovertext);
+  color: var(--sco-main);
 }
 #page .title-h2-a .title-h2-a-left {
   display: flex;
@@ -7509,6 +7511,66 @@ body[data-type=music] #nav-music {
 #sidebar #toggle-sidebar {
   bottom: 80px;
 }
+#keyboard-tips {
+  position: fixed;
+  top: 80px;
+  left: 20px;
+  z-index: 999;
+  background: var(--sco-maskbgdeep);
+  border-radius: 12px;
+  border: var(--style-border);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: saturate(180%) blur(20px);
+  transform: translateZ(0);
+  pointer-events: none;
+  box-shadow: var(--sco-shadow-border);
+  opacity: 0;
+  transition: 0.3s;
+}
+#keyboard-tips.show {
+  opacity: 1;
+  transition: 0.1s;
+}
+#keyboard-tips .keyboardTitle {
+  font-size: 12px;
+  color: var(--sco-secondtext);
+  line-height: 1;
+}
+#keyboard-tips .keyboardList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+#keyboard-tips .keyboardItem {
+  display: flex;
+  margin-top: 4px;
+}
+#keyboard-tips .keyGroup {
+  display: flex;
+  align-items: center;
+  width: 90px;
+}
+#keyboard-tips .keyGroup .key {
+  padding: 0.2em 0.4em;
+  font-family: inherit;
+  background-color: var(--sco-card-bg);
+  color: var(--sco-fontcolor);
+  border: var(--style-border);
+  border-color: var(--sco-secondtext);
+  border-bottom: 2px solid var(--sco-secondtext);
+  box-shadow: var(--sco-shadow-border);
+  border-radius: 0.25rem;
+  overflow-wrap: break-word;
+  overflow-x: auto;
+  font-weight: 500;
+  font-size: 0.875em;
+  margin-right: 4px;
+  vertical-align: baseline;
+  line-height: 1;
+  height: 24px;
+}
 .article-sort-title {
   font-weight: 700;
   font-size: 2em;
@@ -9126,12 +9188,12 @@ div#post-comment {
 .tk-comments .el-button--primary {
   border-color: var(--sco-fontcolor) !important;
   color: var(--sco-card-bg) !important;
-  border-radius: 4px !important;
+  border-radius: 12px !important;
   box-shadow: var(--sco-shadow-black);
   transition: 0.3s;
   width: 5rem;
   position: absolute;
-  top: -53px;
+  top: -51.5px;
   right: 0;
   margin-left: 0.5rem !important;
   height: 32px;
@@ -9173,14 +9235,14 @@ div#post-comment {
   margin-left: 0 !important;
 }
 .tk-row.actions {
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 0 !important;
   margin-left: 0 !important;
-  margin-top: 0.5rem !important;
+  margin-top: 0 !important;
   justify-content: space-around !important;
 }
 .tk-meta-input {
   position: relative !important;
-  margin-top: 0.8rem;
+  margin-top: 8px;
   width: calc(100% - 5.5rem);
 }
 .tk-content .tk-owo-emotion {
@@ -9228,7 +9290,8 @@ div#post-comment {
   background: var(--sco-card-bg);
   transition: 0.3s;
   border-radius: 12px;
-  padding: 0.5rem 0 0;
+  padding: 0;
+  padding-top: 0.5rem;
   border: none;
   border-top: var(--style-border-dashed);
 }
@@ -9274,6 +9337,7 @@ div#post-comment {
   color: var(--sco-secondtext);
 }
 .tk-meta-input .el-input .el-input-group__prepend {
+  box-shadow: none;
   border-radius: 12px 0 0 12px;
   -webkit-user-select: none;
 }
@@ -9402,7 +9466,7 @@ img.tk-avatar-img {
   border-radius: 8px !important;
 }
 .el-button:hover {
-  background: var(--sco-main) !important;
+  background: var(--sco-black) !important;
   color: var(--sco-white) !important;
 }
 .el-button.tk-preview {
@@ -9760,16 +9824,14 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
   transform: translateZ(0);
   background: var(--sco-maskbgdeep);
 }
-#search-mask #algolia-hits,
-#search-mask .tag-list {
+#algolia-hits .tag-list {
   padding: 4px 8px;
   border-radius: 8px;
   margin-right: 0.5rem;
   margin-top: 0.5rem;
   border: var(--style-border-always);
 }
-#search-mask #algolia-hits:hover,
-#search-mask .tag-list:hover {
+#algolia-hits .tag-list:hover {
   background: var(--sco-main);
   color: var(--sco-white);
 }
