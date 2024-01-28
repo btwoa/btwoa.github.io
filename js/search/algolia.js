@@ -32,6 +32,16 @@ window.addEventListener("load", () => {
 
     const searchClickFn = () => {
         utils.addEventListenerPjax(document.querySelector("#search-button > .search"), "click", openSearch);
+
+        GLOBAL_CONFIG.rightside.enable && document.getElementById("menu-search").addEventListener("click", function (){
+            rm.hideRightMenu();
+            openSearch();
+            let t=document.getElementsByClassName('ais-SearchBox-input')[0];
+            let evt = document.createEvent('HTMLEvents');
+            evt.initEvent('input', true,true)
+            t.value = selectTextNow
+            t.dispatchEvent(evt)
+        })
     };
 
     const searchFnOnce = () => {
@@ -58,7 +68,7 @@ window.addEventListener("load", () => {
     });
 
     const configure = instantsearch.widgets.configure({
-        hitsPerPage: algolia.hits.per_page ?? 5,
+        hitsPerPage: algolia.hits.per_page || 5,
     });
 
     const searchBox = instantsearch.widgets.searchBox({

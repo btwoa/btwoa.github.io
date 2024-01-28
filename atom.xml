@@ -6,7 +6,7 @@
   <link href="https://blog.btwoa.com/atom.xml" rel="self"/>
   
   <link href="https://blog.btwoa.com/"/>
-  <updated>2023-08-27T12:26:11.000Z</updated>
+  <updated>2024-01-28T11:06:31.000Z</updated>
   <id>https://blog.btwoa.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ArchLinux搭配Hyprland实现丝滑动效</title>
+    <link href="https://blog.btwoa.com/e40b2b38/"/>
+    <id>https://blog.btwoa.com/e40b2b38/</id>
+    <published>2024-01-28T11:06:31.000Z</published>
+    <updated>2024-01-28T11:06:31.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;AUR的便利让我对ArchLinux欲罢不能，真滴，谁用谁知道。在Wayland趋于成熟的当下，Hyprland的操作逻辑和动效看着就很讨喜，趁我现在有空，搞起来&lt;/p&gt;
+&lt;h2 id=&quot;安装ArchLinux&quot;&gt;&lt;a href=&quot;#安装ArchLinux&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="优化风格" scheme="https://blog.btwoa.com/categories/Optimized-Style/"/>
+    
+    
+    <category term="ArchLinux" scheme="https://blog.btwoa.com/tags/ArchLinux/"/>
+    
+    <category term="Hyprland" scheme="https://blog.btwoa.com/tags/Hyprland/"/>
+    
+  </entry>
   
   <entry>
     <title>人性化的QQ机器人框架 | Koishi</title>
@@ -508,7 +536,7 @@
   </entry>
   
   <entry>
-    <title>SWUCTF2022 Web Writeups | CTF</title>
+    <title>SWUCTF2022 Web Writeup | CTF</title>
     <link href="https://blog.btwoa.com/adc75ba0/"/>
     <id>https://blog.btwoa.com/adc75ba0/</id>
     <published>2022-05-24T13:56:32.000Z</published>
@@ -556,36 +584,6 @@
     
     
     <category term="完美编译" scheme="https://blog.btwoa.com/categories/Compiles-Perfectly/"/>
-    
-    
-    <category term="Router" scheme="https://blog.btwoa.com/tags/Router/"/>
-    
-    <category term="BREED" scheme="https://blog.btwoa.com/tags/BREED/"/>
-    
-    <category term="OpenWRT" scheme="https://blog.btwoa.com/tags/OpenWRT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>为小米路由器4C刷入固件 | OpenWRT</title>
-    <link href="https://blog.btwoa.com/e08b2435/"/>
-    <id>https://blog.btwoa.com/e08b2435/</id>
-    <published>2022-03-10T10:57:26.000Z</published>
-    <updated>2022-03-10T10:57:26.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为小米路由器4C刷入OpenWRT的两类方法，图省事直接用第二种官网的方法&lt;/p&gt;
-&lt;h2 id=&quot;获取root权限&quot;&gt;&lt;a href=&quot;#获取root权限&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="完美刷机" scheme="https://blog.btwoa.com/categories/Perfect-Brush/"/>
     
     
     <category term="Router" scheme="https://blog.btwoa.com/tags/Router/"/>
