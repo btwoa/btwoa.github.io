@@ -2230,6 +2230,23 @@ span.tags-punctuation::before {
   animation: snackbar-progress var(--sco-snackbar-time) linear forwards;
   pointer-events: none;
 }
+#universe {
+  display: block;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+[data-theme=light] #universe {
+  display: none;
+}
 @-moz-keyframes snackbar-progress {
   from {
     width: 0;
@@ -5571,6 +5588,29 @@ i.bber-gotobb {
   font-size: 0.6rem;
   margin-bottom: 0.5rem;
 }
+#about-page .author-content-item.maxim {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  width: 39%;
+}
+#about-page .author-content-item.maxim .maxim-title {
+  display: flex;
+  flex-direction: column;
+}
+#about-page .author-content-item.maxim .maxim-title span:first-child {
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+#about-page .author-content-item.maxim .title1 {
+  opacity: 0.8;
+  font-size: 0.6rem;
+  margin-bottom: 0.5rem;
+}
 #about-page .author-content-item.game-apex {
   min-height: 300px;
   overflow: hidden;
@@ -5730,29 +5770,6 @@ i.bber-gotobb {
   height: 100%;
   top: 0;
   left: 0;
-}
-#about-page .author-content-item.maxim {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.1;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
-  width: 39%;
-}
-#about-page .author-content-item.maxim .maxim-title {
-  display: flex;
-  flex-direction: column;
-}
-#about-page .author-content-item.maxim .maxim-title span:first-child {
-  opacity: 0.6;
-  margin-bottom: 8px;
-}
-#about-page .author-content-item.maxim .title1 {
-  opacity: 0.8;
-  font-size: 0.6rem;
-  margin-bottom: 0.5rem;
 }
 #about-page .author-content-item .card-content {
   z-index: 2;
