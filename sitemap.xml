@@ -519,13 +519,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/Burp/</loc>
-    <lastmod>2024-01-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/tags/Plugins/</loc>
     <lastmod>2024-01-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -533,21 +526,14 @@
   </url>
   
   <url>
+    <loc>https://blog.btwoa.com/tags/Burp/</loc>
+    <lastmod>2024-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/tags/HackTheGame/</loc>
-    <lastmod>2024-01-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/tags/BUUCTF/</loc>
-    <lastmod>2024-01-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/tags/Writeup/</loc>
     <lastmod>2024-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -576,6 +562,20 @@
   
   <url>
     <loc>https://blog.btwoa.com/tags/Regular/</loc>
+    <lastmod>2024-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/tags/BUUCTF/</loc>
+    <lastmod>2024-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/tags/Writeup/</loc>
     <lastmod>2024-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -729,6 +729,13 @@
   </url>
   
   <url>
+    <loc>https://blog.btwoa.com/tags/Python/</loc>
+    <lastmod>2024-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/tags/Qexo/</loc>
     <lastmod>2024-01-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -737,13 +744,6 @@
   
   <url>
     <loc>https://blog.btwoa.com/tags/MongoDB/</loc>
-    <lastmod>2024-01-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/tags/Python/</loc>
     <lastmod>2024-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -906,14 +906,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/CTF/</loc>
+    <loc>https://blog.btwoa.com/categories/Knowledge-Summary/</loc>
     <lastmod>2024-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Knowledge-Summary/</loc>
+    <loc>https://blog.btwoa.com/categories/CTF/</loc>
     <lastmod>2024-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
