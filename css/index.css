@@ -4971,6 +4971,105 @@ i.bber-gotobb {
     left: 50px;
   }
 }
+#gallery {
+  padding: 16px 0;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  margin: -8px;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+}
+#gallery .gallery-item {
+  overflow: hidden;
+  border: var(--style-border-always);
+  border-radius: 12px;
+  position: relative;
+  float: left;
+  display: flex;
+  height: 250px;
+  width: calc(100% / 3 - 16px);
+  cursor: pointer;
+  margin: 8px;
+}
+#gallery .gallery-item:hover .cover {
+  filter: brightness(0.5) blur(2px);
+  transition: all 0.3s;
+}
+#gallery .gallery-item:hover .title::after {
+  width: 100%;
+  transition: all 0.3s;
+}
+#gallery .gallery-item:hover .desc {
+  left: 10%;
+  transition: left 0.35s;
+  text-wrap: unset;
+}
+#gallery .gallery-item .cover {
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+#gallery .gallery-item .title {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--sco-white);
+}
+#gallery .gallery-item .title::after {
+  top: 55px;
+  width: 0;
+  left: 0;
+  height: 3px;
+  background: var(--sco-white);
+  content: "";
+  border-radius: 1px;
+  position: absolute;
+  transition: all 0.3s;
+}
+#gallery .gallery-item .desc {
+  position: absolute;
+  top: 35%;
+  left: 100%;
+  width: 80%;
+  color: var(--sco-white);
+  font-size: 1.1em;
+  transition: left 0.35s;
+  letter-spacing: 1px;
+  text-wrap: break-word;
+}
+#album {
+  margin: 5px auto;
+}
+#album .locate {
+  display: flex;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  padding: 4px 6px;
+  border-radius: 8px;
+  background: var(--sco-black-op);
+  font-size: 12px;
+  color: var(--sco-white);
+  transition: 0.3s;
+  z-index: 1;
+  user-select: none;
+}
+#album .sco-gallery-item {
+  margin-bottom: 24px;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: all 0.3s;
+  border: var(--style-border-always);
+}
+#album .sco-gallery-image {
+  width: 100%;
+  display: block;
+  height: auto;
+}
 #about-page {
   display: flex;
   padding-top: 1rem;
@@ -9210,7 +9309,7 @@ div#post-comment {
     top: -132px;
   }
   .tk-row-actions-start {
-    top: -210px;
+    top: -170px;
   }
 }
 .tk-comments-title {
@@ -12185,16 +12284,16 @@ figure.highlight table {
   scrollbar-color: var(--hlscrollbar-bg) transparent;
 }
 figure.highlight pre .deletion {
-  color: #d30102;
+  color: #d16969;
 }
 figure.highlight pre .addition {
-  color: #728a05;
+  color: #608b4e;
 }
 figure.highlight pre .meta {
-  color: #6c71c4;
+  color: #c586c0;
 }
 figure.highlight pre .comment {
-  color: #586e75;
+  color: #6a9955;
 }
 figure.highlight pre .variable,
 figure.highlight pre .attribute,
@@ -12208,10 +12307,10 @@ figure.highlight pre .css .id,
 figure.highlight pre .tag .name,
 figure.highlight pre .css .class,
 figure.highlight pre .css .pseudo {
-  color: #d30102;
+  color: #d16969;
 }
 figure.highlight pre .tag {
-  color: #259185;
+  color: #4ec9b0;
 }
 figure.highlight pre .number,
 figure.highlight pre .preprocessor,
@@ -12219,10 +12318,10 @@ figure.highlight pre .literal,
 figure.highlight pre .params,
 figure.highlight pre .constant,
 figure.highlight pre .command {
-  color: #bd3613;
+  color: #d7ba7d;
 }
 figure.highlight pre .built_in {
-  color: #a57705;
+  color: #d7ba7d;
 }
 figure.highlight pre .ruby .class .title,
 figure.highlight pre .css .rules .attribute,
@@ -12235,12 +12334,12 @@ figure.highlight pre .xml .cdata,
 figure.highlight pre .special,
 figure.highlight pre .number,
 figure.highlight pre .formula {
-  color: #728a05;
+  color: #608b4e;
 }
 figure.highlight pre .keyword,
 figure.highlight pre .title,
 figure.highlight pre .css .hexcolor {
-  color: #259185;
+  color: #4ec9b0;
 }
 figure.highlight pre .function,
 figure.highlight pre .python .decorator,
@@ -12250,11 +12349,11 @@ figure.highlight pre .ruby .title .keyword,
 figure.highlight pre .perl .sub,
 figure.highlight pre .javascript .title,
 figure.highlight pre .coffeescript .title {
-  color: #2176c7;
+  color: #569cd6;
 }
 figure.highlight pre .tag .attr,
 figure.highlight pre .javascript .function {
-  color: #6c71c4;
+  color: #c586c0;
 }
 figure.highlight .highlight-tools .sco-copy-fill {
   right: 1.7rem;
