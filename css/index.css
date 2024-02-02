@@ -2279,173 +2279,6 @@ span.tags-punctuation::before {
     width: 100%;
   }
 }
-div#banners {
-  display: none;
-}
-@media screen and (min-width: 1200px) {
-  div#banners {
-    display: flex;
-    width: 100%;
-    height: 76%;
-    background: var(--sco-card-bg);
-    margin-bottom: 0.5rem;
-    border: var(--style-border);
-    border-radius: 12px;
-    overflow: hidden;
-    position: relative;
-    box-shadow: var(--sco-shadow-border);
-    flex-direction: column;
-    transition: 0.3s;
-    will-change: transform;
-    animation: slide-in 0.6s 0.1s backwards;
-  }
-  :not(.flink)div#banners:hover {
-    box-shadow: var(--sco-shadow-main);
-  }
-  div#banners .banner-button-group {
-    position: absolute;
-    right: 2rem;
-    top: 2rem;
-    display: flex;
-  }
-  div#banners .banner-button {
-    padding: 8px 12px;
-    background: var(--sco-fontcolor);
-    border-radius: 12px;
-    color: var(--sco-card-bg);
-    display: flex;
-    align-items: center;
-    z-index: 1;
-    transition: 0.3s;
-    cursor: pointer;
-    box-shadow: var(--sco-shadow-black);
-  }
-  div#banners .banner-button.secondary {
-    background: var(--sco-secondbg);
-    border: var(--style-border-always);
-    color: var(--sco-lighttext);
-    margin-right: 1rem;
-    box-shadow: var(--sco-shadow-border);
-  }
-  div#banners .banner-button:hover {
-    background: var(--sco-theme);
-    color: var(--sco-white);
-  }
-  div#banners .banner-button i {
-    margin-right: 8px;
-    font-size: 1rem;
-  }
-  div#banners .banners-title {
-    top: 2rem;
-    left: 1.5rem;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-  }
-  div#banners .banners-title-big {
-    font-size: 36px;
-    line-height: 1;
-    font-weight: 700;
-    margin-bottom: 8px;
-  }
-  div#banners .banners-title-small {
-    font-size: 12px;
-    line-height: 1;
-    color: var(--sco-secondtext);
-    margin-top: 8px;
-    margin-bottom: 0.5rem;
-  }
-  div#banners #banner-hover {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 12px;
-    background: var(--sco-theme);
-    color: var(--sco-card-bg);
-    padding-left: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    opacity: 0;
-    transition: cubic-bezier(0.71, 0.15, 0.16, 1.15) 0.6s;
-  }
-  div#banners #banner-hover i {
-    font-size: 80px;
-    opacity: 0.4;
-  }
-  div#banners:hover #banner-hover {
-    opacity: 1;
-    padding-left: 2rem;
-    background: var(--sco-theme-op-deep);
-    backdrop-filter: blur(15px);
-    transform: translateZ(0);
-    transition: 0.3s;
-    background-size: 200%;
-    cursor: pointer;
-  }
-  div#banners .flink .banners-title {
-    top: 1.5rem;
-  }
-  div#banners .bannerText {
-    font-size: 4rem;
-    line-height: 4rem;
-    font-weight: 700;
-  }
-}
-div#banners .tags-group-all {
-  display: flex;
-  transform: rotate(-30deg);
-}
-div#banners .tags-group-all.nowrapMove {
-  transform: rotate(0);
-  padding-bottom: 2rem;
-}
-div#banners .tags-group-all.nowrapMove .tags-group-wrapper {
-  margin-top: 7rem;
-  animation: rowup 120s linear infinite;
-}
-div#banners .tags-group-all.nowrapMove .tags-group-icon {
-  border-radius: 50%;
-}
-div#banners .tags-group-all.nowrapMove .tags-group-icon img {
-  min-width: 100%;
-  min-height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-}
-div#banners .tags-group-all .tags-group-wrapper {
-  margin-top: 5rem;
-  display: flex;
-  flex-wrap: nowrap;
-  animation: rowup 60s linear infinite;
-}
-.tags-group-icon-pair {
-  margin-left: 1rem;
-  user-select: none;
-}
-.tags-group-icon-pair a img {
-  border-radius: 50%;
-}
-.tags-group-icon-pair .tags-group-icon {
-  width: 120px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 66px;
-  font-weight: 700;
-  box-shadow: var(--sco-shadow-blackdeep);
-}
-.tags-group-icon-pair .tags-group-icon:nth-child(even) {
-  margin-top: 1rem;
-  transform: translate(-60px);
-}
-.tags-group-icon-pair .tags-group-icon img {
-  width: 60%;
-}
 #home_top {
   max-width: 1400px;
   margin: 0.5rem auto auto;
@@ -6492,6 +6325,173 @@ body[data-type=music] #nav-music {
   font-size: 1rem;
   font-weight: bold;
   letter-spacing: 2px;
+}
+div#banners {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  div#banners {
+    display: flex;
+    width: 100%;
+    height: 76%;
+    background: var(--sco-card-bg);
+    margin-bottom: 0.5rem;
+    border: var(--style-border);
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: var(--sco-shadow-border);
+    flex-direction: column;
+    transition: 0.3s;
+    will-change: transform;
+    animation: slide-in 0.6s 0.1s backwards;
+  }
+  :not(.flink)div#banners:hover {
+    box-shadow: var(--sco-shadow-main);
+  }
+  div#banners .banner-button-group {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    display: flex;
+  }
+  div#banners .banner-button {
+    padding: 8px 12px;
+    background: var(--sco-fontcolor);
+    border-radius: 12px;
+    color: var(--sco-card-bg);
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: var(--sco-shadow-black);
+  }
+  div#banners .banner-button.secondary {
+    background: var(--sco-secondbg);
+    border: var(--style-border-always);
+    color: var(--sco-lighttext);
+    margin-right: 1rem;
+    box-shadow: var(--sco-shadow-border);
+  }
+  div#banners .banner-button:hover {
+    background: var(--sco-theme);
+    color: var(--sco-white);
+  }
+  div#banners .banner-button i {
+    margin-right: 8px;
+    font-size: 1rem;
+  }
+  div#banners .banners-title {
+    top: 2rem;
+    left: 1.5rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+  }
+  div#banners .banners-title-big {
+    font-size: 36px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  div#banners .banners-title-small {
+    font-size: 12px;
+    line-height: 1;
+    color: var(--sco-secondtext);
+    margin-top: 8px;
+    margin-bottom: 0.5rem;
+  }
+  div#banners #banner-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 12px;
+    background: var(--sco-theme);
+    color: var(--sco-card-bg);
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: cubic-bezier(0.71, 0.15, 0.16, 1.15) 0.6s;
+  }
+  div#banners #banner-hover i {
+    font-size: 80px;
+    opacity: 0.4;
+  }
+  div#banners:hover #banner-hover {
+    opacity: 1;
+    padding-left: 2rem;
+    background: var(--sco-theme-op-deep);
+    backdrop-filter: blur(15px);
+    transform: translateZ(0);
+    transition: 0.3s;
+    background-size: 200%;
+    cursor: pointer;
+  }
+  div#banners .flink .banners-title {
+    top: 1.5rem;
+  }
+  div#banners .bannerText {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 700;
+  }
+}
+div#banners .tags-group-all {
+  display: flex;
+  transform: rotate(-30deg);
+}
+div#banners .tags-group-all.nowrapMove {
+  transform: rotate(0);
+  padding-bottom: 2rem;
+}
+div#banners .tags-group-all.nowrapMove .tags-group-wrapper {
+  margin-top: 7rem;
+  animation: rowup 120s linear infinite;
+}
+div#banners .tags-group-all.nowrapMove .tags-group-icon {
+  border-radius: 50%;
+}
+div#banners .tags-group-all.nowrapMove .tags-group-icon img {
+  min-width: 100%;
+  min-height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+div#banners .tags-group-all .tags-group-wrapper {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: nowrap;
+  animation: rowup 60s linear infinite;
+}
+.tags-group-icon-pair {
+  margin-left: 1rem;
+  user-select: none;
+}
+.tags-group-icon-pair a img {
+  border-radius: 50%;
+}
+.tags-group-icon-pair .tags-group-icon {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 66px;
+  font-weight: 700;
+  box-shadow: var(--sco-shadow-blackdeep);
+}
+.tags-group-icon-pair .tags-group-icon:nth-child(even) {
+  margin-top: 1rem;
+  transform: translate(-60px);
+}
+.tags-group-icon-pair .tags-group-icon img {
+  width: 60%;
 }
 .author-content {
   display: flex;
