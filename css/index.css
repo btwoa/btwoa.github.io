@@ -7407,6 +7407,9 @@ div#banners .tags-group-all .tags-group-wrapper {
   background: url("https://ovo.btwoa.com/img/ovo/coverbackface.png") center center no-repeat;
   background-size: 100%;
 }
+[data-theme='dark'] #aside-content .card-widget.card-platform {
+  background: var(--sco-card-bg);
+}
 #sidebar {
   background: var(--sco-maskbg);
 }
