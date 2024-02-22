@@ -491,6 +491,20 @@
   </url>
   
   <url>
+    <loc>https://blog.btwoa.com/tags/Warning/</loc>
+    <lastmod>2024-02-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/tags/Error/</loc>
+    <lastmod>2024-02-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/tags/Github-Pages/</loc>
     <lastmod>2024-02-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -519,20 +533,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/Warning/</loc>
-    <lastmod>2024-02-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/tags/Error/</loc>
-    <lastmod>2024-02-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/tags/HackTheGame/</loc>
     <lastmod>2024-02-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -554,14 +554,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/Regular/</loc>
+    <loc>https://blog.btwoa.com/tags/Injection/</loc>
     <lastmod>2024-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/Injection/</loc>
+    <loc>https://blog.btwoa.com/tags/Regular/</loc>
     <lastmod>2024-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -708,14 +708,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/Cloudflare-CDN/</loc>
+    <loc>https://blog.btwoa.com/tags/Mail-ru/</loc>
     <lastmod>2024-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/Mail-ru/</loc>
+    <loc>https://blog.btwoa.com/tags/Cloudflare-CDN/</loc>
     <lastmod>2024-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -878,6 +878,13 @@
   </url>
   
   <url>
+    <loc>https://blog.btwoa.com/categories/Warning-Message/</loc>
+    <lastmod>2024-02-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/categories/Create-Blog/</loc>
     <lastmod>2024-02-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -886,13 +893,6 @@
   
   <url>
     <loc>https://blog.btwoa.com/categories/Practical-Resource/</loc>
-    <lastmod>2024-02-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/categories/Warning-Message/</loc>
     <lastmod>2024-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -927,14 +927,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Compiles-Perfectly/</loc>
+    <loc>https://blog.btwoa.com/categories/Perfect-Brush/</loc>
     <lastmod>2024-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Perfect-Brush/</loc>
+    <loc>https://blog.btwoa.com/categories/Compiles-Perfectly/</loc>
     <lastmod>2024-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -948,14 +948,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Cloudflare/</loc>
+    <loc>https://blog.btwoa.com/categories/Domain-Email/</loc>
     <lastmod>2024-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Domain-Email/</loc>
+    <loc>https://blog.btwoa.com/categories/Cloudflare/</loc>
     <lastmod>2024-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
