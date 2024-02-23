@@ -30,6 +30,7 @@ Allow: /d7300a13/
 Allow: /dd290b19/
 Allow: /de778eed/
 Allow: /e08b2435/
+Allow: /e40b2b38/
 Allow: /e5201314/
 Allow: /efdbbe03/
 Allow: /f2e09bf5/
