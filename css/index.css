@@ -8481,6 +8481,8 @@ div#banners .tags-group-all .tags-group-icon-pair a img {
 #footer div#sco-footer-bar .footer-bar-description {
   color: var(--sco-secondtext);
   font-weight: 700;
+  padding: 0 0.5rem;
+  text-align: center;
 }
 .post #footer div#sco-footer-bar {
   display: flex;
@@ -11344,6 +11346,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
   height: 150px;
   transition: 0.3s;
   position: relative;
+  cursor: pointer;
 }
 #card-newest-comments .aside-list-item:hover {
   background: var(--sco-main);
@@ -12021,6 +12024,7 @@ i.fab {
 @media screen and (max-width: 768px) {
   #post .post-copyright {
     box-shadow: var(--sco-shadow-border);
+    padding: 1rem 1.3rem;
   }
 }
 #post .post-copyright .post-copyright__author_group .post-copyright__author_img {
