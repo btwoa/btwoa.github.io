@@ -7988,67 +7988,6 @@ div#banners .tags-group-all .tags-group-icon-pair a img {
   opacity: 0.6;
   line-height: 1;
 }
-#aside-content .card-widget.card-platform {
-  background: #09f;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  padding: 0;
-  cursor: pointer;
-  border: none;
-  height: 110px;
-  border: var(--style-border);
-  transition: 0.6s;
-}
-#aside-content .card-widget.card-platform:before {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: url("") center center no-repeat;
-  content: '';
-  background-size: cover;
-  transition: 0.2s cubic-bezier(0.45, 0.04, 0.43, 1.21);
-}
-#aside-content .card-widget.card-platform:hover:before {
-  top: 100%;
-  opacity: 0;
-  transition: 0.3s ease-out;
-}
-#aside-content .card-widget.card-platform:hover #flip-content {
-  transform: rotateY(180deg);
-}
-#aside-content .card-widget.card-platform #flip-wrapper {
-  perspective: 1000;
-  position: relative;
-  width: 235px;
-  height: 110px;
-  z-index: 1;
-}
-#aside-content .card-widget.card-platform #flip-wrapper #flip-content {
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  transition: cubic-bezier(0, 0, 0, 1.29) 0.3s;
-}
-#aside-content .card-widget.card-platform #flip-wrapper #flip-content .face {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  background: url("https://ovo.btwoa.com/img/ovo/coverface.png") center center no-repeat;
-  background-size: 100%;
-}
-#aside-content .card-widget.card-platform #flip-wrapper #flip-content .face.back {
-  display: block;
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-  box-sizing: border-box;
-  background: url("https://ovo.btwoa.com/img/ovo/coverbackface.png") center center no-repeat;
-  background-size: 100%;
-}
 #sidebar {
   background: var(--sco-maskbg);
 }

@@ -540,6 +540,13 @@
   </url>
   
   <url>
+    <loc>https://blog.btwoa.com/tags/Injection/</loc>
+    <lastmod>2024-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/tags/Encode/</loc>
     <lastmod>2024-03-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -554,21 +561,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/BUUCTF/</loc>
-    <lastmod>2024-03-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/tags/Writeup/</loc>
-    <lastmod>2024-03-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/tags/Injection/</loc>
+    <loc>https://blog.btwoa.com/tags/Regular/</loc>
     <lastmod>2024-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -589,21 +582,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/Regular/</loc>
+    <loc>https://blog.btwoa.com/tags/BUUCTF/</loc>
     <lastmod>2024-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/PHP/</loc>
-    <lastmod>2024-03-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/tags/Comparisons/</loc>
+    <loc>https://blog.btwoa.com/tags/Writeup/</loc>
     <lastmod>2024-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -618,6 +604,20 @@
   
   <url>
     <loc>https://blog.btwoa.com/tags/LeanCloud/</loc>
+    <lastmod>2024-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/tags/PHP/</loc>
+    <lastmod>2024-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/tags/Comparisons/</loc>
     <lastmod>2024-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -913,14 +913,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/CTF/</loc>
+    <loc>https://blog.btwoa.com/categories/Renew-License/</loc>
     <lastmod>2024-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Renew-License/</loc>
+    <loc>https://blog.btwoa.com/categories/CTF/</loc>
     <lastmod>2024-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
