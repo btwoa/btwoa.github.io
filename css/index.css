@@ -3531,6 +3531,9 @@ span.tags-punctuation::before {
     border: none;
   }
 }
+#category-bar .category-bar-right {
+  display: flex;
+}
 #category-bar .category-bar-more {
   margin-left: 14px;
   font-weight: 700;
@@ -7986,7 +7989,7 @@ div#banners .tags-group-all .tags-group-icon-pair a img {
   line-height: 1;
 }
 #aside-content .card-widget.card-platform {
-  background: var(--sco-main);
+  background: #09f;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -8045,9 +8048,6 @@ div#banners .tags-group-all .tags-group-icon-pair a img {
   box-sizing: border-box;
   background: url("https://ovo.btwoa.com/img/ovo/coverbackface.png") center center no-repeat;
   background-size: 100%;
-}
-[data-theme='dark'] #aside-content .card-widget.card-platform {
-  background: var(--sco-card-bg);
 }
 #sidebar {
   background: var(--sco-maskbg);
@@ -9280,6 +9280,11 @@ p .img-alt {
   padding-left: 0.5rem;
   pointer-events: none;
 }
+.mermaid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .note {
   position: relative;
   margin: 1rem 0;
@@ -10508,6 +10513,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
   background: var(--sco-card-bg);
 }
 #comment .wl-header .wl-header-item input {
+  width: 100%;
   vertical-align: middle;
   display: table-cell;
   height: 32px;
