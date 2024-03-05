@@ -10049,6 +10049,24 @@ div#post-comment {
 .tk-content p {
   margin: 0 !important;
 }
+.tk-content pre,
+.tk-content code,
+.tk-content kbd,
+.tk-content samp {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.tk-content pre {
+  background: var(--sco-secondbg);
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  overflow: auto;
+  border-radius: 0.5em;
+}
+@media screen and (max-width: 768px) {
+  .tk-content pre {
+    max-width: 90%;
+  }
+}
 .tk-replies .tk-content span:first-child {
   font-size: 0.5rem;
   color: var(--sco-secondtext);
@@ -13517,7 +13535,7 @@ figure.highlight .highlight-tools .expand.closed {
   }
 }
 [data-theme=dark] {
-  --sco-theme: #ffc848;
+  --sco-theme: #ff9700;
   --sco-theme-op: rgba(242,185,75,0.137);
   --sco-theme-op-deep: rgba(242,185,75,0.867);
   --sco-theme-none: '#f2b94b00';
