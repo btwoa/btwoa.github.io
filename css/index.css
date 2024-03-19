@@ -5684,25 +5684,8 @@ span.tagsPageCount {
 #about-page .author-info .author-img:hover {
   transform: scale(1.1);
 }
-@media screen and (max-width: 768px) {
-  #about-page .author-info .author-img {
-    width: 120px;
-    height: 120px;
-  }
-  #about-page .author-info .author-img::before {
-    bottom: -5px;
-    right: -5px;
-  }
-}
-#about-page .author-info .author-img img {
-  border-radius: 200px;
-}
 #about-page .author-info .author-img::before {
   content: '';
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -o-transition: 1s;
-  -ms-transition: 1s;
   transition: 1s;
   width: 30px;
   height: 30px;
@@ -5713,6 +5696,21 @@ span.tagsPageCount {
   bottom: 5px;
   right: 10px;
   z-index: 2;
+}
+@media screen and (max-width: 768px) {
+  #about-page .author-info .author-img {
+    width: 120px;
+    height: 120px;
+  }
+  #about-page .author-info .author-img::before {
+    bottom: -2px;
+    right: -2px;
+    width: 20px;
+    height: 20px;
+  }
+}
+#about-page .author-info .author-img img {
+  border-radius: 200px;
 }
 #about-page .myInfoAndSayHello {
   display: flex;
