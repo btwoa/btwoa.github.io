@@ -3257,7 +3257,7 @@ body .snackbar-container {
 .topGroup {
   display: flex;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) {
   .topGroup {
     display: flex;
     flex-direction: row;
