@@ -25,6 +25,7 @@ Allow: /b0b1c591/
 Allow: /bdf459c5/
 Allow: /bf438597/
 Allow: /c5ba0790/
+Allow: /c8966bee/
 Allow: /d04c383b/
 Allow: /d7300a13/
 Allow: /dd290b19/
