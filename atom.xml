@@ -6,7 +6,7 @@
   <link href="https://blog.btwoa.com/atom.xml" rel="self"/>
   
   <link href="https://blog.btwoa.com/"/>
-  <updated>2024-01-28T11:06:31.000Z</updated>
+  <updated>2024-03-23T03:30:12.000Z</updated>
   <id>https://blog.btwoa.com/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Solitude主题杂项配置指南</title>
+    <link href="https://blog.btwoa.com/c8966bee/"/>
+    <id>https://blog.btwoa.com/c8966bee/</id>
+    <published>2024-03-23T03:30:12.000Z</published>
+    <updated>2024-03-23T03:30:12.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note  danger modern&quot;&gt;&lt;p&gt;Efu让我转载他之前写的Solitude配置教程，那我顺便汇总整理下，方便大家参考。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;那年今日卡片&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="优化风格" scheme="https://blog.btwoa.com/categories/Optimized-Style/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.btwoa.com/tags/Hexo/"/>
+    
+    <category term="Solitude" scheme="https://blog.btwoa.com/tags/Solitude/"/>
+    
+    <category term="Tag Plugins" scheme="https://blog.btwoa.com/tags/Tag-Plugins/"/>
+    
+    <category term="Katex" scheme="https://blog.btwoa.com/tags/Katex/"/>
+    
+    <category term="Mermaid" scheme="https://blog.btwoa.com/tags/Mermaid/"/>
+    
+  </entry>
   
   <entry>
     <title>ArchLinux搭配Hyprland实现丝滑动效</title>
@@ -29,7 +64,7 @@
         
         
     <summary type="html">&lt;p&gt;AUR的便利让我对ArchLinux欲罢不能，真滴，谁用谁知道。在Wayland趋于成熟的当下，Hyprland的操作逻辑和动效看着就很讨喜，趁我现在有空，搞起来&lt;/p&gt;
-&lt;h2 id=&quot;安装ArchLinux&quot;&gt;&lt;a href=&quot;#安装ArchLinux&quot;</summary>
+&lt;h2 id=&quot;安装ArchLinux&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
         
       
     
@@ -57,7 +92,8 @@
         
         
     <summary type="html">&lt;p&gt;Koishi基于TypeScript开发，支持主流聊天平台，可跨平台，社区生态丰富，开箱即用，及其人性化&lt;/p&gt;
-&lt;h2 id=&quot;体验&quot;&gt;&lt;a href=&quot;#体验&quot; class=&quot;headerlink&quot; title=&quot;体验&quot;&gt;&lt;/a&gt;体验&lt;/h2&gt;&lt;p&gt;在线控制台：&lt;a</summary>
+&lt;h2 id=&quot;体验&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#体验&quot;&gt;&lt;/a&gt;体验&lt;/h2&gt;
+&lt;p&gt;在线控制台：&lt;a</summary>
         
       
     
@@ -87,7 +123,7 @@
         
         
     <summary type="html">&lt;p&gt;最近被下载网速反复折磨，换源又不能解决全部问题，索性给手头的服务器装上Clash，实现上网自由。&lt;/p&gt;
-&lt;h2 id=&quot;Clash-Dashboard&quot;&gt;&lt;a href=&quot;#Clash-Dashboard&quot; class=&quot;headerlink&quot; title=&quot;Clash</summary>
+&lt;h2 id=&quot;Clash-Dashboard&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#Clash-Dashboard&quot;&gt;&lt;/a&gt;Clash</summary>
         
       
     
@@ -116,8 +152,9 @@
       
         
         
-    <summary type="html">&lt;p&gt;Qexo官方文档更新后提到Djongo对于MongoDB的支持并不完善，开发者推荐使用MySQL&amp;#x2F;PostgreSQL，正好此前迭代版本跨度过大导致Qexo功能异常，所以重新部署下&lt;/p&gt;
-&lt;p&gt;随着版本迭代和官方文档更新，为Qexo做了相应修改，做相应记录&lt;/p</summary>
+    <summary type="html">&lt;p&gt;Qexo官方文档更新后提到Djongo对于MongoDB的支持并不完善，开发者推荐使用MySQL/PostgreSQL，正好此前迭代版本跨度过大导致Qexo功能异常，所以重新部署下&lt;/p&gt;
+&lt;p&gt;随着版本迭代和官方文档更新，为Qexo做了相应修改，做相应记录&lt;/p&gt;
+&lt;h2</summary>
         
       
     
@@ -147,7 +184,7 @@
         
         
     <summary type="html">&lt;p&gt;大佬just_pisces在三月九号的版本迭代时内核支持了KernelSU，我迫不及待地更新完系统，配置好模块，实际体验真的很完美，特别感谢这些伟大的开发、维护人员&lt;/p&gt;
-&lt;h2 id=&quot;前提条件&quot;&gt;&lt;a href=&quot;#前提条件&quot; class=&quot;headerlink&quot;</summary>
+&lt;h2 id=&quot;前提条件&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
         
       
     
@@ -208,7 +245,7 @@
         
         
     <summary type="html">&lt;p&gt;让Typora依赖PicGo实现本地图片插入即上传，同时自动实现图片处理流程（图片格式转换，画质压缩，添加水印等），即原图在插入时触发上传和处理流程，极大简化博客编写的时间成本&lt;/p&gt;
-&lt;h2 id=&quot;使用缘由&quot;&gt;&lt;a href=&quot;#使用缘由&quot;</summary>
+&lt;h2 id=&quot;使用缘由&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
         
       
     
@@ -238,7 +275,7 @@
         
         
     <summary type="html">&lt;p&gt;一加7Pro作为当年的刷机小王子，配置就算放到现在依旧能打，前段时间刷到国内大佬定制的PixelExperiencePlus包，索性刷机体验体验，因当时没有留下相关图像，这里只作简单的文字记录&lt;/p&gt;
-&lt;h2 id=&quot;前置要求&quot;&gt;&lt;a href=&quot;#前置要求&quot;</summary>
+&lt;h2 id=&quot;前置要求&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
         
       
     
@@ -266,7 +303,7 @@
         
         
     <summary type="html">&lt;p&gt;友圈项目这么实用，当然要加入了。未适配主题通过JSON字符串接入，后端采用MongoDB+Vercel+Github，这样的缺点是访问速度略慢，不过我完全能接受&lt;/p&gt;
-&lt;h2 id=&quot;Fcircle简介&quot;&gt;&lt;a href=&quot;#Fcircle简介&quot;</summary>
+&lt;h2 id=&quot;Fcircle简介&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
         
       
     
@@ -298,7 +335,8 @@
         
         
     <summary type="html">&lt;p&gt;Qexo项目日趋完善，准备重新部署并对全部过程进行记录，本篇就是使用Qexo创建编辑发布的&lt;/p&gt;
-&lt;h2 id=&quot;Qexo简介&quot;&gt;&lt;a href=&quot;#Qexo简介&quot; class=&quot;headerlink&quot;</summary>
+&lt;h2 id=&quot;Qexo简介&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#Qexo简介&quot;&gt;&lt;/a&gt;Qexo简介&lt;/h2&gt;
+&lt;p&gt;&lt;a</summary>
         
       
     
@@ -328,7 +366,8 @@
         
         
     <summary type="html">&lt;p&gt;多数教程通过重命名python.exe的方式实现共存，当然，我推荐另一方案&lt;/p&gt;
-&lt;h2 id=&quot;安装Python&quot;&gt;&lt;a href=&quot;#安装Python&quot; class=&quot;headerlink&quot;</summary>
+&lt;h2 id=&quot;安装Python&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#安装Python&quot;&gt;&lt;/a&gt;安装Python&lt;/h2&gt;
+&lt;p&gt;&lt;img</summary>
         
       
     
@@ -353,8 +392,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;Freenom作为全球唯一的免费域名注册商，可免费注册后缀为.tk | .ml | .ga | .cf | .gq的域名，但这类域名已被部分服务商加入黑名单，不推荐当主域名使用，玩玩就行&lt;/p&gt;
-&lt;h2 id=&quot;Freenom官网&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;p&gt;Freenom作为全球唯一的免费域名注册商，&lt;a href=&quot;https://blog.btwoa.com/go/#aHR0cDovL3huLS1zaXF0OGVvZm00Z3JldTA0bXFxMGFlMXgudGs=&quot; rel=&quot;noopener external</summary>
         
       
     
@@ -380,7 +418,7 @@
         
         
     <summary type="html">&lt;p&gt;记录Cloudflare CDN自选IP的全过程，这只是向免费妥协的优化手段，当然，最好的方案还是上云，使用付费套餐&lt;/p&gt;
-&lt;h2 id=&quot;启用自定义节点的起因&quot;&gt;&lt;a href=&quot;#启用自定义节点的起因&quot; class=&quot;headerlink&quot;</summary>
+&lt;h2 id=&quot;启用自定义节点的起因&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
         
       
     
@@ -406,7 +444,7 @@
         
         
     <summary type="html">&lt;p&gt;Mail.ru的企业邮箱基础版是免费的，可创建免费自定义域名邮箱，功能对于个人来说完全够用&lt;/p&gt;
-&lt;h2 id=&quot;注册Mail-ru邮箱&quot;&gt;&lt;a href=&quot;#注册Mail-ru邮箱&quot; class=&quot;headerlink&quot;</summary>
+&lt;h2 id=&quot;注册Mail-ru邮箱&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
         
       
     
@@ -458,7 +496,7 @@
         
         
     <summary type="html">&lt;p&gt;更换平台即服务为Vercel，自定义404页面，解决*.vercel.app已被SNI阻断和DNS污染屏蔽问题&lt;/p&gt;
-&lt;h2 id=&quot;平台即服务&quot;&gt;&lt;a href=&quot;#平台即服务&quot; class=&quot;headerlink&quot;</summary>
+&lt;h2 id=&quot;平台即服务&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
         
       
     
@@ -486,7 +524,7 @@
         
         
     <summary type="html">&lt;p&gt;对Apollo极简主题的增强性优化&lt;/p&gt;
-&lt;h2 id=&quot;Apollo主题&quot;&gt;&lt;a href=&quot;#Apollo主题&quot; class=&quot;headerlink&quot;</summary>
+&lt;h2 id=&quot;Apollo主题&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
         
       
     
@@ -514,7 +552,8 @@
         
         
     <summary type="html">&lt;p&gt;配置服务器环境搭建WordPress博客&lt;/p&gt;
-&lt;h2 id=&quot;Debain-11-1&quot;&gt;&lt;a href=&quot;#Debain-11-1&quot; class=&quot;headerlink&quot; title=&quot;Debain 11.1&quot;&gt;&lt;/a&gt;Debain 11.1&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
+&lt;h2 id=&quot;Debain-11-1&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#Debain-11-1&quot;&gt;&lt;/a&gt;Debain 11.1&lt;/h2&gt;
+&lt;p&gt;&lt;img</summary>
         
       
     
@@ -548,7 +587,9 @@
         
         
     <summary type="html">&lt;p&gt;SWU解题记录，太菜了太菜了，哭哭&lt;/p&gt;
-&lt;h1 id=&quot;THINKPHP&quot;&gt;&lt;a href=&quot;#THINKPHP&quot; class=&quot;headerlink&quot;</summary>
+&lt;h1&gt;THINKPHP?&lt;/h1&gt;
+&lt;p&gt;?s=captcha&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ovo.btwoa.com/img/webp/202205242206767.webp&quot; alt=&quot;&quot;</summary>
         
       
     
@@ -560,37 +601,6 @@
     <category term="Writeup" scheme="https://blog.btwoa.com/tags/Writeup/"/>
     
     <category term="SWUCTF" scheme="https://blog.btwoa.com/tags/SWUCTF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>为小米路由器4A千兆版编译固件 | OpenWRT</title>
-    <link href="https://blog.btwoa.com/f8f1c502/"/>
-    <id>https://blog.btwoa.com/f8f1c502/</id>
-    <published>2022-03-17T07:19:10.000Z</published>
-    <updated>2022-03-17T07:19:10.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;按照lede仓库在Ubuntu编译适用于小米路由器4A千兆版的OpenWRT固件&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ovo.btwoa.com/img/webp/202203171546085.webp&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="完美编译" scheme="https://blog.btwoa.com/categories/Compiles-Perfectly/"/>
-    
-    
-    <category term="Router" scheme="https://blog.btwoa.com/tags/Router/"/>
-    
-    <category term="BREED" scheme="https://blog.btwoa.com/tags/BREED/"/>
-    
-    <category term="OpenWRT" scheme="https://blog.btwoa.com/tags/OpenWRT/"/>
     
   </entry>
   
