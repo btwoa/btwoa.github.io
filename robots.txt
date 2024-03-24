@@ -19,6 +19,7 @@ Allow: /789f27e5/
 Allow: /8140beac/
 Allow: /53da714d/
 Allow: /37855097/
+Allow: /a0685bc9/
 Allow: /a9b56db2/
 Allow: /adc75ba0/
 Allow: /b0b1c591/
