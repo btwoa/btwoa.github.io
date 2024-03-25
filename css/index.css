@@ -11762,7 +11762,7 @@ i.fab {
 #article-container p img {
   margin: auto;
 }
-#article-container code {
+#article-container code:not([class*='language-']) {
   color: var(--efu-white);
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
@@ -13158,6 +13158,131 @@ i.fab {
     --style-border-hover: 0px solid var(--efu-main);
   }
 }
+figure.highlight .highlight-tools .st-copy-fill {
+  right: 0.7rem;
+}
+figure.highlight .highlight-tools.closed .expand {
+  transform: rotate(-90deg);
+}
+figure.highlight .expand + .code-lang {
+  left: 1.7rem;
+}
+#article-container pre[class*='language-'].line-numbers {
+  position: relative;
+}
+#article-container pre[class*='language-'].line-numbers > code {
+  display: block;
+  position: relative;
+  padding: 8px 0 8px 45px;
+}
+#article-container pre[class*='language-'].line-numbers .line-numbers-rows {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--efu-secondtext);
+  border-right: var(--style-border-always);
+  padding: 8px 0;
+}
+#article-container pre[class*='language-'].line-numbers .line-numbers-rows > span {
+  display: block;
+  counter-increment: linenumber;
+  pointer-events: none;
+  text-align: center;
+}
+#article-container pre[class*='language-'].line-numbers .line-numbers-rows > span:before {
+  padding: 0 0.5em;
+  content: counter(linenumber);
+}
+pre[class*='language-'] .token.function,
+pre[class*='language-'] .token.punctuation {
+  color: #c792ea;
+}
+pre[class*='language-'] .token.comment,
+pre[class*='language-'] .token.prolog,
+pre[class*='language-'] .token.doctype,
+pre[class*='language-'] .token.cdata {
+  color: #6272a4;
+}
+pre[class*='language-'] .token.namespace {
+  opacity: 0.7;
+}
+pre[class*='language-'] .token.operator,
+pre[class*='language-'] .token.boolean,
+pre[class*='language-'] .token.number {
+  color: #ffcb6b;
+}
+pre[class*='language-'] .token.property {
+  color: #c3e88d;
+}
+pre[class*='language-'] .token.tag {
+  color: #c792ea;
+}
+pre[class*='language-'] .token.string {
+  color: #89ddff;
+}
+pre[class*='language-'] .token.selector {
+  color: #f07178;
+}
+pre[class*='language-'] .token.attr-name {
+  color: #ffcb6b;
+}
+pre[class*='language-'] .token.entity,
+pre[class*='language-'] .token.url,
+pre[class*='language-'] .language-css .token.string,
+pre[class*='language-'] .style .token.string {
+  color: #82aaff;
+}
+pre[class*='language-'] .token.attr-value,
+pre[class*='language-'] .token.keyword,
+pre[class*='language-'] .token.control,
+pre[class*='language-'] .token.directive,
+pre[class*='language-'] .token.unit {
+  color: #c3e88d;
+}
+pre[class*='language-'] .token.statement,
+pre[class*='language-'] .token.regex,
+pre[class*='language-'] .token.atrule {
+  color: #82aaff;
+}
+pre[class*='language-'] .token.placeholder,
+pre[class*='language-'] .token.variable {
+  color: #c792ea;
+}
+pre[class*='language-'] .token.deleted {
+  text-decoration: line-through;
+}
+pre[class*='language-'] .token.inserted {
+  border-bottom: 1px dotted #202746;
+  text-decoration: none;
+}
+pre[class*='language-'] .token.italic {
+  font-style: italic;
+}
+pre[class*='language-'] .token.important,
+pre[class*='language-'] .token.bold {
+  font-weight: bold;
+}
+pre[class*='language-'] .token.important {
+  color: #ffcb6b;
+}
+pre[class*='language-'] .token.entity {
+  cursor: help;
+}
+pre[class*='language-'] pre > code.highlight {
+  outline: 0.4em solid #ffcb6b;
+  outline-offset: 0.4em;
+}
+#article-container pre[class*='language-'] {
+  margin: 0;
+  overflow-x: auto;
+  scrollbar-color: var(--hlscrollbar-bg) transparent;
+}
+#article-container pre[class*='language-']::-webkit-scrollbar-thumb {
+  background: var(--hlscrollbar-bg);
+}
+#article-container pre[class*='language-']:not(.line-numbers) {
+  padding: 10px 20px;
+}
 figure:hover {
   box-shadow: var(--efu-shadow-border-hover);
 }
@@ -13184,11 +13309,6 @@ figure.highlight {
   padding: 0;
   line-height: 1.6;
 }
-figure.highlight pre {
-  margin: 0;
-  padding: 8px 0;
-  border: none;
-}
 figure.highlight .highlight-tools {
   position: relative;
   display: flex;
@@ -13204,7 +13324,6 @@ figure.highlight .highlight-tools {
 }
 figure.highlight .highlight-tools.closed .expand {
   transition: all 0.3s ease 0s;
-  transform: rotate(-90deg);
 }
 figure.highlight .highlight-tools.closed ~ * {
   display: none;
@@ -13267,127 +13386,4 @@ figure.highlight .code-expand-btn:not(.expand-done) ~ table,
 figure.highlight .code-expand-btn:not(.expand-done) ~ pre {
   overflow: hidden;
   height: 200px;
-}
-figure.highlight table {
-  display: block;
-  border: none;
-  overflow-y: hidden;
-  overflow-x: auto;
-}
-figure.highlight table td {
-  padding: 0;
-  border: none;
-  height: 100%;
-}
-figure.highlight table td.gutter {
-  opacity: 0.6;
-  user-select: none;
-}
-figure.highlight table td.gutter pre {
-  overflow: auto;
-  line-height: 1.6;
-  margin: 0;
-  padding: 8px 0.5rem;
-  border: none;
-  color: var(--efu-secondtext);
-  background: var(--efu-secondbg);
-  border-right: var(--style-border-always);
-  text-align: right;
-}
-figure.highlight table td.code {
-  width: 100%;
-  display: flex;
-  position: relative;
-}
-figure.highlight table td.code pre {
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  width: 100%;
-}
-figure.highlight .line.marked {
-  background-color: rgba(97,97,97,0.314);
-}
-figure.highlight table {
-  scrollbar-color: var(--hlscrollbar-bg) transparent;
-}
-figure.highlight pre .deletion {
-  color: #f55;
-}
-figure.highlight pre .addition {
-  color: #50fa7b;
-}
-figure.highlight pre .meta {
-  color: #ff79c6;
-}
-figure.highlight pre .comment {
-  color: #6272a4;
-}
-figure.highlight pre .variable,
-figure.highlight pre .attribute,
-figure.highlight pre .regexp,
-figure.highlight pre .ruby .constant,
-figure.highlight pre .xml .tag .title,
-figure.highlight pre .xml .pi,
-figure.highlight pre .xml .doctype,
-figure.highlight pre .html .doctype,
-figure.highlight pre .css .id,
-figure.highlight pre .tag .name,
-figure.highlight pre .css .class,
-figure.highlight pre .css .pseudo {
-  color: #f55;
-}
-figure.highlight pre .tag {
-  color: #8be9fd;
-}
-figure.highlight pre .number,
-figure.highlight pre .preprocessor,
-figure.highlight pre .literal,
-figure.highlight pre .params,
-figure.highlight pre .constant,
-figure.highlight pre .command {
-  color: #ffb86c;
-}
-figure.highlight pre .built_in {
-  color: #f1fa8c;
-}
-figure.highlight pre .ruby .class .title,
-figure.highlight pre .css .rules .attribute,
-figure.highlight pre .string,
-figure.highlight pre .value,
-figure.highlight pre .inheritance,
-figure.highlight pre .header,
-figure.highlight pre .ruby .symbol,
-figure.highlight pre .xml .cdata,
-figure.highlight pre .special,
-figure.highlight pre .number,
-figure.highlight pre .formula {
-  color: #50fa7b;
-}
-figure.highlight pre .keyword,
-figure.highlight pre .title,
-figure.highlight pre .css .hexcolor {
-  color: #8be9fd;
-}
-figure.highlight pre .function,
-figure.highlight pre .python .decorator,
-figure.highlight pre .python .title,
-figure.highlight pre .ruby .function .title,
-figure.highlight pre .ruby .title .keyword,
-figure.highlight pre .perl .sub,
-figure.highlight pre .javascript .title,
-figure.highlight pre .coffeescript .title {
-  color: #bd93f9;
-}
-figure.highlight pre .tag .attr,
-figure.highlight pre .javascript .function {
-  color: #ff79c6;
-}
-figure.highlight .highlight-tools .st-copy-fill {
-  right: 0.7rem;
-}
-figure.highlight .expand + .code-lang {
-  left: 1.7rem;
-}
-figure.highlight .expand.closed {
-  transform: rotate(-90deg);
 }
