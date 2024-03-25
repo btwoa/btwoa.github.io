@@ -70,7 +70,7 @@ const utils = {
     snackbarShow: (text, showAction, duration) => {
         const sa = (typeof showAction !== 'undefined') ? showAction : false
         const dur = (typeof duration !== 'undefined') ? duration : 5000
-        document.styleSheets[0].addRule(':root', '--st-snackbar-time:' + dur + 'ms!important')
+        document.styleSheets[0].addRule(':root', '--efu-snackbar-time:' + dur + 'ms!important')
         Snackbar.show({
             text: text, showAction: sa, duration: dur, pos: 'top-center'
         })
@@ -136,12 +136,11 @@ const utils = {
     },
     isMobile: () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent),
     isHidden: e => 0 === e.offsetHeight && 0 === e.offsetWidth,
-    addEventListenerPjax: function (element, eventType, callback, useCapture = false) {
-        if (element == null) return
-        element.addEventListener(eventType, callback, useCapture);
-        utils.addGlobalFn("pjax", function () {
-            element.removeEventListener(eventType, callback, useCapture);
-        });
+    addEventListenerPjax: (ele, event, fn, option = false) => {
+        ele.addEventListener(event, fn, option)
+        utils.addGlobalFn('pjax', () => {
+            ele.removeEventListener(event, fn, option)
+        })
     },
     addGlobalFn: (key, fn, name = false, parent = window) => {
         const globalFn = parent.globalFn || {}
