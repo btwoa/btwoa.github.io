@@ -2239,12 +2239,118 @@ span.tags-punctuation::before {
     -webkit-box-pack: center;
     justify-content: center;
   }
-  html.hide-aside .layout >div:first-child {
+  html.hide-aside .layout > div:first-child {
     width: 100%;
   }
   html.hide-aside .layout > .aside-content {
     display: none;
   }
+}
+#aside-content .card-toc {
+  padding: 0.5rem 0.5rem;
+}
+#aside-content .card-toc:hover {
+  box-shadow: var(--efu-shadow-border);
+}
+@media screen and (min-width: 900px) {
+  #aside-content .card-toc {
+    right: 0 !important;
+  }
+}
+#aside-content .card-toc .toc-content {
+  overflow-y: auto;
+  max-height: calc(100vh - 300px);
+}
+#aside-content .card-toc .toc-content::before {
+  position: absolute;
+  top: 0.6rem;
+  right: 1.2rem;
+  color: #a9a9a9;
+  content: attr(progress-percentage);
+  font-style: italic;
+  font-size: 1.2rem;
+}
+#aside-content .card-toc .toc-content .toc-link.active {
+  border-left-color: #0061cc;
+  background: #0079ff;
+  color: #fff;
+}
+@media screen and (min-width: 901px) {
+  #aside-content #card-toc {
+    right: 0;
+  }
+}
+#aside-content #card-toc .toc-content {
+  overflow-y: auto;
+  max-height: calc(100vh - 300px);
+}
+#aside-content #card-toc .toc-content * > .toc-item > .toc-child {
+  margin-left: 10px;
+  transition: display 0.3s ease-in-out 0s;
+  padding-left: 10px;
+}
+#aside-content #card-toc .toc-content ol {
+  margin: 0;
+  padding-left: 0.4rem;
+}
+#aside-content #card-toc .toc-content olul {
+  list-style: none;
+}
+#aside-content #card-toc .toc-content > ol {
+  padding-left: 0;
+}
+#aside-content #card-toc .toc-content .toc-child {
+  display: none;
+}
+#aside-content #card-toc .toc-content .toc-child .toc-child {
+  display: none;
+}
+#aside-content #card-toc .toc-content .toc-child .toc-child.active {
+  display: block;
+}
+#aside-content #card-toc .toc-content .toc-item.active > .toc-child {
+  display: block;
+}
+#aside-content #card-toc .toc-content:hover .toc-link:not(.active) span,
+#aside-content #card-toc .toc-content .toc-content .toc-link:not(.active) span {
+  filter: blur(0);
+  opacity: 1;
+}
+#aside-content #card-toc .toc-content .toc-item.active .toc-link {
+  opacity: 1;
+  border-radius: 8px;
+}
+#aside-content #card-toc .toc-content .toc-link {
+  line-height: 24px;
+  padding: 8px;
+  border-left: 0 solid transparent;
+  border-radius: 12px;
+  color: var(--efu-secondtext);
+  cursor: default;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out 0s;
+}
+#aside-content #card-toc .toc-content .toc-link.active {
+  border-radius: 12px;
+  border-left-color: var(--efu-hovertext);
+  background-color: var(--efu-card-bg);
+  color: var(--efu-lighttext);
+  font-weight: 700;
+  font-size: 20px;
+}
+#aside-content #card-toc .toc-content .toc-link:not(.active) span {
+  opacity: 0.6;
+  cursor: pointer;
+  filter: blur(1px);
+  transition: 0.3s;
+}
+#aside-content #card-toc .toc-content .toc-link:not(.active) span:hover {
+  color: var(--efu-lighttext);
+}
+[data-theme=dark] .toc .toc-item.active .toc-link .toc-text {
+  color: var(--efu-white);
 }
 #aside-content .card-widget:hover .avatar-sticker {
   opacity: 0;
