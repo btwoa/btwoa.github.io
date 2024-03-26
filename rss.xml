@@ -15,8 +15,38 @@
     <atom:link href="https://blog.btwoa.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>我仍相信人间滚烫</description>
-    <pubDate>Sat, 23 Mar 2024 03:30:12 GMT</pubDate>
+    <pubDate>Tue, 26 Mar 2024 14:28:20 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>重生之我在PS2游戏里当NPC</title>
+      <link>https://blog.btwoa.com/5ff83c5u/</link>
+      <guid>https://blog.btwoa.com/5ff83c5u/</guid>
+      <pubDate>Tue, 26 Mar 2024 14:28:20 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;刚刷到了PS2游戏风格的生活照，让人眼前一亮，那我就来跟跟风，上手体验体验face-to-many模型的妙处&lt;/p&gt;
+&lt;h2 id=&quot;登录Replicate&quot;&gt;&lt;a class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.btwoa.com/categories/Tiangongkaiwu/">天工开物</category>
+      
+      
+      <category domain="https://blog.btwoa.com/tags/face-to-many/">face-to-many</category>
+      
+      <category domain="https://blog.btwoa.com/tags/Replicate/">Replicate</category>
+      
+      
+      <comments>https://blog.btwoa.com/5ff83c5u/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Solitude主题杂项配置指南</title>
@@ -612,38 +642,6 @@
       
       
       <comments>https://blog.btwoa.com/1f30b8ca/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>SWUCTF2022 Web Writeup | CTF</title>
-      <link>https://blog.btwoa.com/adc75ba0/</link>
-      <guid>https://blog.btwoa.com/adc75ba0/</guid>
-      <pubDate>Tue, 24 May 2022 13:56:32 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;SWU解题记录，太菜了太菜了，哭哭&lt;/p&gt;
-&lt;h2 id=&quot;THINKPHP&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#THINKPHP&quot;&gt;&lt;/a&gt;THINKPHP?&lt;/h2&gt;
-&lt;p&gt;?s=captcha&lt;/p&gt;
-&lt;p&gt;&lt;img</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.btwoa.com/categories/CTF/">CTF</category>
-      
-      
-      <category domain="https://blog.btwoa.com/tags/Writeup/">Writeup</category>
-      
-      <category domain="https://blog.btwoa.com/tags/SWUCTF/">SWUCTF</category>
-      
-      
-      <comments>https://blog.btwoa.com/adc75ba0/#disqus_thread</comments>
       
     </item>
     
