@@ -1953,6 +1953,10 @@ blockquote {
   margin: 1rem 0;
   padding: 0.5rem 0.8rem;
 }
+blockquote p {
+  padding: 0;
+  margin: 0;
+}
 li,
 ul {
   list-style: none;
@@ -5129,13 +5133,10 @@ span.tags-punctuation {
 #home_top .recent-top-post-group .recent-post-top::-webkit-scrollbar {
   display: none;
 }
-#bannerGroup {
-  display: none;
-}
 @media screen and (min-width: 1201px) {
   #bannerGroup {
     width: calc(50% - 0.25rem);
-    margin-right: 0.5rem;
+    margin-right: 1rem;
     height: calc(328px + 0.5rem);
     display: flex;
     flex-direction: column;
@@ -5692,6 +5693,16 @@ span.tags-punctuation {
   padding: 0;
   display: inline-block;
   overflow: hidden;
+}
+#recent-posts > .recent-post-item > .recent-post-info .content {
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  padding: 5px 32px;
+  color: var(--efu-gray);
+  font-size: 14px;
+  line-height: 1.8;
 }
 #recent-posts > .recent-post-item > .recent-post-info span.tags-punctuation {
   transition: 0.3s;
@@ -6968,13 +6979,16 @@ span.tagsPageCount {
     display: none;
   }
 }
-#article-container .hexo-douban-items {
+.hexo-douban-items {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
   flex-direction: row;
 }
-#article-container .hexo-douban-items .hexo-douban-item {
+.hexo-douban-items .hexo-douban-comment {
+  display: none;
+}
+.hexo-douban-items .hexo-douban-item {
   position: relative;
   width: calc(100% / 4 - 9px);
   border-radius: 12px;
@@ -6990,81 +7004,81 @@ span.tagsPageCount {
   overflow: hidden;
 }
 @media screen and (max-width: 1200px) {
-  #article-container .hexo-douban-items .hexo-douban-item {
+  .hexo-douban-items .hexo-douban-item {
     width: calc(100% / 3 - 9px);
   }
 }
 @media screen and (max-width: 899px) {
-  #article-container .hexo-douban-items .hexo-douban-item {
+  .hexo-douban-items .hexo-douban-item {
     width: calc(100% / 2 - 9px);
   }
 }
 @media screen and (max-width: 600px) {
-  #article-container .hexo-douban-items .hexo-douban-item {
+  .hexo-douban-items .hexo-douban-item {
     width: 100%;
   }
 }
-#article-container .hexo-douban-items .hexo-douban-item:hover {
+.hexo-douban-items .hexo-douban-item:hover {
   border-color: var(--efu-main);
 }
-#article-container .hexo-douban-items .hexo-douban-item .hexo-douban-picture {
+.hexo-douban-items .hexo-douban-item .hexo-douban-picture {
   width: 120px;
   height: 100%;
   top: 0;
   padding: 10px;
 }
-#article-container .hexo-douban-items .hexo-douban-item .hexo-douban-picture img {
+.hexo-douban-items .hexo-douban-item .hexo-douban-picture img {
   margin: 0;
   height: 100%;
   max-width: 100%;
   border-radius: 6px;
 }
-#article-container .hexo-douban-items .hexo-douban-item .hexo-douban-info {
+.hexo-douban-items .hexo-douban-item .hexo-douban-info {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
   height: 100%;
   position: relative;
 }
-#article-container .hexo-douban-items .hexo-douban-item .hexo-douban-info .hexo-douban-rating {
+.hexo-douban-items .hexo-douban-item .hexo-douban-info .hexo-douban-rating {
   position: absolute;
   bottom: 5px;
   line-height: 16px;
 }
-#article-container .hexo-douban-items .hexo-douban-item .hexo-douban-info .hexo-douban-meta {
+.hexo-douban-items .hexo-douban-item .hexo-douban-info .hexo-douban-meta {
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
 }
 @media screen and (max-width: 1300px) {
-  #article-container .hexo-douban-items .hexo-douban-item .hexo-douban-info .hexo-douban-meta {
+  .hexo-douban-items .hexo-douban-item .hexo-douban-info .hexo-douban-meta {
     -webkit-line-clamp: 3 !important;
   }
 }
 @media screen and (max-width: 899px) {
-  #article-container .hexo-douban-items .hexo-douban-item .hexo-douban-info .hexo-douban-meta {
+  .hexo-douban-items .hexo-douban-item .hexo-douban-info .hexo-douban-meta {
     -webkit-line-clamp: 4 !important;
   }
 }
-#article-container .hexo-douban-items .hexo-douban-item .hexo-douban-info .hexo-douban-title {
+.hexo-douban-items .hexo-douban-item .hexo-douban-info .hexo-douban-title {
   transition: all 0.2s ease 0s;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   width: 100%;
 }
-#article-container .hexo-douban-items .hexo-douban-item .hexo-douban-info .hexo-douban-title a {
+.hexo-douban-items .hexo-douban-item .hexo-douban-info .hexo-douban-title a {
   border-bottom: 0;
 }
-#article-container .hexo-douban-items .hexo-douban-item .hexo-douban-info .hexo-douban-title a:hover {
+.hexo-douban-items .hexo-douban-item .hexo-douban-info .hexo-douban-title a:hover {
   background: none;
   color: var(--efu-main);
 }
-#article-container .hexo-douban-pagination {
+.hexo-douban-pagination {
   margin-top: 1.25rem;
   animation: slide-in 0.6s 0.3s backwards;
 }
-#article-container .hexo-douban-pagination .hexo-douban-button {
+.hexo-douban-pagination .hexo-douban-button {
   background: var(--efu-card-bg);
   height: 2rem;
   line-height: calc(2rem - 2px);
@@ -7077,10 +7091,10 @@ span.tagsPageCount {
   display: inline-flex;
   align-items: center;
 }
-#article-container .hexo-douban-pagination .hexo-douban-button:hover {
+.hexo-douban-pagination .hexo-douban-button:hover {
   background: var(--efu-main);
 }
-#article-container .hexo-douban-tabs {
+.hexo-douban-tabs {
   white-space: nowrap;
   overflow: hidden;
   display: flex;
@@ -7090,17 +7104,17 @@ span.tagsPageCount {
   border: var(--style-border);
   animation: slide-in 0.6s 0.3s backwards;
 }
-#article-container .hexo-douban-tabs:hover {
+.hexo-douban-tabs:hover {
   border-color: var(--efu-main);
 }
-#article-container .hexo-douban-tabs a {
+.hexo-douban-tabs a {
   padding: 0.1rem 0.5rem;
   margin-right: 6px;
   font-weight: 700;
   border-radius: 8px !important;
   border-bottom: 0;
 }
-#article-container .hexo-douban-tabs .hexo-douban-tab-active {
+.hexo-douban-tabs .hexo-douban-tab-active {
   background: var(--efu-main);
 }
 .flink#banners {
@@ -9189,19 +9203,6 @@ div#banners .tags-group-all .tags-group-icon-pair a img {
   .author-content-item .card-content .banner-button-text {
     display: none;
   }
-}
-p a:not(.headerlink) {
-  text-decoration: none;
-  border-bottom: 2px dotted var(--efu-lighttext);
-  color: var(--efu-fontcolor);
-  font-weight: 700;
-  padding: 0 4px;
-  border-radius: 4px 4px 0 0;
-}
-p a:hover {
-  color: var(--efu-white);
-  border-radius: 4px;
-  background: var(--efu-main);
 }
 .comment-barrage {
   position: fixed;
