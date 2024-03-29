@@ -496,6 +496,13 @@
   </url>
   
   <url>
+    <loc>https://blog.btwoa.com/tags/Plugins/</loc>
+    <lastmod>2024-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/tags/Warning/</loc>
     <lastmod>2024-03-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -510,7 +517,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/Plugins/</loc>
+    <loc>https://blog.btwoa.com/tags/HackTheGame/</loc>
     <lastmod>2024-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -518,13 +525,6 @@
   
   <url>
     <loc>https://blog.btwoa.com/tags/Burp/</loc>
-    <lastmod>2024-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/tags/HackTheGame/</loc>
     <lastmod>2024-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -552,6 +552,13 @@
   </url>
   
   <url>
+    <loc>https://blog.btwoa.com/tags/Regular/</loc>
+    <lastmod>2024-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/tags/BUUCTF/</loc>
     <lastmod>2024-03-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -560,13 +567,6 @@
   
   <url>
     <loc>https://blog.btwoa.com/tags/Writeup/</loc>
-    <lastmod>2024-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/tags/Regular/</loc>
     <lastmod>2024-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -925,14 +925,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Practical-Resource/</loc>
+    <loc>https://blog.btwoa.com/categories/Game-Tutorial/</loc>
     <lastmod>2024-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Game-Tutorial/</loc>
+    <loc>https://blog.btwoa.com/categories/Practical-Resource/</loc>
     <lastmod>2024-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
