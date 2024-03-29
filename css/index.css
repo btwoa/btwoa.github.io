@@ -2373,7 +2373,7 @@ span.tags-punctuation::before {
   position: relative;
 }
 #aside-content > .card-widget.card-info:before {
-  background: linear-gradient(-25deg, var(--efu-main), var(--efu-main-op-deep), var(--efu-main), var(--efu-main-op-deep));
+  background: linear-gradient(-25deg, var(--efu-main), var(--efu-main-op-deep));
   background-size: 400%;
   position: absolute;
   width: 100%;
@@ -10910,7 +10910,7 @@ figure.highlight .expand + .code-lang {
 #article-container pre[class*='language-'].line-numbers > code {
   display: block;
   position: relative;
-  padding: 8px 0 8px 45px;
+  padding: 8px 0 8px 38px;
 }
 #article-container pre[class*='language-'].line-numbers .line-numbers-rows {
   position: absolute;
@@ -12414,6 +12414,19 @@ div#post-comment {
 }
 .comment-randomInfo:hover a {
   color: var(--efu-theme);
+}
+#owo-big {
+  position: fixed;
+  align-items: center;
+  background-color: var(--heo-card-bg);
+  border: var(--style-border-always);
+  border-radius: 10px;
+  z-index: 9999;
+  display: none;
+  transform: translate(0, -105%);
+  overflow: hidden;
+  animation: owoIn 0.3s cubic-bezier(0.42, 0, 0.3, 1.11);
+  padding: 1rem;
 }
 #twikoo .tk-admin-config-group-title {
   margin-top: 0;
