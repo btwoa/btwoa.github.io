@@ -8062,6 +8062,18 @@ body[data-type=music] #nav-music {
     left: 50px;
   }
 }
+#about-page {
+  display: flex;
+  padding-top: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+#about-page .author-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  line-height: 1;
+}
 .percentage-label {
   position: absolute;
   left: 0;
@@ -8912,7 +8924,7 @@ body[data-type=music] #nav-music {
 div#banners {
   display: none;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) {
   div#banners {
     display: flex;
     width: 100%;
