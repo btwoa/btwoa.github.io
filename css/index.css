@@ -2048,7 +2048,6 @@ i.solitude {
   align-self: flex-start;
   animation: slide-in 0.6s 0.1s backwards;
   position: relative;
-  order: 2;
 }
 @media screen and (max-width: 768px) {
   .layout > div:first-child:not(.recent-posts,
@@ -2388,7 +2387,7 @@ span.tags-punctuation::before {
 @media screen and (min-width: 1300px) {
   #aside-content {
     animation: slide-in 0.6s 0.3s backwards;
-    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
 #aside-content .item-headline {
@@ -5740,9 +5739,6 @@ span.tags-punctuation {
 #category-bar .category-bar-items .category-bar-item.select a {
   background: var(--efu-theme);
   color: var(--efu-white);
-}
-#recent-posts {
-  order: 2;
 }
 #recent-posts {
   position: relative;
