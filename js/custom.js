@@ -33,7 +33,7 @@ var newYear = () => {
 clearTimeout(newYearTimer);
 if (!document.querySelector('#newYear')) return;
 // 新年时间戳 and 星期对象
-let newYear = new Date('2024-02-10 00:00:00').getTime() / 1000,
+let newYear = new Date('2025-01-29 00:00:00').getTime() / 1000,
 week = { 0: '周日', 1: '周一', 2: '周二', 3: '周三', 4: '周四', 5: '周五', 6: '周六' }
 
     time();
@@ -57,7 +57,7 @@ week = { 0: '周日', 1: '周一', 2: '周二', 3: '周三', 4: '周四', 5: '�
             document.querySelector('#newYear .newYear-time').innerHTML = '<span class="happyNewYear">新年快乐！</span>';
         } else {
             // 大于0则还未过年
-            document.querySelector('#newYear .title').innerHTML = '距离2024年春节：'
+            document.querySelector('#newYear .title').innerHTML = '距离2025年春节：'
 
             // 大于一天则直接渲染天数
             if (second > 86400) {
