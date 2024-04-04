@@ -394,7 +394,7 @@ document.addEventListener('pjax:complete', newYear);
         else timeChange = "<span class='welcome-time'>夜深了，月亮不睡我不睡</span>";
     
         document.getElementById("welcome-info").innerHTML =
-            `<span>嗨 </span><span><span style="color: var(--efu-main);font-weight: bold;">${pos}</span> 的小友👀 </span><span class="welcome-message">${posdesc}🧲</span><br>我们之间好像隔着 <b><span style="color: var(--efu-main);font-weight: bold;">${dist}</span></b> 公里嘞<br><span style="word-wrap:break-word">您的IP地址为：${ip}</span><br>${timeChange}`;
+            `<span></span><span><span style="color: var(--efu-main);font-weight: bold;">${pos}</span> 的小友👀 </span><span class="welcome-message">${posdesc}🧲</span><br>我们之间好像隔着 <b><span style="color: var(--efu-main);font-weight: bold;">${dist}</span></b> 公里嘞<br><span style="word-wrap:break-word">您的IP地址为：${ip}</span><br>${timeChange}`;
     }
     
     const isWelcome = () => document.getElementById("welcome-info") && showWelcome();
