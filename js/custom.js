@@ -386,15 +386,15 @@ document.addEventListener('pjax:complete', newYear);
         //根据本地时间切换欢迎语
         let timeChange;
         let date = new Date();
-        if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span class='welcome-time'>🌤️ 早上好，一日之计在于晨</span>";
-        else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span class='welcome-time'>☀️ 中午好，在打盹了已经</span>";
-        else if (date.getHours() >= 13 && date.getHours() < 17) timeChange = "<span class='welcome-time'>🕞 下午好，摸鱼可别被逮哦</span>";
-        else if (date.getHours() >= 17 && date.getHours() < 19) timeChange = "<span class='welcome-time'>🚶‍♂️ 即将下班，记得按时吃饭</span>";
-        else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span class='welcome-time'>🌙 晚上好，自由时间嗨起来</span>";
+        if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span class='welcome-time'>早上好，一日之计在于晨</span>";
+        else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span class='welcome-time'>中午好，在打盹了已经</span>";
+        else if (date.getHours() >= 13 && date.getHours() < 17) timeChange = "<span class='welcome-time'>下午好，摸鱼可别被逮哦</span>";
+        else if (date.getHours() >= 17 && date.getHours() < 19) timeChange = "<span class='welcome-time'>即将下班，记得按时吃饭</span>";
+        else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span class='welcome-time'>晚上好，自由时间嗨起来</span>";
         else timeChange = "<span class='welcome-time'>夜深了，月亮不睡我不睡</span>";
     
         document.getElementById("welcome-info").innerHTML =
-            `<span>欢迎来自 </span><span><span style="color: var(--efu-main);font-weight: bold;">${pos}</span> 的小友👀 </span><span class="welcome-message">${posdesc}🧲</span><br>我们之间隔着 <b><span style="color: var(--efu-main);font-weight: bold;">${dist}</span></b> 公里！<br><span style="word-wrap:break-word">您的IP地址为：${ip}</span><br>${timeChange}`;
+            `<span>欢迎来自 </span><span><span style="color: var(--efu-main);font-weight: bold;">${pos}</span> 的小友👀 </span><span class="welcome-message">${posdesc}🧲</span><br>我们之间好像隔着 <b><span style="color: var(--efu-main);font-weight: bold;">${dist}</span></b> 公里嘞<br><span style="word-wrap:break-word">您的IP地址为：${ip}</span><br>${timeChange}`;
     }
     
     const isWelcome = () => document.getElementById("welcome-info") && showWelcome();
