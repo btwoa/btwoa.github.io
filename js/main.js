@@ -30,6 +30,7 @@ const sidebarFn = () => {
         if (utils.isHidden($toggleMenu)) {
             if ($mobileSidebarMenus.classList.contains('open')) closeMobileSidebar()
         }
+        sco.reflashEssayWaterFall();
     })
 }
 
@@ -310,7 +311,6 @@ let sco = {
     },
     hideTodayCard: () => document.getElementById('todayCard').classList.add('hide'),
     toTop: () => utils.scrollToDest(0),
-
     showConsole: function () {
         let el = document.getElementById('console')
         if (el && !el.classList.contains('show')) {
@@ -335,7 +335,7 @@ let sco = {
         el && GLOBAL_CONFIG.runtime && (el.innerText = utils.timeDiff(new Date(GLOBAL_CONFIG.runtime), new Date()) + GLOBAL_CONFIG.lang.time.day)
     },
     toTalk: function (txt) {
-        const inputs = ["#wl-edit", ".el-textarea__inner"]
+        const inputs = ["#wl-edit", ".el-textarea__inner", "#veditor"]
         for (let i = 0; i < inputs.length; i++) {
             let el = document.querySelector(inputs[i])
             if (el != null) {
@@ -349,6 +349,7 @@ let sco = {
                 el.setSelectionRange(-1, -1)
             }
         }
+        utils.snackbarShow(GLOBAL_CONFIG.lang.totalk, !1, 2e3);
     },
     initbbtalk: function () {
         if (document.querySelector('#bber-talk')) {
@@ -387,10 +388,10 @@ let sco = {
             const hours = timeNow.getHours();
             const lang = GLOBAL_CONFIG.aside.sayhello;
             const greetings = [{
-                    start: 0,
-                    end: 5,
-                    text: lang.goodnight
-                },
+                start: 0,
+                end: 5,
+                text: lang.goodnight
+            },
                 {
                     start: 6,
                     end: 10,
@@ -660,7 +661,7 @@ let sco = {
             item.textContent = utils.diffDate(timeVal, true)
             item.style.display = 'inline'
         })
-    }
+    },
 }
 
 const addHighlight = () => {
@@ -834,8 +835,8 @@ class tabs {
 }
 
 window.refreshFn = () => {
-    if (PAGE_CONFIG.is_home) {
-        sco.changeTimeFormat(document.querySelectorAll('#recent-posts time'))
+    if (PAGE_CONFIG.is_home || PAGE_CONFIG.is_page) {
+        sco.changeTimeFormat(document.querySelectorAll('#recent-posts time, .webinfo-item time'))
         GLOBAL_CONFIG.runtime && sco.addRuntime()
     } else {
         sco.changeTimeFormat(document.querySelectorAll('#post-meta time'))
@@ -852,8 +853,9 @@ window.refreshFn = () => {
     sco.categoriesBarActive()
     sco.listenToPageInputPress()
     sco.addNavBackgroundInit()
+    sco.reflashEssayWaterFall()
     GLOBAL_CONFIG.lazyload.enable && utils.lazyloadImg()
-    GLOBAL_CONFIG.lightbox && utils.lightbox(document.querySelectorAll("#article-container img:not(.flink-avatar)"))
+    GLOBAL_CONFIG.lightbox && utils.lightbox(document.querySelectorAll("#article-container img:not(.flink-avatar,.gallery-group img)"))
     GLOBAL_CONFIG.randomlink && randomLinksList()
     PAGE_CONFIG.comment && initComment()
     PAGE_CONFIG.toc && toc.init();
