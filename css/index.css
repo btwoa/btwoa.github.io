@@ -6984,13 +6984,6 @@ span.tagsPageCount {
   flex-direction: column;
   text-align: justify;
 }
-#bber .timeline #waterfall {
-  opacity: 0;
-  transition: 0.3s;
-}
-#bber .timeline #waterfall.show {
-  opacity: 1;
-}
 #bber .timeline ul li.item {
   position: relative;
   width: 32%;
@@ -11768,6 +11761,13 @@ details[open]>summary:hover:after {
   max-width: 100%;
   border-radius: 0;
   margin: 0;
+}
+.waterfall {
+  opacity: 0;
+  transition: 0.3s;
+}
+.waterfall.show {
+  opacity: 1;
 }
 .red {
   color: var(--efu-red);
