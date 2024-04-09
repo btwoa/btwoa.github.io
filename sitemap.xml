@@ -496,13 +496,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/Burp/</loc>
-    <lastmod>2024-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/tags/Warning/</loc>
     <lastmod>2024-04-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -518,6 +511,13 @@
   
   <url>
     <loc>https://blog.btwoa.com/tags/Plugins/</loc>
+    <lastmod>2024-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/tags/Burp/</loc>
     <lastmod>2024-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -545,20 +545,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/Injection/</loc>
-    <lastmod>2024-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/tags/Regular/</loc>
-    <lastmod>2024-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/tags/BUUCTF/</loc>
     <lastmod>2024-04-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -567,6 +553,20 @@
   
   <url>
     <loc>https://blog.btwoa.com/tags/Writeup/</loc>
+    <lastmod>2024-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/tags/Injection/</loc>
+    <lastmod>2024-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/tags/Regular/</loc>
     <lastmod>2024-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -918,14 +918,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Practical-Resource/</loc>
+    <loc>https://blog.btwoa.com/categories/Warning-Message/</loc>
     <lastmod>2024-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Warning-Message/</loc>
+    <loc>https://blog.btwoa.com/categories/Practical-Resource/</loc>
     <lastmod>2024-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
