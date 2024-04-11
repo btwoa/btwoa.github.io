@@ -2809,7 +2809,9 @@ span.tags-punctuation::before {
   color: var(--efu-white);
 }
 #aside-content .card-info img.avatar-img {
-  width: 118px;
+  width: 108px;
+  height: 108px;
+  object-fit: cover;
   right: 0;
   top: 0;
   border-radius: 500px;
@@ -5808,6 +5810,9 @@ span.tags-punctuation {
 #home_top .recent-top-post-group .recent-post-top::-webkit-scrollbar {
   display: none;
 }
+#bannerGroup {
+  display: flex;
+}
 @media screen and (min-width: 1201px) {
   #bannerGroup {
     width: calc(50% - 0.25rem);
@@ -5871,6 +5876,7 @@ span.tags-punctuation {
   height: 100%;
   width: 100%;
   background: var(--efu-card-bg);
+  background-size: 200%;
   border-radius: 12px;
   display: inline-block;
   text-align: left;
