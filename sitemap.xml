@@ -911,6 +911,13 @@
   </url>
   
   <url>
+    <loc>https://blog.btwoa.com/categories/Create-Blog/</loc>
+    <lastmod>2024-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/categories/Warning-Message/</loc>
     <lastmod>2024-04-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -918,7 +925,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Create-Blog/</loc>
+    <loc>https://blog.btwoa.com/categories/Practical-Resource/</loc>
     <lastmod>2024-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -933,13 +940,6 @@
   
   <url>
     <loc>https://blog.btwoa.com/categories/Knowledge-Summary/</loc>
-    <lastmod>2024-04-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/categories/Practical-Resource/</loc>
     <lastmod>2024-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
