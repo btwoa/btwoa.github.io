@@ -4072,7 +4072,6 @@ span.tags-punctuation::before {
 }
 @media screen and (max-width: 768px) {
   #page-header #nav {
-    background: linear-gradient(to top, var(--efu-main-none) 0, var(--efu-main) 100%);
     transition: 0s;
   }
 }
@@ -5373,6 +5372,11 @@ span.tags-punctuation {
   opacity: 0.8;
   font-size: 14px;
   line-height: 1.8;
+}
+@media screen and (max-width: 600px) {
+  #recent-posts > .recent-post-item > .recent-post-info .content {
+    -webkit-line-clamp: 1;
+  }
 }
 #recent-posts > .recent-post-item > .recent-post-info span.tags-punctuation {
   transition: 0.3s;
@@ -9452,7 +9456,7 @@ div#banners {
   bottom: 0;
   right: 20px;
   padding: 0 0 20px 10px;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: flex-end;
   z-index: 999;
