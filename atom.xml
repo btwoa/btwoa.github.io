@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>放养平凡</title>
+  <icon>https://ovo.btwoa.com/blog.png</icon>
+  <subtitle>世界为你简单</subtitle>
+  <link href="https://blog.btwoa.com/atom.xml" rel="self"/>
+  
+  <link href="https://blog.btwoa.com/"/>
+  <updated>2024-03-26T14:28:20.000Z</updated>
+  <id>https://blog.btwoa.com/</id>
+  
+  <author>
+    <name>btwoa</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>重生之我在PS2游戏里当NPC</title>
+    <link href="https://blog.btwoa.com/5ff83c5u/"/>
+    <id>https://blog.btwoa.com/5ff83c5u/</id>
+    <published>2024-03-26T14:28:20.000Z</published>
+    <updated>2024-03-26T14:28:20.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;刚刷到了PS2游戏风格的生活照，让人眼前一亮，那我就来跟跟风，上手体验体验face-to-many模型的妙处&lt;/p&gt;
+&lt;h2 id=&quot;登录Replicate&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="天工开物" scheme="https://blog.btwoa.com/categories/Tiangongkaiwu/"/>
+    
+    
+    <category term="face-to-many" scheme="https://blog.btwoa.com/tags/face-to-many/"/>
+    
+    <category term="Replicate" scheme="https://blog.btwoa.com/tags/Replicate/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Solitude主题杂项配置指南</title>
+    <link href="https://blog.btwoa.com/a0685bc9/"/>
+    <id>https://blog.btwoa.com/a0685bc9/</id>
+    <published>2024-03-23T03:30:12.000Z</published>
+    <updated>2024-04-17T15:11:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note  info modern&quot;&gt;&lt;p&gt;Efu让我转载他之前写的Solitude配置教程，那我顺便汇总整理下，方便大家参考。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;那年今日卡片&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="优化风格" scheme="https://blog.btwoa.com/categories/Optimized-Style/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.btwoa.com/tags/Hexo/"/>
+    
+    <category term="Solitude" scheme="https://blog.btwoa.com/tags/Solitude/"/>
+    
+    <category term="Tag Plugins" scheme="https://blog.btwoa.com/tags/Tag-Plugins/"/>
+    
+    <category term="Katex" scheme="https://blog.btwoa.com/tags/Katex/"/>
+    
+    <category term="Mermaid" scheme="https://blog.btwoa.com/tags/Mermaid/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ArchLinux搭配Hyprland实现丝滑动效</title>
+    <link href="https://blog.btwoa.com/e40b2b38/"/>
+    <id>https://blog.btwoa.com/e40b2b38/</id>
+    <published>2024-01-28T11:06:31.000Z</published>
+    <updated>2024-01-28T11:06:31.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;AUR的便利让我对ArchLinux欲罢不能，真滴，谁用谁知道。在Wayland趋于成熟的当下，Hyprland的操作逻辑和动效看着就很讨喜，趁我现在有空，搞起来&lt;/p&gt;
+&lt;h2 id=&quot;安装ArchLinux&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="优化风格" scheme="https://blog.btwoa.com/categories/Optimized-Style/"/>
+    
+    
+    <category term="ArchLinux" scheme="https://blog.btwoa.com/tags/ArchLinux/"/>
+    
+    <category term="Hyprland" scheme="https://blog.btwoa.com/tags/Hyprland/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>人性化的QQ机器人框架 | Koishi</title>
+    <link href="https://blog.btwoa.com/9fd737cc/"/>
+    <id>https://blog.btwoa.com/9fd737cc/</id>
+    <published>2023-08-27T12:26:11.000Z</published>
+    <updated>2023-08-27T12:26:11.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Koishi基于TypeScript开发，支持主流聊天平台，可跨平台，社区生态丰富，开箱即用，及其人性化&lt;/p&gt;
+&lt;h2 id=&quot;体验&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#体验&quot;&gt;&lt;/a&gt;体验&lt;/h2&gt;
+&lt;a class=&quot;tag-link&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="实用框架" scheme="https://blog.btwoa.com/categories/Practical-Framework/"/>
+    
+    
+    <category term="Koishi" scheme="https://blog.btwoa.com/tags/Koishi/"/>
+    
+    <category term="go-cqhttp" scheme="https://blog.btwoa.com/tags/go-cqhttp/"/>
+    
+    <category term="ffmpeg" scheme="https://blog.btwoa.com/tags/ffmpeg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为Linux服务器配置Clash Premium实现TUN模式下科学上网</title>
+    <link href="https://blog.btwoa.com/53da714d/"/>
+    <id>https://blog.btwoa.com/53da714d/</id>
+    <published>2023-08-27T04:16:21.000Z</published>
+    <updated>2023-08-27T04:16:21.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近被下载网速反复折磨，换源又不能解决全部问题，索性给手头的服务器装上Clash，实现上网自由。&lt;/p&gt;
+&lt;h2 id=&quot;Clash-Dashboard&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#Clash-Dashboard&quot;&gt;&lt;/a&gt;Clash</summary>
+        
+      
+    
+    
+    
+    <category term="科学上网" scheme="https://blog.btwoa.com/categories/Global-Proxy/"/>
+    
+    
+    <category term="Clash Premium" scheme="https://blog.btwoa.com/tags/Clash-Premium/"/>
+    
+    <category term="TUN" scheme="https://blog.btwoa.com/tags/TUN/"/>
+    
+    <category term="Dashboard" scheme="https://blog.btwoa.com/tags/Dashboard/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用PlanetScale重新部署Qexo</title>
+    <link href="https://blog.btwoa.com/de778eed/"/>
+    <id>https://blog.btwoa.com/de778eed/</id>
+    <published>2023-07-08T04:12:14.000Z</published>
+    <updated>2023-07-08T04:12:14.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Qexo官方文档更新后提到Djongo对于MongoDB的支持并不完善，开发者推荐使用MySQL/PostgreSQL，正好此前迭代版本跨度过大导致Qexo功能异常，所以重新部署下&lt;/p&gt;
+&lt;p&gt;随着版本迭代和官方文档更新，为Qexo做了相应修改，做相应记录&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="搭建博客" scheme="https://blog.btwoa.com/categories/Create-Blog/"/>
+    
+    
+    <category term="Vercel" scheme="https://blog.btwoa.com/tags/Vercel/"/>
+    
+    <category term="Qexo" scheme="https://blog.btwoa.com/tags/Qexo/"/>
+    
+    <category term="PlanetScale" scheme="https://blog.btwoa.com/tags/PlanetScale/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>OnePlus 7 Pro刷入KernelSU后的实际体验</title>
+    <link href="https://blog.btwoa.com/37855097/"/>
+    <id>https://blog.btwoa.com/37855097/</id>
+    <published>2023-03-10T10:05:57.000Z</published>
+    <updated>2023-03-10T10:05:57.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;大佬just_pisces在三月九号的版本迭代时内核支持了KernelSU，我迫不及待地更新完系统，配置好模块，实际体验真的很完美，特别感谢这些伟大的开发、维护人员&lt;/p&gt;
+&lt;h2 id=&quot;前提条件&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="完美刷机" scheme="https://blog.btwoa.com/categories/Perfect-Brush/"/>
+    
+    
+    <category term="KernelSU" scheme="https://blog.btwoa.com/tags/KernelSU/"/>
+    
+    <category term="OnePlus 7 Pro" scheme="https://blog.btwoa.com/tags/OnePlus-7-Pro/"/>
+    
+    <category term="PixelExperiencePlus" scheme="https://blog.btwoa.com/tags/PixelExperiencePlus/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>免费搭建网站统计服务并引入个人网站 | Umami</title>
+    <link href="https://blog.btwoa.com/5ab50253/"/>
+    <id>https://blog.btwoa.com/5ab50253/</id>
+    <published>2023-03-07T12:30:39.000Z</published>
+    <updated>2023-03-07T12:30:39.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Umami作为一套开源的自托管网络分析解决方案，可以完全掌握个人网站的流量数据，前端展示做的简洁美观，一目了然，这些特点非常契合我的需求&lt;/p&gt;
+&lt;p&gt;翻阅官方文档后决定使用PlanetScale + Vercel完成搭建&lt;/p&gt;
+&lt;a class=&quot;tag-link&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="搭建博客" scheme="https://blog.btwoa.com/categories/Create-Blog/"/>
+    
+    
+    <category term="Vercel" scheme="https://blog.btwoa.com/tags/Vercel/"/>
+    
+    <category term="Umami" scheme="https://blog.btwoa.com/tags/Umami/"/>
+    
+    <category term="PlanetScale" scheme="https://blog.btwoa.com/tags/PlanetScale/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>对象存储图片处理工作流配置详解</title>
+    <link href="https://blog.btwoa.com/92dc8035/"/>
+    <id>https://blog.btwoa.com/92dc8035/</id>
+    <published>2023-03-06T17:06:09.000Z</published>
+    <updated>2023-03-06T17:06:09.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;让Typora依赖PicGo实现本地图片插入即上传，同时自动实现图片处理流程（图片格式转换，画质压缩，添加水印等），即原图在插入时触发上传和处理流程，极大简化博客编写的时间成本&lt;/p&gt;
+&lt;h2 id=&quot;使用缘由&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="搭建博客" scheme="https://blog.btwoa.com/categories/Create-Blog/"/>
+    
+    
+    <category term="Tencent Cloud COS" scheme="https://blog.btwoa.com/tags/Tencent-Cloud-COS/"/>
+    
+    <category term="PicGo" scheme="https://blog.btwoa.com/tags/PicGo/"/>
+    
+    <category term="Typora" scheme="https://blog.btwoa.com/tags/Typora/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安卓设备刷入类原生固件</title>
+    <link href="https://blog.btwoa.com/bdf459c5/"/>
+    <id>https://blog.btwoa.com/bdf459c5/</id>
+    <published>2023-03-06T08:01:57.000Z</published>
+    <updated>2023-03-06T08:01:57.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;一加7Pro作为当年的刷机小王子，配置就算放到现在依旧能打，前段时间刷到国内大佬定制的PixelExperiencePlus包，索性刷机体验体验，当时没有留下相关图像，这里就只作简单的文字记录&lt;/p&gt;
+&lt;h2 id=&quot;前置要求&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="完美刷机" scheme="https://blog.btwoa.com/categories/Perfect-Brush/"/>
+    
+    
+    <category term="OnePlus 7 Pro" scheme="https://blog.btwoa.com/tags/OnePlus-7-Pro/"/>
+    
+    <category term="PixelExperiencePlus" scheme="https://blog.btwoa.com/tags/PixelExperiencePlus/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>未适配主题部署友链朋友圈 | Fcircle</title>
+    <link href="https://blog.btwoa.com/20ba6584/"/>
+    <id>https://blog.btwoa.com/20ba6584/</id>
+    <published>2022-10-11T07:20:51.000Z</published>
+    <updated>2022-10-11T07:20:51.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;友圈项目这么实用，当然要加入了。未适配主题通过JSON字符串接入，后端采用MongoDB+Vercel+Github，这样的缺点是访问速度略慢，不过我完全能接受&lt;/p&gt;
+&lt;h2 id=&quot;Fcircle简介&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="搭建博客" scheme="https://blog.btwoa.com/categories/Create-Blog/"/>
+    
+    
+    <category term="Github" scheme="https://blog.btwoa.com/tags/Github/"/>
+    
+    <category term="Vercel" scheme="https://blog.btwoa.com/tags/Vercel/"/>
+    
+    <category term="MongoDB" scheme="https://blog.btwoa.com/tags/MongoDB/"/>
+    
+    <category term="Fcircle" scheme="https://blog.btwoa.com/tags/Fcircle/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为Hexo部署在线编辑器 | Qexo</title>
+    <link href="https://blog.btwoa.com/2qe37d61/"/>
+    <id>https://blog.btwoa.com/2qe37d61/</id>
+    <published>2022-10-08T04:13:38.000Z</published>
+    <updated>2022-10-08T04:13:38.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Qexo项目日趋完善，准备重新部署并对全部过程进行记录，本篇就是使用Qexo创建编辑发布的&lt;/p&gt;
+&lt;h2 id=&quot;Qexo简介&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#Qexo简介&quot;&gt;&lt;/a&gt;Qexo简介&lt;/h2&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="搭建博客" scheme="https://blog.btwoa.com/categories/Create-Blog/"/>
+    
+    
+    <category term="Vercel" scheme="https://blog.btwoa.com/tags/Vercel/"/>
+    
+    <category term="Qexo" scheme="https://blog.btwoa.com/tags/Qexo/"/>
+    
+    <category term="MongoDB" scheme="https://blog.btwoa.com/tags/MongoDB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python多版本共存并正常使用pip | Windows</title>
+    <link href="https://blog.btwoa.com/bf438597/"/>
+    <id>https://blog.btwoa.com/bf438597/</id>
+    <published>2022-10-07T07:40:55.000Z</published>
+    <updated>2022-10-07T07:40:55.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;多数教程通过重命名python.exe的方式实现共存，当然，我推荐另一方案&lt;/p&gt;
+&lt;h2 id=&quot;安装Python&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#安装Python&quot;&gt;&lt;/a&gt;安装Python&lt;/h2&gt;
+&lt;p&gt;&lt;img src=</summary>
+        
+      
+    
+    
+    
+    <category term="环境变量" scheme="https://blog.btwoa.com/categories/Environment-Variable/"/>
+    
+    
+    <category term="Python" scheme="https://blog.btwoa.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>注册免费域名时由于技术错误无法注册 | Freenom</title>
+    <link href="https://blog.btwoa.com/29ccf94f/"/>
+    <id>https://blog.btwoa.com/29ccf94f/</id>
+    <published>2022-09-11T12:57:56.000Z</published>
+    <updated>2022-09-11T12:57:56.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Freenom作为全球唯一的免费域名注册商，可免费注册后缀为&lt;code&gt;.tk&lt;/code&gt; &lt;code&gt;.ml&lt;/code&gt; &lt;code&gt;.ga&lt;/code&gt; &lt;code&gt;.cf&lt;/code&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="免费域名" scheme="https://blog.btwoa.com/categories/Free-Domain/"/>
+    
+    
+    <category term="Freenom" scheme="https://blog.btwoa.com/tags/Freenom/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>通过SaaS为Cloudflare CDN自定义节点</title>
+    <link href="https://blog.btwoa.com/d04c383b/"/>
+    <id>https://blog.btwoa.com/d04c383b/</id>
+    <published>2022-09-11T03:40:35.000Z</published>
+    <updated>2023-07-13T02:11:30.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;记录Cloudflare CDN自选IP的全过程，这只是向免费妥协的优化手段，当然，最好的方案还是上云，使用付费套餐&lt;/p&gt;
+&lt;h2 id=&quot;启用自定义节点的起因&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Cloudflare" scheme="https://blog.btwoa.com/categories/Cloudflare/"/>
+    
+    
+    <category term="Cloudflare CDN" scheme="https://blog.btwoa.com/tags/Cloudflare-CDN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为自己配置免费的自定义域名邮箱 | Mail.ru</title>
+    <link href="https://blog.btwoa.com/8140beac/"/>
+    <id>https://blog.btwoa.com/8140beac/</id>
+    <published>2022-09-06T03:35:13.000Z</published>
+    <updated>2022-09-06T03:35:13.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Mail.ru的企业邮箱基础版是免费的，可创建免费自定义域名邮箱，功能对于个人来说完全够用&lt;/p&gt;
+&lt;h2 id=&quot;注册Mail-ru邮箱&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#注册Mail-ru邮箱&quot;&gt;&lt;/a&gt;注册Mail.ru邮箱&lt;/h2&gt;
+&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="域名邮箱" scheme="https://blog.btwoa.com/categories/Domain-Email/"/>
+    
+    
+    <category term="Mail.ru" scheme="https://blog.btwoa.com/tags/Mail-ru/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>国区案件转区教程 | Steam</title>
+    <link href="https://blog.btwoa.com/789f27e5/"/>
+    <id>https://blog.btwoa.com/789f27e5/</id>
+    <published>2022-08-08T12:49:53.000Z</published>
+    <updated>2023-06-25T07:43:26.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;案件转区本质上是提供伪造自己账号在低价区被盗，通过向官方客服申诉，提供相应材料证明证实号主身份和账号被盗事实，客服会在在重置账号信息时重置地区，实现无风险转区。此途径方便实用，在步骤正确的前提下成功率极高。如果你对老游戏有很强的购买欲，推荐前往低价区&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="案件转区" scheme="https://blog.btwoa.com/categories/Transforms-The-Region/"/>
+    
+    
+    <category term="Steam" scheme="https://blog.btwoa.com/tags/Steam/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何正常访问Vercel项目</title>
+    <link href="https://blog.btwoa.com/1fbd5fc1/"/>
+    <id>https://blog.btwoa.com/1fbd5fc1/</id>
+    <published>2022-07-31T11:25:29.000Z</published>
+    <updated>2022-07-31T11:25:29.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;更换平台即服务为Vercel，自定义404页面，解决*.vercel.app已被SNI阻断和DNS污染屏蔽问题&lt;/p&gt;
+&lt;h2 id=&quot;平台即服务&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="搭建博客" scheme="https://blog.btwoa.com/categories/Create-Blog/"/>
+    
+    
+    <category term="Vercel" scheme="https://blog.btwoa.com/tags/Vercel/"/>
+    
+    <category term="Cloudflare" scheme="https://blog.btwoa.com/tags/Cloudflare/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>展示文章标签 | 添加文章侧边栏目录 | Apollo</title>
+    <link href="https://blog.btwoa.com/a9b56db2/"/>
+    <id>https://blog.btwoa.com/a9b56db2/</id>
+    <published>2022-07-28T03:23:19.000Z</published>
+    <updated>2022-07-28T03:23:19.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;对Apollo极简主题的增强性优化&lt;/p&gt;
+&lt;h2 id=&quot;Apollo主题&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="优化风格" scheme="https://blog.btwoa.com/categories/Optimized-Style/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.btwoa.com/tags/Hexo/"/>
+    
+    <category term="Apollo" scheme="https://blog.btwoa.com/tags/Apollo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>再次搭建Wordpress博客</title>
+    <link href="https://blog.btwoa.com/1f30b8ca/"/>
+    <id>https://blog.btwoa.com/1f30b8ca/</id>
+    <published>2022-07-14T07:05:05.000Z</published>
+    <updated>2022-07-14T07:05:05.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;配置服务器环境搭建WordPress博客&lt;/p&gt;
+&lt;h2 id=&quot;Debain-11-1&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#Debain-11-1&quot;&gt;&lt;/a&gt;Debain 11.1&lt;/h2&gt;
+&lt;p&gt;&lt;img src=</summary>
+        
+      
+    
+    
+    
+    <category term="搭建博客" scheme="https://blog.btwoa.com/categories/Create-Blog/"/>
+    
+    
+    <category term="PHP" scheme="https://blog.btwoa.com/tags/PHP/"/>
+    
+    <category term="WordPress" scheme="https://blog.btwoa.com/tags/WordPress/"/>
+    
+    <category term="Debain" scheme="https://blog.btwoa.com/tags/Debain/"/>
+    
+    <category term="Nginx" scheme="https://blog.btwoa.com/tags/Nginx/"/>
+    
+    <category term="MariaDB" scheme="https://blog.btwoa.com/tags/MariaDB/"/>
+    
+  </entry>
+  
+</feed>
