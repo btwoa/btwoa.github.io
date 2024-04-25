@@ -81,6 +81,7 @@ newYear();
 document.addEventListener('pjax:complete', newYear);
 
 /* 那年今日 */
+
 document.addEventListener('DOMContentLoaded', function () {
     async function cardHistory() {
         const historyContainer = document.getElementById('history-container');
