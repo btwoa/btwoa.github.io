@@ -1,3 +1,144 @@
+/* PostAI */
+
+.postAI-box {
+  display: flex;
+  align-items: start;
+  margin: 25px 0;
+}
+
+.postAI-icon {
+  background: var(--efu-secondbg);
+  border: var(--style-border);
+  border-radius: 8px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postAI-icon:hover svg {
+  animation: jump .5s;
+}
+
+.postAI-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--efu-main);
+}
+
+.postAI-icon svg path {
+  fill: var(--efu-main)
+}
+
+.talk-container {
+  border: var(--style-border);
+  margin-left: 25px;
+  max-width: calc(100% - 65px);
+  border-radius: 6px;
+  position: relative;
+}
+
+.talk-container::before {
+  content: '';
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border: var(--style-border);
+  left: -8px;
+  top: 9px;
+  background: var(--efu-secondbg);
+  border-top: none;
+  border-right: none;
+  transform: rotate(44deg);
+}
+
+.postAI-talk {
+  line-height: 1.7;
+  background: var(--efu-secondbg);
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 1;
+}
+
+
+.shrink {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+span.postAI-content {
+  z-index: 1;
+  position: relative;
+}
+
+.blinking-cursor {
+  background-color: var(--efu-main);
+  width: 2px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  animation: blinking-cursor 1s infinite;
+  -webkit-animation: blinking-cursor 1s infinite;
+  margin-left: 4px;
+  margin-top: -5px;
+}
+
+.jump {
+  animation: jump .5s;
+}
+
+@media screen and (max-width: 768px) {
+  .talk-container {
+    margin-left: 15px;
+    max-width: calc(100% - 55px);
+  }
+
+  .postAI-talk {
+    padding: 7px 10px;
+  }
+}
+
+@keyframes jump {
+
+  25%,
+  75% {
+    transform: translateY(-3px);
+  }
+
+  50%,
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 1
+  }
+
+  40% {
+    opacity: 1
+  }
+
+  50% {
+    opacity: 0
+  }
+
+  90% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
 /* 豆瓣样式 */
 
 .hexo-douban-items {
