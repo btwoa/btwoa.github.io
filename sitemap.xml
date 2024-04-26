@@ -911,13 +911,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Create-Blog/</loc>
-    <lastmod>2024-04-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/categories/Warning-Message/</loc>
     <lastmod>2024-04-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -925,7 +918,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Game-Tutorial/</loc>
+    <loc>https://blog.btwoa.com/categories/Create-Blog/</loc>
     <lastmod>2024-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -933,6 +926,13 @@
   
   <url>
     <loc>https://blog.btwoa.com/categories/Practical-Resource/</loc>
+    <lastmod>2024-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/categories/Game-Tutorial/</loc>
     <lastmod>2024-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -953,7 +953,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/CTF/</loc>
+    <loc>https://blog.btwoa.com/categories/Perfect-Brush/</loc>
     <lastmod>2024-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -967,7 +967,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Perfect-Brush/</loc>
+    <loc>https://blog.btwoa.com/categories/CTF/</loc>
     <lastmod>2024-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -995,14 +995,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Free-Domain/</loc>
+    <loc>https://blog.btwoa.com/categories/Environment-Variable/</loc>
     <lastmod>2024-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Environment-Variable/</loc>
+    <loc>https://blog.btwoa.com/categories/Free-Domain/</loc>
     <lastmod>2024-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

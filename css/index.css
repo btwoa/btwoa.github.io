@@ -10926,11 +10926,10 @@ pre[class*='language-'] .token.variable {
   color: #82aaff;
 }
 pre[class*='language-'] .token.deleted {
-  text-decoration: line-through;
+  color: var(--efu-red);
 }
 pre[class*='language-'] .token.inserted {
-  border-bottom: 1px dotted #202746;
-  text-decoration: none;
+  color: var(--efu-green);
 }
 pre[class*='language-'] .token.italic {
   font-style: italic;
