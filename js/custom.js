@@ -136,7 +136,7 @@
       }
   
       insertAIBox()
-      AItalk('点击我可以查看AI摘要哦~')
+      AItalk('点击即可生成AI摘要哦~')
       async function showSummary() {
         document.querySelector('.postAI-icon').removeEventListener('click', showSummary)
         await AItalk('正在为您生成AI摘要，请稍候......')
