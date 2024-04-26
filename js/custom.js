@@ -1,6 +1,6 @@
 /* PostAI */
 
-(async function() {
+(async function () {
     function postAI(dom) {
       function insertAIBox() {
         removeExistingAIBox()
@@ -24,11 +24,13 @@
         // 将创建的元素插入到目标元素的顶部
         dom.insertBefore(AIbox, dom.firstChild)
       }
+  
       function removeExistingAIBox() {
         const existingAIDiv = document.querySelector(".postAI-box")
         // 如果找到了这个元素，就从其父元素中删除它
         if (existingAIDiv) existingAIDiv.parentElement.removeChild(existingAIDiv)
       }
+  
       function getTitleAndContent() {
         try {
           if (!dom) {
@@ -38,35 +40,53 @@
           const paragraphs = dom.getElementsByTagName('p')
           const headings = dom.querySelectorAll('h1, h2, h3, h4, h5')
           let content = ''
-          for (let h of headings) { content += h.innerText.replaceAll('&', '以及') + ' ' }
-          for (let p of paragraphs) { content += p.innerText.replace(/https?:\/\/[^\s]+/g, '') }
-    
+          for (let h of headings) {
+            content += h.innerText.replaceAll('&', '以及') + ' '
+          }
+          for (let p of paragraphs) {
+            content += p.innerText.replace(/https?:\/\/[^\s]+/g, '')
+          }
+  
           let wordLimit = 1000
           if (typeof postAI_wordLimit !== "undefined") wordLimit = postAI_wordLimit
-    
+  
           return (document.title + ' ' + content).slice(0, wordLimit)
         } catch (e) {
           console.error('获取文章内容失败：', e)
           return ''
         }
       }
-    
+  
       async function fetchSummary(content) {
         const apiUrl = `https://summary.tianli0.top/?content=${content}&key=a3AQwYShHwBlEWxo0zxl&url=${location.pathname}&title=${document.title}`
         try {
           const response = await fetch(apiUrl)
           if (response.ok) {
             const data = await response.json()
-            return { code: 0, data: data.summary }
-          } else { throw new Error('摘要获取失败。') }
+            return {
+              code: 0,
+              data: data.summary
+            }
+          } else {
+            throw new Error('摘要获取失败。')
+          }
         } catch (error) {
           if (error.name === 'AbortError') {
-            if (window.location.hostname === 'localhost') return { code: 1, data: '获取文章摘要超时。请勿在本地主机上测试 API 密钥。' }
-            else return { code: 1, data: '获取文章摘要超时。当你出现这个问题时，可能是key或者绑定的域名不正确。也可能是因为文章过长导致的 AI 运算量过大，您可以稍等一下然后刷新页面重试。' }
-          } else return { code: 1, data: '获取文章摘要失败，请稍后再试。' }
+            if (window.location.hostname === 'localhost') return {
+              code: 1,
+              data: '获取文章摘要超时。请勿在本地主机上测试 API 密钥。'
+            }
+            else return {
+              code: 1,
+              data: '获取文章摘要超时。当你出现这个问题时，可能是key或者绑定的域名不正确。也可能是因为文章过长导致的 AI 运算量过大，您可以稍等一下然后刷新页面重试。'
+            }
+          } else return {
+            code: 1,
+            data: '获取文章摘要失败，请稍后再试。'
+          }
         }
       }
-    
+  
       async function AItalk(text) {
         const element = document.querySelector(".postAI-content")
         return new Promise((resolve) => {
@@ -74,6 +94,7 @@
           let str = element.innerText
           let i = str.length
           if (i == 0) return resolve()
+  
           function delContent() {
             if (i >= 0) {
               element.innerText = str.slice(0, i--)
@@ -95,7 +116,7 @@
                 const letter = text.slice(currentIndex, currentIndex + 1)
                 const isPunctuation = /[，。！、？,.!?]/.test(letter)
                 const delay = isPunctuation ? typingDelay * punctuationDelayMultiplier : typingDelay
-    
+  
                 if (timeDiff >= delay) {
                   lastUpdateTime = currentTime
                   currentIndex++
@@ -113,31 +134,41 @@
           })
         }).catch()
       }
-    
+  
       insertAIBox()
-      AItalk('点击我可以查看本文摘要哦~')
+      AItalk('点击我可以查看AI摘要哦~')
       async function showSummary() {
         document.querySelector('.postAI-icon').removeEventListener('click', showSummary)
-        await AItalk('正在为您生成摘要，请稍候......')
+        await AItalk('正在为您生成AI摘要，请稍候......')
         setTimeout(() => {
-          fetchSummary(getTitleAndContent()).then(summary => {
-            AItalk(summary.data.replaceAll('作者', '博主')).then(() => {
-              if (!summary.code) {
+          if (PAGE_CONFIG.ai_text) {
+            AItalk(PAGE_CONFIG.ai_text).then(() => {
+              if (!PAGE_CONFIG.ai_text) {
                 document.querySelector('.blinking-cursor').style.display = 'none'
               } else document.querySelector('.postAI-icon').addEventListener('click', showSummary)
             })
-          })
+          } else {
+            fetchSummary(getTitleAndContent()).then(summary => {
+              AItalk(summary.data.replaceAll('作者', '博主')).then(() => {
+                if (!summary.code) {
+                  document.querySelector('.blinking-cursor').style.display = 'none'
+                } else document.querySelector('.postAI-icon').addEventListener('click', showSummary)
+              })
+            })
+          }
         }, 1000);
       }
       document.querySelector('.postAI-icon').addEventListener('click', showSummary)
     }
-    
+  
     function postFunc() {
       let dom = document.querySelector('#post #article-container')
-      if (dom) { postAI(dom) }
+      if (dom) {
+        postAI(dom)
+      }
     }
   
-    window.addEventListener('DOMContentLoaded', ()=>{
+    window.addEventListener('DOMContentLoaded', () => {
       postFunc()
       document.addEventListener('pjax:complete', postFunc)
     })
