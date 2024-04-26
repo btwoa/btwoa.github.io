@@ -911,14 +911,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Warning-Message/</loc>
+    <loc>https://blog.btwoa.com/categories/Create-Blog/</loc>
     <lastmod>2024-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Create-Blog/</loc>
+    <loc>https://blog.btwoa.com/categories/Warning-Message/</loc>
     <lastmod>2024-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -953,7 +953,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Perfect-Brush/</loc>
+    <loc>https://blog.btwoa.com/categories/CTF/</loc>
     <lastmod>2024-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -967,7 +967,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/CTF/</loc>
+    <loc>https://blog.btwoa.com/categories/Perfect-Brush/</loc>
     <lastmod>2024-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -988,13 +988,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Cloudflare/</loc>
-    <lastmod>2024-04-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/categories/Environment-Variable/</loc>
     <lastmod>2024-04-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -1003,6 +996,13 @@
   
   <url>
     <loc>https://blog.btwoa.com/categories/Free-Domain/</loc>
+    <lastmod>2024-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/categories/Cloudflare/</loc>
     <lastmod>2024-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
