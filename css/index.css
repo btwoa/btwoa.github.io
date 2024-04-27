@@ -1896,20 +1896,25 @@ input::placeholder {
   margin: 0 0 1rem;
 }
 table {
-  display: table;
+  display: block;
   width: 100%;
   border-spacing: 0;
   border-collapse: collapse;
   empty-cells: show;
+  overflow-x: auto;
+}
+table::-webkit-scrollbar {
+  display: none;
 }
 table thead {
-  background: rgba(153,169,191,0.1);
+  background: var(--efu-secondbg);
 }
 table td,
 table th {
   padding: 0.3rem 0.6rem;
-  border: 1px solid var(--light-grey);
+  border: var(--style-border-always);
   vertical-align: middle;
+  min-width: 100px;
 }
 button {
   padding: 0;
@@ -1960,10 +1965,6 @@ blockquote {
   margin: 1rem 0;
   padding: 0.5rem 0.8rem;
 }
-blockquote p {
-  padding: 0;
-  margin: 0;
-}
 li,
 ul {
   list-style: none;
@@ -1996,13 +1997,6 @@ a.extend .next {
 }
 a.extend .prev {
   left: 0;
-}
-table td,
-table th {
-  border: var(--style-border-always);
-}
-table thead {
-  background: var(--efu-secondbg);
 }
 b,
 strong {
@@ -2142,9 +2136,6 @@ span.tags-punctuation::before {
   color: var(--efu-lighttext);
   opacity: 1;
 }
-#article-container a.headerlink:hover::before {
-  color: var(--efu-main);
-}
 #article-container p {
   font-size: 0.9rem;
   line-height: 1.7;
@@ -2165,6 +2156,11 @@ span.tags-punctuation::before {
   color: var(--efu-white);
   border-radius: 4px;
   background: var(--efu-main);
+}
+#article-container blockquote p {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
 }
 #article-container code:not([class*='language-']) {
   color: var(--efu-white);
@@ -2203,6 +2199,10 @@ span.tags-punctuation::before {
 #article-container ol li:not(.tab) {
   position: relative;
   margin: 0.2rem 0;
+}
+#article-container ul li:not(.tab) p,
+#article-container ol li:not(.tab) p {
+  margin: 0;
 }
 #article-container ul > li:not(.tab) {
   padding: 0.2em 0.2em 0.2em 1.4em;
@@ -2547,6 +2547,7 @@ span.tags-punctuation::before {
 @media screen and (min-width: 901px) {
   #aside-content #card-toc {
     right: 0;
+    padding: 0.5rem;
   }
 }
 #aside-content #card-toc .toc-content {
