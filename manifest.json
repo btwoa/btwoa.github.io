@@ -73,8 +73,8 @@
     ],
     "screenshots": [
       {
-          "src": "pwa/screenshot.png",
-          "sizes": "1280x800",
+          "src": "https://assets.btwoa.com/blogbtwoacom.webp",
+          "sizes": "1920x1080",
           "type": "image/png",
           "form_factor": "wide",
           "label": "Fullscreen of BTA"
