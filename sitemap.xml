@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.btwoa.com/tlink/index.html</loc>
+    
+    <lastmod>2024-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/message/index.html</loc>
     
     <lastmod>2024-04-30</lastmod>
@@ -39,15 +48,6 @@
   
   <url>
     <loc>https://blog.btwoa.com/links/index.html</loc>
-    
-    <lastmod>2024-04-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/tlink/index.html</loc>
     
     <lastmod>2024-04-29</lastmod>
     
@@ -920,13 +920,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Create-Blog/</loc>
-    <lastmod>2024-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/categories/Warning-Message/</loc>
     <lastmod>2024-04-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -941,6 +934,13 @@
   </url>
   
   <url>
+    <loc>https://blog.btwoa.com/categories/Create-Blog/</loc>
+    <lastmod>2024-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/categories/Practical-Resource/</loc>
     <lastmod>2024-04-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -949,13 +949,6 @@
   
   <url>
     <loc>https://blog.btwoa.com/categories/Knowledge-Summary/</loc>
-    <lastmod>2024-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/categories/CTF/</loc>
     <lastmod>2024-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -983,6 +976,13 @@
   </url>
   
   <url>
+    <loc>https://blog.btwoa.com/categories/CTF/</loc>
+    <lastmod>2024-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/categories/Transforms-The-Region/</loc>
     <lastmod>2024-04-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -990,14 +990,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Domain-Email/</loc>
+    <loc>https://blog.btwoa.com/categories/Cloudflare/</loc>
     <lastmod>2024-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Cloudflare/</loc>
+    <loc>https://blog.btwoa.com/categories/Domain-Email/</loc>
     <lastmod>2024-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
