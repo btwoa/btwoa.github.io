@@ -78,6 +78,13 @@
           "type": "image/png",
           "form_factor": "wide",
           "label": "Fullscreen of BTA"
+      },
+      {
+        "src": "https://assets.btwoa.com/darkblogbtwoacom.webp",
+        "sizes": "1920x1080",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Fullscreen of BTA"
       }
     ],
     "splash_pages": null
