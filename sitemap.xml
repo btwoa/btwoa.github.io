@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.btwoa.com/other.json</loc>
+    
+    <lastmod>2024-05-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/twikoo.json</loc>
     
     <lastmod>2024-05-02</lastmod>
@@ -922,14 +931,14 @@
 
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Optimized-Style/</loc>
+    <loc>https://blog.btwoa.com/categories/Create-Blog/</loc>
     <lastmod>2024-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Create-Blog/</loc>
+    <loc>https://blog.btwoa.com/categories/Optimized-Style/</loc>
     <lastmod>2024-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -964,13 +973,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Renew-License/</loc>
-    <lastmod>2024-05-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/categories/CTF/</loc>
     <lastmod>2024-05-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -978,7 +980,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Perfect-Brush/</loc>
+    <loc>https://blog.btwoa.com/categories/Renew-License/</loc>
     <lastmod>2024-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -986,6 +988,13 @@
   
   <url>
     <loc>https://blog.btwoa.com/categories/Compiles-Perfectly/</loc>
+    <lastmod>2024-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/categories/Perfect-Brush/</loc>
     <lastmod>2024-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1013,14 +1022,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Free-Domain/</loc>
+    <loc>https://blog.btwoa.com/categories/Environment-Variable/</loc>
     <lastmod>2024-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Environment-Variable/</loc>
+    <loc>https://blog.btwoa.com/categories/Free-Domain/</loc>
     <lastmod>2024-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
