@@ -12369,6 +12369,7 @@ div#post-comment {
   border: var(--style-border-always);
   border-radius: 10px;
   z-index: 9999;
+  width: 142px;
   display: none;
   transform: translate(0, -105%);
   overflow: hidden;
@@ -12894,6 +12895,11 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
   transform: translateZ(0);
   overflow-y: auto;
   padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  #vcomment .vemojis {
+    max-width: 300px;
+  }
 }
 #vcomment .vwrap {
   flex: 1;
