@@ -6,7 +6,7 @@
   <link href="https://blog.btwoa.com/atom.xml" rel="self"/>
   
   <link href="https://blog.btwoa.com/"/>
-  <updated>2024-03-26T14:28:20.000Z</updated>
+  <updated>2024-05-03T01:24:19.000Z</updated>
   <id>https://blog.btwoa.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为博客启用动态表情 | Fluent Emoji 3D</title>
+    <link href="https://blog.btwoa.com/1ac79a84/"/>
+    <id>https://blog.btwoa.com/1ac79a84/</id>
+    <published>2024-05-03T01:24:19.000Z</published>
+    <updated>2024-05-03T01:24:19.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;表情包这东西挺难挑还，各式各样的我最近翻了个遍，Microsoft推的Fluent Emoji挺耐看，但它一个表情几个变体，总量直逼2000+，我个小博客用属实牛鼎烹鸡，高攀了昂&lt;/p&gt;
+&lt;h2 id=&quot;介绍&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="优化风格" scheme="https://blog.btwoa.com/categories/Optimized-Style/"/>
+    
+    
+    <category term="Fluent Emoji 3D" scheme="https://blog.btwoa.com/tags/Fluent-Emoji-3D/"/>
+    
+  </entry>
   
   <entry>
     <title>重生之我在PS2游戏里当NPC</title>
@@ -566,41 +592,6 @@
     <category term="Hexo" scheme="https://blog.btwoa.com/tags/Hexo/"/>
     
     <category term="Apollo" scheme="https://blog.btwoa.com/tags/Apollo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>再次搭建Wordpress博客</title>
-    <link href="https://blog.btwoa.com/1f30b8ca/"/>
-    <id>https://blog.btwoa.com/1f30b8ca/</id>
-    <published>2022-07-14T07:05:05.000Z</published>
-    <updated>2022-07-14T07:05:05.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;配置服务器环境搭建WordPress博客&lt;/p&gt;
-&lt;h2 id=&quot;Debain-11-1&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#Debain-11-1&quot;&gt;&lt;/a&gt;Debain 11.1&lt;/h2&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="搭建博客" scheme="https://blog.btwoa.com/categories/Create-Blog/"/>
-    
-    
-    <category term="PHP" scheme="https://blog.btwoa.com/tags/PHP/"/>
-    
-    <category term="Nginx" scheme="https://blog.btwoa.com/tags/Nginx/"/>
-    
-    <category term="Debain" scheme="https://blog.btwoa.com/tags/Debain/"/>
-    
-    <category term="MariaDB" scheme="https://blog.btwoa.com/tags/MariaDB/"/>
-    
-    <category term="WordPress" scheme="https://blog.btwoa.com/tags/WordPress/"/>
     
   </entry>
   

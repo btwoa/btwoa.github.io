@@ -1952,6 +1952,9 @@ img[src=""] {
   flex-direction: row;
   align-items: center;
 }
+iframe {
+  border-radius: 12px;
+}
 .copy-true {
   user-select: all;
 }
@@ -3111,6 +3114,9 @@ span.tags-punctuation::before {
   box-sizing: border-box;
   background: url("/ovo/coverbackface.png") center center no-repeat;
   background-size: 100%;
+}
+#aside-content .card-widget.card-adsense {
+  padding: 0;
 }
 #nav-music {
   display: flex;
@@ -12369,6 +12375,11 @@ div#post-comment {
   animation: owoIn 0.3s cubic-bezier(0.42, 0, 0.3, 1.11);
   padding: 1rem;
 }
+@media screen and (max-width: 768px) {
+  #owo-big {
+    display: none !important;
+  }
+}
 #twikoo .tk-admin-config-group-title {
   margin-top: 0;
   line-height: normal;
@@ -12784,12 +12795,12 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
   border-radius: 8px !important;
   color: var(--efu-fontcolor) !important;
 }
-@media screen and (max-width: 768px) {
-  .OwO .OwO-body {
-    width: 300px;
-  }
+.OwO.OwO-open .OwO-body {
+  animation: 0.3s ease 0.1s 1 normal both running donate_effcet;
 }
 .OwO .OwO-body {
+  z-index: 102;
+  width: 500px;
   border: var(--style-border-always) !important;
   border-radius: 8px !important;
   overflow: hidden;
@@ -12798,19 +12809,13 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
   -webkit-backdrop-filter: blur(10px);
   transform: translateZ(0);
 }
+@media screen and (max-width: 768px) {
+  .OwO .OwO-body {
+    width: 300px;
+  }
+}
 .OwO .OwO-body .OwO-bar {
   border-top: none !important;
-}
-.OwO .OwO-body .OwO-items .OwO-item:hover {
-  box-shadow: var(--efu-shadow-lightblack) !important;
-  border-radius: 8px;
-}
-#twikoo > div.tk-comments > div.tk-submit > div.tk-row.actions > div > div.tk-action-icon.OwO.OwO-open > div.OwO-body > div > ul > li > span {
-  line-height: 48px;
-  font-size: 28px;
-}
-.OwO.OwO-open .OwO-body {
-  animation: 0.3s ease 0.1s 1 normal both running donate_effcet;
 }
 .OwO .OwO-body .OwO-bar .OwO-packages li {
   margin-right: 0 !important;
@@ -12820,13 +12825,17 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
 .OwO .OwO-body .OwO-bar .OwO-packages li:hover {
   transition: 0.3s;
 }
+.OwO .OwO-body .OwO-items .OwO-item:hover {
+  box-shadow: var(--efu-shadow-lightblack) !important;
+  border-radius: 8px;
+}
+#twikoo > div.tk-comments > div.tk-submit > div.tk-row.actions > div > div.tk-action-icon.OwO.OwO-open > div.OwO-body > div > ul > li > span {
+  line-height: 48px;
+  font-size: 28px;
+}
 .OwO-packages {
   background: var(--efu-background);
   padding-left: 8px !important;
-}
-.OwO .OwO-body {
-  z-index: 102;
-  width: 500px;
 }
 .OwO .OwO-body .OwO-bar .OwO-packages .OwO-package-active {
   background: var(--efu-secondbg) !important;
@@ -12837,22 +12846,6 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
 }
 .OwO .OwO-body .OwO-bar .OwO-packages li {
   line-height: 45px !important;
-}
-#owo-big {
-  position: fixed;
-  align-items: center;
-  background-color: var(--efu-card-bg);
-  border: var(--style-border-always);
-  border-radius: 10px;
-  z-index: 9999;
-  display: none;
-  transform: translate(0, -105%);
-  overflow: hidden;
-  animation: owoIn 0.3s cubic-bezier(0.42, 0, 0.3, 1.11);
-  padding: 1rem;
-}
-#owo-big img {
-  width: 100%;
 }
 .tk-replies .tk-content {
   margin-top: 0 !important;
