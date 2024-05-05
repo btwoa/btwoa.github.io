@@ -8687,6 +8687,9 @@ body[data-type=music] #nav-music {
 #about-page .about-statistic .banner-button:hover {
   background: var(--efu-theme);
 }
+#about-page .author-content-item.single.reward {
+  overflow: unset;
+}
 #about-page .author-content-item.single.reward .author-content-item .author-content-item-title {
   color: var(--efu-red);
 }
@@ -10136,6 +10139,14 @@ div#banners {
     padding: 30px 10px 60px;
     border-radius: 12px 12px 0 0;
   }
+}
+.post-reward .reward-main .reward-all::before {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  content: "";
 }
 .post-reward .reward-main .reward-all .reward-title {
   font-weight: 700;
