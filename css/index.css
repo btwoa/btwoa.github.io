@@ -11617,6 +11617,9 @@ details[open]>summary:hover:after {
   border-radius: 0;
   margin: 0;
 }
+#page #article-container .gallery-item img {
+  border-radius: 8px;
+}
 .waterfall {
   opacity: 0;
   transition: 0.3s;
