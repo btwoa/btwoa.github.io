@@ -2023,7 +2023,7 @@ i.solitude {
 .layout {
   display: flex;
   margin: 0 auto;
-  padding: 1rem 1.5rem;
+  padding: 0 1.5rem;
   max-width: 1200px;
 }
 @media screen and (max-width: 768px) {
@@ -2048,8 +2048,9 @@ i.solitude {
     width: 100%;
   }
 }
-.layout > div:first-child:not(.recent-posts,
-.layout .aside-content) {
+.layout > #post,
+.layout #category,
+.layout #tag {
   box-shadow: var(--efu-shadow-border);
   padding: 1rem 2rem;
   border-radius: 12px;
@@ -2061,8 +2062,9 @@ i.solitude {
   order: 2;
 }
 @media screen and (max-width: 768px) {
-  .layout > div:first-child:not(.recent-posts,
-  .layout .aside-content) {
+  .layout > #post,
+  .layout #category,
+  .layout #tag {
     box-shadow: none;
     border: none;
     padding: 0 1rem;
@@ -2397,7 +2399,7 @@ span.tags-punctuation::before {
 @media screen and (min-width: 1300px) {
   #aside-content {
     animation: slide-in 0.6s 0.3s backwards;
-    padding-right: 1rem;
+    padding-right: 0.5rem;
   }
 }
 #aside-content .item-headline {
@@ -2428,7 +2430,7 @@ span.tags-punctuation::before {
   border-radius: 12px;
   position: relative;
   overflow: hidden;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   padding: 1rem 1.2rem;
 }
 #aside-content .card-widget:hover {
@@ -2440,7 +2442,7 @@ span.tags-punctuation::before {
   margin-top: 0;
 }
 #aside-content .sticky_layout {
-  top: calc(60px + 1rem);
+  top: calc(60px + 0.5rem);
   position: sticky;
   transition: top 0.3s ease 0s;
 }
@@ -3610,14 +3612,13 @@ span.tags-punctuation::before {
 }
 #console .console-card.history .card-archive-list .card-archive-list-link {
   border-radius: 8px;
-  margin-top: 8px;
   display: flex;
   flex-direction: column;
   align-content: space-between;
   border: var(--style-border);
   transition: all 0.3s ease 0s;
   background: var(--efu-maskbgdeep);
-  padding: 8px 16px;
+  padding: 12px 16px;
 }
 #console .console-card.history .card-archive-list .card-archive-list-link:hover {
   background: var(--efu-main);
@@ -5000,11 +5001,6 @@ span.tags-punctuation {
 #pagination {
   width: 100%;
 }
-@media screen and (min-width: 1300px) {
-  #pagination {
-    margin-top: 0.25rem;
-  }
-}
 @media screen and (min-width: 768px) {
   #pagination {
     overflow: visible;
@@ -5229,10 +5225,7 @@ span.tags-punctuation {
   #recent-posts {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: flex-start;
-    user-select: none;
+    gap: 0.5rem;
     transition: width 0.3s;
   }
 }
@@ -5253,14 +5246,14 @@ span.tags-punctuation {
   border-radius: 12px;
   cursor: pointer;
   border: var(--style-border);
-  margin: 1rem 0 1rem;
+  margin: 0;
 }
 @media screen and (min-width: 1300px) {
   #recent-posts > .recent-post-item {
     flex-direction: column;
-    width: calc(100% / 2 - 0.5rem);
-    margin-top: 0.25rem;
-    margin-bottom: 0.75rem;
+    width: 100%;
+    flex: 1 1 40%;
+    max-width: 50%;
     box-shadow: var(--efu-shadow-border);
   }
 }
@@ -5791,8 +5784,8 @@ span.tags-punctuation {
 }
 #home_top {
   max-width: 1400px;
-  margin: 0.5rem auto auto;
-  padding: 0 1.5rem;
+  margin: 0 auto;
+  padding: 0.5rem 1.5rem;
 }
 @media screen and (max-width: 768px) {
   #home_top {
@@ -5819,6 +5812,7 @@ span.tags-punctuation {
   flex-wrap: nowrap;
   width: 100%;
   overflow-x: scroll;
+  gap: 0.5rem;
 }
 #home_top .recent-top-post-group .recent-post-top::-webkit-scrollbar {
   display: none;
@@ -5829,7 +5823,6 @@ span.tags-punctuation {
 @media screen and (min-width: 1201px) {
   #bannerGroup {
     width: calc(50% - 0.25rem);
-    margin-right: 1rem;
     height: calc(328px + 0.5rem);
     display: flex;
     flex-direction: column;
@@ -6197,11 +6190,16 @@ span.tags-punctuation {
 }
 @media screen and (min-width: 1300px) {
   #category-bar {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
   }
   #category-bar:hover {
     border: var(--style-border-hover);
     box-shadow: var(--efu-shadow-main);
+  }
+}
+@media screen and (min-width: 1200px) {
+  #category-bar {
+    animation: slide-in 0.6s 0.3s backwards;
   }
 }
 @media screen and (max-width: 768px) {
@@ -6350,6 +6348,9 @@ span.tags-punctuation {
     font-size: 2em;
   }
 }
+#page .category-lists .tag-cloud-list {
+  gap: 0.5rem;
+}
 #page .category-lists .tag-cloud-list a {
   display: flex;
   width: fit-content;
@@ -6357,7 +6358,6 @@ span.tags-punctuation {
   font-size: 1.4em;
   padding: 0.2em 0.5em;
   background: var(--efu-card-bg);
-  margin: 0.5em 0.5em;
   border-radius: 12px;
   border: var(--style-border-always);
   box-shadow: var(--efu-shadow-border);
@@ -6399,7 +6399,7 @@ span.tagsPageCount {
 }
 @media screen and (min-width: 1300px) {
   #tag {
-    padding: 4rem 2rem 1rem 2rem;
+    padding: 4rem 2rem 1rem 2rem !important;
     overflow: hidden;
   }
 }
@@ -8796,7 +8796,6 @@ div#banners {
   div#banners {
     display: flex;
     width: 100%;
-    height: 100%;
     background: var(--efu-card-bg);
     border: var(--style-border);
     border-radius: 12px;
@@ -12616,7 +12615,6 @@ div#post-comment {
 }
 .tk-comments-container {
   min-height: 0 !important;
-  margin-top: 0.5rem;
 }
 .tk-replies > .tk-comment {
   background: var(--efu-card-bg);
