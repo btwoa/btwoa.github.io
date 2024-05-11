@@ -164,36 +164,6 @@
   </entry>
   
   <entry>
-    <title>为Linux服务器配置Clash Premium实现TUN模式下科学上网</title>
-    <link href="https://blog.btwoa.com/53da714d/"/>
-    <id>https://blog.btwoa.com/53da714d/</id>
-    <published>2023-08-27T04:16:21.000Z</published>
-    <updated>2023-08-27T04:16:21.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;最近被下载网速反复折磨，换源又不能解决全部问题，索性给手头的服务器装上Clash，实现上网自由。&lt;/p&gt;
-&lt;h2 id=&quot;Clash-Dashboard&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#Clash-Dashboard&quot;&gt;&lt;/a&gt;Clash</summary>
-        
-      
-    
-    
-    
-    <category term="科学上网" scheme="https://blog.btwoa.com/categories/Global-Proxy/"/>
-    
-    
-    <category term="TUN" scheme="https://blog.btwoa.com/tags/TUN/"/>
-    
-    <category term="Dashboard" scheme="https://blog.btwoa.com/tags/Dashboard/"/>
-    
-    <category term="Clash Premium" scheme="https://blog.btwoa.com/tags/Clash-Premium/"/>
-    
-  </entry>
-  
-  <entry>
     <title>使用PlanetScale重新部署Qexo</title>
     <link href="https://blog.btwoa.com/de778eed/"/>
     <id>https://blog.btwoa.com/de778eed/</id>
@@ -418,7 +388,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;多数教程通过重命名python.exe的方式实现共存，当然，我推荐另一方案&lt;/p&gt;
+    <summary type="html">&lt;p&gt;多数教程通过重命名python.exe的方式实现共存，当然，我推荐下文配置&lt;/p&gt;
 &lt;h2 id=&quot;安装Python&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#安装Python&quot;&gt;&lt;/a&gt;安装Python&lt;/h2&gt;
 &lt;p&gt;&lt;img</summary>
         
@@ -463,7 +433,7 @@
     <link href="https://blog.btwoa.com/d04c383b/"/>
     <id>https://blog.btwoa.com/d04c383b/</id>
     <published>2022-09-11T03:40:35.000Z</published>
-    <updated>2023-07-13T02:11:30.000Z</updated>
+    <updated>2022-09-11T03:40:35.000Z</updated>
     
     
       
@@ -516,7 +486,7 @@
     <link href="https://blog.btwoa.com/789f27e5/"/>
     <id>https://blog.btwoa.com/789f27e5/</id>
     <published>2022-08-08T12:49:53.000Z</published>
-    <updated>2023-06-25T07:43:26.000Z</updated>
+    <updated>2022-08-08T12:49:53.000Z</updated>
     
     
       
@@ -591,6 +561,41 @@
     <category term="Hexo" scheme="https://blog.btwoa.com/tags/Hexo/"/>
     
     <category term="Apollo" scheme="https://blog.btwoa.com/tags/Apollo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>再次搭建Wordpress博客</title>
+    <link href="https://blog.btwoa.com/1f30b8ca/"/>
+    <id>https://blog.btwoa.com/1f30b8ca/</id>
+    <published>2022-07-14T07:05:05.000Z</published>
+    <updated>2022-07-14T07:05:05.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;配置服务器环境搭建WordPress博客&lt;/p&gt;
+&lt;h2 id=&quot;Debain-11-1&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#Debain-11-1&quot;&gt;&lt;/a&gt;Debain 11.1&lt;/h2&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="搭建博客" scheme="https://blog.btwoa.com/categories/Create-Blog/"/>
+    
+    
+    <category term="PHP" scheme="https://blog.btwoa.com/tags/PHP/"/>
+    
+    <category term="Nginx" scheme="https://blog.btwoa.com/tags/Nginx/"/>
+    
+    <category term="Debain" scheme="https://blog.btwoa.com/tags/Debain/"/>
+    
+    <category term="MariaDB" scheme="https://blog.btwoa.com/tags/MariaDB/"/>
+    
+    <category term="WordPress" scheme="https://blog.btwoa.com/tags/WordPress/"/>
     
   </entry>
   

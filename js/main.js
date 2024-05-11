@@ -313,9 +313,7 @@ let sco = {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    setTimeout(() => {
-                        waterfall(entry.target) || entry.target.classList.add('show');
-                    }, 300);
+                    waterfall(entry.target) || entry.target.classList.add('show');
                 }
             });
         });
@@ -370,7 +368,7 @@ let sco = {
      * @description 添加图片标题
      */
     addPhotoFigcaption: function () {
-        document.querySelectorAll('#article-container img:not(.gallery-item img)').forEach(image => {
+        document.querySelectorAll('#article-container img').forEach(image => {
             const captionText = image.getAttribute('alt');
             captionText && image.insertAdjacentHTML('afterend', `<div class="img-alt is-center">${captionText}</div>`);
         });
@@ -801,7 +799,7 @@ class tabs {
 window.refreshFn = () => {
     const {is_home, is_page, page, is_post} = PAGE_CONFIG;
     const {runtime, lazyload, lightbox, randomlink, covercolor, post_ai} = GLOBAL_CONFIG;
-    const timeSelector = (is_home ? '.post-meta-date time' : is_post ? '.post-meta-date time' : '.datatime') + ', .webinfo-item time';
+    const timeSelector = is_home ? '.post-meta-date time' : is_post ? '.post-meta-date time' : '.datatime'
     document.body.setAttribute('data-type', page);
     sco.changeTimeFormat(document.querySelectorAll(timeSelector));
     runtime && sco.addRuntime();

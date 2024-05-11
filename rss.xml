@@ -176,38 +176,6 @@
     </item>
     
     <item>
-      <title>为Linux服务器配置Clash Premium实现TUN模式下科学上网</title>
-      <link>https://blog.btwoa.com/53da714d/</link>
-      <guid>https://blog.btwoa.com/53da714d/</guid>
-      <pubDate>Sun, 27 Aug 2023 04:16:21 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;最近被下载网速反复折磨，换源又不能解决全部问题，索性给手头的服务器装上Clash，实现上网自由。&lt;/p&gt;
-&lt;h2 id=&quot;Clash-Dashboard&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#Clash-Dashboard&quot;&gt;&lt;/a&gt;Clash</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.btwoa.com/categories/Global-Proxy/">科学上网</category>
-      
-      
-      <category domain="https://blog.btwoa.com/tags/TUN/">TUN</category>
-      
-      <category domain="https://blog.btwoa.com/tags/Dashboard/">Dashboard</category>
-      
-      <category domain="https://blog.btwoa.com/tags/Clash-Premium/">Clash Premium</category>
-      
-      
-      <comments>https://blog.btwoa.com/53da714d/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>使用PlanetScale重新部署Qexo</title>
       <link>https://blog.btwoa.com/de778eed/</link>
       <guid>https://blog.btwoa.com/de778eed/</guid>
@@ -444,7 +412,7 @@
         
           
           
-      <description>&lt;p&gt;多数教程通过重命名python.exe的方式实现共存，当然，我推荐另一方案&lt;/p&gt;
+      <description>&lt;p&gt;多数教程通过重命名python.exe的方式实现共存，当然，我推荐下文配置&lt;/p&gt;
 &lt;h2 id=&quot;安装Python&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#安装Python&quot;&gt;&lt;/a&gt;安装Python&lt;/h2&gt;
 &lt;p&gt;&lt;img</description>
           
@@ -633,6 +601,43 @@
       
       
       <comments>https://blog.btwoa.com/a9b56db2/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>再次搭建Wordpress博客</title>
+      <link>https://blog.btwoa.com/1f30b8ca/</link>
+      <guid>https://blog.btwoa.com/1f30b8ca/</guid>
+      <pubDate>Thu, 14 Jul 2022 07:05:05 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;配置服务器环境搭建WordPress博客&lt;/p&gt;
+&lt;h2 id=&quot;Debain-11-1&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#Debain-11-1&quot;&gt;&lt;/a&gt;Debain 11.1&lt;/h2&gt;
+&lt;p&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.btwoa.com/categories/Create-Blog/">搭建博客</category>
+      
+      
+      <category domain="https://blog.btwoa.com/tags/PHP/">PHP</category>
+      
+      <category domain="https://blog.btwoa.com/tags/Nginx/">Nginx</category>
+      
+      <category domain="https://blog.btwoa.com/tags/Debain/">Debain</category>
+      
+      <category domain="https://blog.btwoa.com/tags/MariaDB/">MariaDB</category>
+      
+      <category domain="https://blog.btwoa.com/tags/WordPress/">WordPress</category>
+      
+      
+      <comments>https://blog.btwoa.com/1f30b8ca/#disqus_thread</comments>
       
     </item>
     
