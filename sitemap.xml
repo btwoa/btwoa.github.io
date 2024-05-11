@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.btwoa.com/recentcomments/index.html</loc>
+    
+    <lastmod>2024-05-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/artalk.json</loc>
     
     <lastmod>2024-05-03</lastmod>
@@ -991,14 +1000,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/CTF/</loc>
+    <loc>https://blog.btwoa.com/categories/Knowledge-Summary/</loc>
     <lastmod>2024-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Knowledge-Summary/</loc>
+    <loc>https://blog.btwoa.com/categories/CTF/</loc>
     <lastmod>2024-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1012,14 +1021,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Compiles-Perfectly/</loc>
+    <loc>https://blog.btwoa.com/categories/Perfect-Brush/</loc>
     <lastmod>2024-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Perfect-Brush/</loc>
+    <loc>https://blog.btwoa.com/categories/Compiles-Perfectly/</loc>
     <lastmod>2024-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1033,14 +1042,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Cloudflare/</loc>
+    <loc>https://blog.btwoa.com/categories/Domain-Email/</loc>
     <lastmod>2024-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Domain-Email/</loc>
+    <loc>https://blog.btwoa.com/categories/Cloudflare/</loc>
     <lastmod>2024-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1068,14 +1077,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Tiangongkaiwu/</loc>
+    <loc>https://blog.btwoa.com/categories/Practical-Framework/</loc>
     <lastmod>2024-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Practical-Framework/</loc>
+    <loc>https://blog.btwoa.com/categories/Tiangongkaiwu/</loc>
     <lastmod>2024-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

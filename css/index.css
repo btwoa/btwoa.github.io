@@ -1721,14 +1721,37 @@ main {
   display: block;
 }
 *::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+  width: 12px;
+  height: 6px;
 }
 *::-webkit-scrollbar-thumb {
   background: var(--scrollbar-color);
+  opacity: 0.5;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid var(--efu-background);
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--efu-lighttext);
+  display: block;
 }
 *::-webkit-scrollbar-track {
   background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--efu-card-border);
+  opacity: 0.5;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid var(--efu-background);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--efu-main);
+  opacity: 1;
+  display: block !important;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--efu-none);
 }
 ::selection {
   background: var(--efu-main);
@@ -1971,25 +1994,6 @@ ul {
   display: block;
   margin: 0;
   padding: 0;
-}
-::-webkit-scrollbar {
-  width: 10px;
-  height: 6px;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--efu-card-border);
-  opacity: 0.5;
-  border-radius: 8px;
-  cursor: pointer;
-  border: 2px solid var(--efu-background);
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--efu-main);
-  opacity: 1;
-  display: block !important;
-}
-::-webkit-scrollbar-track {
-  background-color: var(--efu-none);
 }
 [data-theme=dark] img {
   filter: brightness(1);
@@ -3336,6 +3340,14 @@ span.tags-punctuation::before {
 #console.show .close-btn i {
   transform: rotate(0);
 }
+#console .recent-comment-more {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+#console .recent-comment-more:hover {
+  color: var(--efu-main);
+}
 #console .console-card-group {
   display: flex;
   justify-content: space-between;
@@ -3430,6 +3442,8 @@ span.tags-punctuation::before {
   font-size: 36px;
   font-weight: 700;
   line-height: 1;
+  display: flex;
+  align-items: center;
 }
 #console .aside-list-item .thumbnail {
   display: flex;
@@ -3788,7 +3802,7 @@ span.tags-punctuation::before {
 #footer #st-footer .footer-title-group {
   display: flex;
   align-items: center;
-  margin: 1rem 0 0.7rem 8px;
+  margin: 0.5rem 0 0.7rem 8px;
 }
 #footer #st-footer .footer-title-group a {
   margin-left: 8px;
@@ -5447,7 +5461,7 @@ span.tags-punctuation {
   box-shadow: var(--efu-shadow-theme);
 }
 #rightMenu .rightMenu-group {
-  padding: 0.5rem 0.3rem;
+  padding: 0.35rem 0.3rem;
 }
 #rightMenu .rightMenu-group.rightMenu-small {
   display: flex;
@@ -6488,6 +6502,87 @@ span.tagsPageCount {
 }
 #body-wrap.error .aside-list .aside-list-item .content time {
   display: none;
+}
+div#comments-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  min-height: 100px;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.comment-card {
+  position: relative;
+  width: calc(100% / 3 - 8px);
+  background: var(--efu-card-bg);
+  border-radius: 12px;
+  border: var(--style-border-always);
+  padding: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  overflow: hidden;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.comment-card:hover {
+  border-color: var(--style-border-hover-always);
+}
+.comment-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: var(--style-border-always);
+  padding-bottom: 8px;
+}
+.comment-info div {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+.comment-article,
+.comment-content {
+  transition: 0.3s;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-height: 1.7;
+  font-size: 14px;
+}
+.comment-title {
+  font-size: 12px;
+  color: var(--efu-secondtext);
+  margin-top: auto;
+  transition: 0.3s;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-height: 1;
+  opacity: 0.6;
+  padding-top: 8px;
+}
+.comment-title i {
+  font-size: 12px;
+  line-height: 12px;
+}
+#comments-page .comment-info img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin: 0 !important;
+}
+span.comment-user {
+  font-weight: 700;
+}
+time.comment-time {
+  font-size: 12px;
+  color: var(--efu-secondtext);
+  margin-left: auto;
 }
 #bber {
   margin-top: 0.5rem;
@@ -12245,7 +12340,7 @@ div#post-comment {
   border: var(--style-border-always);
   border-radius: 10px;
   z-index: 9999;
-  width: 142px;
+  max-width: 142px;
   display: none;
   transform: translate(0, -105%);
   overflow: hidden;
