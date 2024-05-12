@@ -6525,6 +6525,16 @@ div#comments-page {
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 900px) {
+  .comment-card {
+    width: calc(100% / 2 - 6px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .comment-card {
+    width: 100%;
+  }
+}
 .comment-card:hover {
   border-color: var(--style-border-hover-always);
 }
@@ -6574,7 +6584,7 @@ div#comments-page {
   height: 30px;
   object-fit: cover;
   border-radius: 30px;
-  margin: 0 !important;
+  margin: 0;
 }
 span.comment-user {
   font-weight: 700;
@@ -12881,6 +12891,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
   padding: 0;
   overflow: inherit;
   flex-direction: column-reverse;
+  margin-bottom: 0;
 }
 #vcomment .vwrap .vheader {
   display: flex;

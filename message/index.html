@@ -218,38 +218,41 @@ if (sco_keyboards) {
 <p class='p center'>往事光明灿烂，来日之路暗沉不可追</p>
 <p><img src= "https://assets.btwoa.com/gif/illusion.gif" data-lazy-src="https://assets.btwoa.com/gif/artria_pendragon.gif" alt="10秒の阿尔托莉雅" loading="lazy"></p>
 <div class="switch_message"><button class="open" type="button" onclick="document.getElementById('barrage').classList.remove('hide')"><span aria-hidden="true">显示弹幕</span></button><button class="close" type="button" onclick="document.getElementById('barrage').classList.add('hide')"><span aria-hidden="true">隐藏弹幕</span></button></div><div id="barrage"></div></div><script pjax="pjax">(async () => {
-    if(typeof EasyDanmaku === "undefined") await utils.getScript('//open.lightxi.com/cdnjs/ajax/libs/hexo-theme-solitude/1.10.6/js/third_party/envelope.min.js')
+    const emojiReg = /<img class="tk-owo-emotion" [^>]+>/g
+    if (typeof EasyDanmaku === "undefined") await utils.getScript('//open.lightxi.com/cdnjs/ajax/libs/hexo-theme-solitude/1.10.6/js/third_party/envelope.min.js')
     const Danmaku = new EasyDanmaku({
         page: '/message/',
-        el: '#barrage', 
-        line: 10, 
-        speed: 20, 
+        el: '#barrage',
+        line: 10,
+        speed: 20,
         hover: true,
         loop: true,
     })
     const data = utils.saveToLocal.get('enevlope')
-    if(data){
-        Danmaku.batchSend(data,true)
+    if (data) {
+        Danmaku.batchSend(data, true)
         return
     }
     let ls = []
     fetch('https://twikoo.btwoa.com/', {
         method: "POST",
         body: JSON.stringify({
-        "event": "GET_RECENT_COMMENTS",
-        "includeReply": false,
-        "pageSize": 100
+            "event": "GET_RECENT_COMMENTS",
+            "includeReply": false,
+            "pageSize": 100
         }),
-        headers: { 'Content-Type': 'application/json' }
-    }).then(res => res.json()).then(({ data }) => {
-        data.forEach(i => {
-        if (i.avatar == undefined) i.avatar = 'https://cravatar.cn/avatar/d615d5793929e8c7d70eab5f00f7f5f1?d=mp'
-        ls.push({ avatar: i.avatar, content: i.nick + '：' + formatDanmaku(i.comment), url: i.url + '#' + i.id })
-        });
+        headers: {'Content-Type': 'application/json'}
+    }).then(res => res.json()).then(({data}) => {
+        for (const i of data) {
+            if (i.avatar === undefined) i.avatar = 'https://cravatar.cn/avatar/d615d5793929e8c7d70eab5f00f7f5f1?d=mp'
+            ls.push({avatar: i.avatar, content: i.nick + ': ' + formatDanmaku(i.comment), url: i.url + '#' + i.id})
+        }
         Danmaku.batchSend(ls, true);
         utils.saveToLocal.set('envelope', ls, 0.02)
     });
+
     function formatDanmaku(str) {
+        str = str.replace(emojiReg, '表情')
         str = str.replace(/<\/*br>|[\s\uFEFF\xA0]+/g, '');
         str = str.replace(/<img.*?>/g, '[图片]');
         str = str.replace(/<a.*?>.*?<\/a>/g, '[链接]');
@@ -424,7 +427,7 @@ function travelling() {
         linksCopy.splice(index, 1);
     }
 
-    linkcard.innerHTML = data; //- + '<a class="footer-item" href="/links/">更多</a>';
+    linkcard.innerHTML = data + '<a class="footer-item" href="/links/">更多</a>';
 }</script><!-- newest comment--><script>window.addEventListener('load', () => {
     const changeContent = (content) => {
         if (!content) return '';
