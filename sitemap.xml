@@ -979,13 +979,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Warning-Message/</loc>
-    <lastmod>2024-05-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/categories/Practical-Resource/</loc>
     <lastmod>2024-05-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -993,7 +986,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Game-Tutorial/</loc>
+    <loc>https://blog.btwoa.com/categories/Warning-Message/</loc>
     <lastmod>2024-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1001,6 +994,13 @@
   
   <url>
     <loc>https://blog.btwoa.com/categories/CTF/</loc>
+    <lastmod>2024-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/categories/Game-Tutorial/</loc>
     <lastmod>2024-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
