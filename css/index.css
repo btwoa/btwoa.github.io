@@ -3389,6 +3389,7 @@ span.tags-punctuation::before {
   margin-right: 0.5rem;
   width: 40%;
   height: 100%;
+  min-width: fit-content;
 }
 @media screen and (max-width: 1300px) {
   #console .console-card-group-left {
@@ -3965,7 +3966,6 @@ span.tags-punctuation::before {
   background: 0 center;
 }
 #page-header.not-top-img #nav {
-  z-index: 998;
   transition: 0.3s;
   background: var(--efu-card-bg);
 }
@@ -4151,7 +4151,6 @@ span.tags-punctuation::before {
 #page-header.nav-fixed #nav {
   position: fixed;
   top: 0;
-  z-index: 103;
   transition: 0.3s;
   box-shadow: none;
   background: var(--efu-card-bg);
@@ -4256,7 +4255,7 @@ span.tags-punctuation::before {
   padding: 0;
   position: absolute;
   top: 0;
-  z-index: 90;
+  z-index: 10;
   display: flex;
   flex-wrap: wrap;
   -webkit-box-align: center;
@@ -4278,7 +4277,6 @@ span.tags-punctuation::before {
   top: 0;
   transition: 0.2s;
   position: fixed;
-  z-index: 91;
   opacity: 1;
   filter: none;
 }
