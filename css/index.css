@@ -3389,7 +3389,6 @@ span.tags-punctuation::before {
   margin-right: 0.5rem;
   width: 40%;
   height: 100%;
-  min-width: fit-content;
 }
 @media screen and (max-width: 1300px) {
   #console .console-card-group-left {
