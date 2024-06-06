@@ -15,8 +15,36 @@
     <atom:link href="https://blog.btwoa.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>我仍相信人间滚烫</description>
-    <pubDate>Fri, 03 May 2024 01:24:19 GMT</pubDate>
+    <pubDate>Thu, 06 Jun 2024 08:08:25 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Pixel Watch是懂落差感的</title>
+      <link>https://blog.btwoa.com/6f1e8526/</link>
+      <guid>https://blog.btwoa.com/6f1e8526/</guid>
+      <pubDate>Thu, 06 Jun 2024 08:08:25 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;缘由&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#缘由&quot;&gt;&lt;/a&gt;缘由&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://assets.btwoa.com/202406061439367.webp&quot; alt=&quot;&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.btwoa.com/categories/Hardware-Chat/">硬件杂谈</category>
+      
+      
+      <category domain="https://blog.btwoa.com/tags/Pixel-Watch/">Pixel Watch</category>
+      
+      
+      <comments>https://blog.btwoa.com/6f1e8526/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>为博客启用动态表情 | Fluent Emoji 3D</title>
@@ -601,43 +629,6 @@
       
       
       <comments>https://blog.btwoa.com/a9b56db2/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>再次搭建Wordpress博客</title>
-      <link>https://blog.btwoa.com/1f30b8ca/</link>
-      <guid>https://blog.btwoa.com/1f30b8ca/</guid>
-      <pubDate>Thu, 14 Jul 2022 07:05:05 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;配置服务器环境搭建WordPress博客&lt;/p&gt;
-&lt;h2 id=&quot;Debain-11-1&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#Debain-11-1&quot;&gt;&lt;/a&gt;Debain 11.1&lt;/h2&gt;
-&lt;p&gt;&lt;img</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.btwoa.com/categories/Create-Blog/">搭建博客</category>
-      
-      
-      <category domain="https://blog.btwoa.com/tags/PHP/">PHP</category>
-      
-      <category domain="https://blog.btwoa.com/tags/Nginx/">Nginx</category>
-      
-      <category domain="https://blog.btwoa.com/tags/Debain/">Debain</category>
-      
-      <category domain="https://blog.btwoa.com/tags/MariaDB/">MariaDB</category>
-      
-      <category domain="https://blog.btwoa.com/tags/WordPress/">WordPress</category>
-      
-      
-      <comments>https://blog.btwoa.com/1f30b8ca/#disqus_thread</comments>
       
     </item>
     
