@@ -2442,7 +2442,7 @@ span.tags-punctuation::before {
   position: relative;
   overflow: hidden;
   margin-top: 0.5rem;
-  padding: 1rem 1.2rem;
+  padding: 0.5rem 0.7rem;
 }
 #aside-content .card-widget:hover {
   box-shadow: var(--efu-shadow-border);
@@ -9713,6 +9713,7 @@ div#banners .bannerText {
   display: flex;
   align-items: center;
   line-height: 1;
+  margin: 0 0.5rem;
 }
 @media screen and (max-width: 768px) {
   .post .post-bg #post-info #post-meta .meta-secondline > span {
@@ -9720,32 +9721,18 @@ div#banners .bannerText {
   }
 }
 .post .post-bg #post-info #post-meta .meta-secondline > span:first-child {
-  margin-right: 0.8rem;
+  margin-left: 0;
 }
 .post .post-bg #post-info #post-meta .meta-secondline .post-meta-date {
-  margin-right: 0.8rem;
   opacity: 0.6;
 }
 .post .post-bg #post-info #post-meta .meta-secondline .post-meta-wordcount {
   opacity: 0.6;
-  margin-right: 20px;
-}
-@media screen and (max-width: 768px) {
-  .post .post-bg #post-info #post-meta .meta-secondline .post-meta-wordcount {
-    margin-left: 0;
-  }
-}
-.post .post-bg #post-info #post-meta .meta-secondline .post-meta-wordcount > span.word-count {
-  font-weight: 800;
-}
-.post .post-bg #post-info #post-meta .meta-secondline .post-meta-wordcount > span:nth-child(7) {
-  font-weight: 800;
 }
 .post .post-bg #post-info #post-meta .meta-secondline .post-meta-separator {
-  margin: 0 10px;
+  margin: 0 1rem 0 0;
 }
 .post .post-bg #post-info #post-meta .meta-secondline .post-meta-position {
-  margin-right: 12px;
   opacity: 0.6;
 }
 .post .post-bg #post-info #post-meta .meta-secondline .post-meta-pv {
@@ -10971,7 +10958,7 @@ figure.highlight .code-expand-btn {
   border-top: var(--style-border-always);
   position: absolute;
   bottom: 0;
-  z-index: 10;
+  z-index: 1;
   width: 100%;
   text-align: center;
   font-size: 16px;
