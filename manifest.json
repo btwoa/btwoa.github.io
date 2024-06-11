@@ -73,14 +73,14 @@
     ],
     "screenshots": [
       {
-          "src": "https://assets.btwoa.com/blogbtwoacom.webp",
+          "src": "https://assets.btwoa.com/blogbtwoacom.avif",
           "sizes": "1920x1080",
           "type": "image/png",
           "form_factor": "wide",
           "label": "Fullscreen of BTA"
       },
       {
-        "src": "https://assets.btwoa.com/darkblogbtwoacom.webp",
+        "src": "https://assets.btwoa.com/darkblogbtwoacom.avif",
         "sizes": "1920x1080",
         "type": "image/png",
         "form_factor": "wide",
