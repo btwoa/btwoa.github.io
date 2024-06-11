@@ -2865,7 +2865,7 @@ span.tags-punctuation::before {
 #aside-content .card-allinfo hr {
   display: flex;
   position: relative;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   border: 1px dashed var(--efu-theme-op);
 }
 #aside-content .card-allinfo .item-headline {
@@ -3452,46 +3452,6 @@ span.tags-punctuation::before {
   display: flex;
   align-items: center;
 }
-#console .aside-list-item .thumbnail {
-  display: flex;
-  align-items: center;
-}
-#console .aside-list-item:hover .thumbnail {
-  color: var(--efu-white);
-}
-#console .aside-list-item .content {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  margin-top: 0.5rem;
-}
-#console .aside-list-item .content .comment {
-  -webkit-line-clamp: 2;
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  line-height: 24px;
-  font-size: 14px;
-}
-#console .aside-list-item .content .comment::before {
-  content: '';
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-#console .aside-list-item .content:hover .comment {
-  color: var(--efu-white);
-}
-#console .aside-list-item .content time {
-  font-size: 12px;
-  color: var(--efu-secondtext);
-  margin-top: auto;
-}
-#console .aside-list-item .content:hover time {
-  color: var(--efu-white);
-}
 #console .aside-list {
   display: flex;
   flex-wrap: wrap;
@@ -3683,38 +3643,6 @@ span.tags-punctuation::before {
   #console #consoleHideAside {
     display: none;
   }
-}
-#card-newest-comments .aside-list-item {
-  background: var(--efu-card-bg);
-  border-radius: 12px;
-  border: var(--style-border);
-  padding: 12px 16px;
-  width: 49%;
-  display: flex;
-  flex-direction: column;
-  height: 150px;
-  transition: 0.3s;
-  position: relative;
-  cursor: pointer;
-}
-#card-newest-comments .aside-list-item:hover {
-  background: var(--efu-main);
-  color: var(--efu-white);
-}
-#card-newest-comments .aside-list-item:not(:last-child) {
-  margin-bottom: 0.5rem;
-}
-#card-newest-comments .aside-list-item .thumbnail img {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
-  border-radius: 20px;
-}
-#card-newest-comments .aside-list-item .name {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  font-weight: 700;
 }
 #footer {
   position: relative;
@@ -9153,7 +9081,8 @@ div#banners .bannerText {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.hide {
+#barrage.hide {
+  z-index: -1;
   opacity: 0;
 }
 #page h1.page-title {
@@ -10262,6 +10191,11 @@ div#banners .bannerText {
   box-shadow: var(--efu-shadow-main);
   color: var(--efu-white);
 }
+#post .post-tools-right .tag_share .post-meta__tag-list .post-meta__tags:hover span.tagsPageCount {
+  color: var(--efu-lighttext);
+  background: var(--efu-maskbgdeep);
+  transition: all 0.2s ease-in-out 0s;
+}
 #post .post-tools-right .tag_share .post-meta__tag-list .post-meta__tags span.tags-punctuation {
   font-size: 12px;
   margin-right: 1px;
@@ -10271,14 +10205,14 @@ div#banners .bannerText {
 #post .post-tools-right .tag_share .post-meta__tag-list .post-meta__tags .tagsPageCount,
 #tag-page-tags .tagsPageCount {
   padding: 2px;
-  background: var(--efu-card-bg);
+  background: var(--efu-fontcolor);
   border: var(--style-border-always);
   min-width: 22.5px;
   display: inline-block;
   border-radius: 4px;
   text-align: center;
   font-size: 0.6rem;
-  color: var(--efu-fontcolor);
+  color: var(--efu-card-bg);
   margin-left: 4px;
 }
 .social-share * {
