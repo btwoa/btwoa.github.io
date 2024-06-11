@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.btwoa.com/moments/index.html</loc>
+    
+    <lastmod>2024-06-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/artalk.json</loc>
     
     <lastmod>2024-06-11</lastmod>
@@ -57,15 +66,6 @@
   
   <url>
     <loc>https://blog.btwoa.com/recentcomments/index.html</loc>
-    
-    <lastmod>2024-06-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/moments/index.html</loc>
     
     <lastmod>2024-06-11</lastmod>
     
@@ -1072,14 +1072,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Environment-Variable/</loc>
+    <loc>https://blog.btwoa.com/categories/Free-Domain/</loc>
     <lastmod>2024-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Free-Domain/</loc>
+    <loc>https://blog.btwoa.com/categories/Environment-Variable/</loc>
     <lastmod>2024-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
