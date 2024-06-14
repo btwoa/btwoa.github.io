@@ -3061,7 +3061,7 @@ span.tags-punctuation::before {
   line-height: 1;
 }
 #aside-content .card-widget.card-platform {
-  background: #fff;
+  background: #000;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -3110,7 +3110,7 @@ span.tags-punctuation::before {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background: url("https://assets.btwoa.com/gif/yoneyamai201004.gif") center center no-repeat;
+  background: url("https://assets.btwoa.com/gif/yoneyamai240607.gif") center center no-repeat;
   background-size: 100%;
 }
 #aside-content .card-widget.card-platform #flip-wrapper #flip-content .face.back {
@@ -6897,10 +6897,13 @@ body[data-type=music] #nav-music {
   height: 200%;
   top: -50%;
   left: -50%;
+  background-position: 0 0;
   background-size: 40%;
   transition: 0.6s;
+  background-color: rgba(0,0,0,0.4);
 }
 #Music-bg:before {
+  display: none;
   content: '';
   background: rgba(0,0,0,0.4);
   backdrop-filter: blur(200px);
@@ -6911,6 +6914,9 @@ body[data-type=music] #nav-music {
   left: -50%;
   width: 200%;
   height: 200%;
+}
+#Music-bg.show:before {
+  display: block;
 }
 #Music-page {
   max-width: 1400px;
@@ -9333,7 +9339,7 @@ div#banners .bannerText {
   border-width: 1px;
   transition: 0.3s;
   position: relative;
-  margin: 80px 0 30px;
+  margin: 80px 0 0.5rem;
   border-radius: 12px;
   padding: 34px 0 20px 0;
   border: var(--style-border-always);
@@ -9417,6 +9423,125 @@ div#banners .bannerText {
   color: var(--efu-white);
   cursor: pointer;
   border-radius: 4px;
+}
+#post .post-copyright .social-share {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  margin: 0.5rem auto;
+  gap: 0.5rem;
+}
+#post .post-copyright .social-share .social-share-ico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  border: var(--style-border);
+  cursor: pointer;
+  transition: 0.3s;
+}
+#post .post-copyright .social-share .social-share-ico:hover {
+  color: #fff;
+}
+#post .post-copyright .social-share .icon-qq {
+  color: #56b6e7;
+  border-color: #56b6e7;
+}
+#post .post-copyright .social-share .icon-qq:hover {
+  background-color: #56b6e7;
+}
+#post .post-copyright .social-share .icon-weibo {
+  color: #d44040;
+  border-color: #d44040;
+}
+#post .post-copyright .social-share .icon-weibo:hover {
+  background-color: #d44040;
+}
+#post .post-copyright .social-share .icon-facebook {
+  color: #415dc9;
+  border-color: #415dc9;
+}
+#post .post-copyright .social-share .icon-facebook:hover {
+  background-color: #415dc9;
+}
+#post .post-copyright .social-share .icon-twitter {
+  color: #56b6e7;
+  border-color: #56b6e7;
+}
+#post .post-copyright .social-share .icon-twitter:hover {
+  background-color: #56b6e7;
+}
+#post .post-copyright .social-share .icon-telegram {
+  color: #56b6e7;
+  border-color: #56b6e7;
+}
+#post .post-copyright .social-share .icon-telegram:hover {
+  background-color: #56b6e7;
+}
+#post .post-copyright .social-share .icon-linkedin {
+  color: #0077b5;
+  border-color: #0077b5;
+}
+#post .post-copyright .social-share .icon-linkedin:hover {
+  background-color: #0077b5;
+}
+#post .post-copyright .social-share .icon-whatsapp {
+  color: #25d366;
+  border-color: #25d366;
+}
+#post .post-copyright .social-share .icon-whatsapp:hover {
+  background-color: #25d366;
+}
+#post .post-copyright .social-share .icon-link {
+  color: #425aef;
+  border-color: #425aef;
+}
+#post .post-copyright .social-share .icon-link:hover {
+  background-color: #425aef;
+}
+#post .post-copyright .social-share .icon-qrcode {
+  position: relative;
+  color: #000;
+  border-color: #000;
+}
+#post .post-copyright .social-share .icon-qrcode:hover {
+  background-color: #000;
+}
+#post .post-copyright .social-share .icon-qrcode:hover .share-main {
+  display: flex;
+}
+#post .post-copyright .social-share .icon-qrcode .share-main {
+  display: none;
+  position: absolute;
+  bottom: 1.7rem;
+  z-index: 100;
+  padding-bottom: 15px;
+}
+#post .post-copyright .social-share .icon-qrcode .share-main-all {
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--efu-background);
+  animation: donate_effcet 0.3s 0.1s ease both;
+  flex-direction: column;
+  border: var(--style-border-always);
+}
+#post .post-copyright .social-share .icon-qrcode .share-main-all .reward-dec {
+  font-size: 0.6rem;
+  color: var(--efu-fontcolor) !important;
+  text-align: center;
+}
+#post .post-copyright .social-share #qrcode {
+  width: 150px;
+  height: 150px;
+  min-width: 150px;
+  min-height: 150px;
+  background: var(--efu-white);
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  border: var(--style-border-always);
 }
 .post #page-header.post-bg {
   height: 20rem;
@@ -10263,118 +10388,6 @@ div#banners .bannerText {
   font-size: 0.6rem;
   color: var(--efu-card-bg);
   margin-left: 4px;
-}
-.social-share * {
-  font-family: solitude;
-}
-.social-share {
-  display: flex;
-  justify-content: center;
-  margin: 10px 0;
-}
-@media screen and (max-width: 768px) {
-  .social-share {
-    flex-wrap: wrap;
-  }
-}
-.social-share .social-share-ico {
-  margin: 0 4px;
-  width: 1.85em;
-  height: 1.85em;
-  font-size: 1.2em;
-  line-height: 1.85em;
-  border: 1px solid;
-  position: relative;
-  display: inline-block;
-  border-radius: 50%;
-  text-align: center;
-  vertical-align: middle;
-  transition: background 0.6s ease-out 0s;
-  cursor: pointer;
-}
-.social-share .social-share-ico:hover {
-  transition: all 0.3s;
-  color: var(--efu-white);
-}
-.social-share .icon-qq {
-  color: #56b6e7;
-  border-color: #56b6e7;
-}
-.social-share .icon-qq:hover {
-  background-color: #56b6e7;
-}
-.social-share .icon-qq::before {
-  content: "\e0d0";
-}
-.social-share .icon-wechat {
-  color: #57bd6a;
-  border-color: #57bd6a;
-}
-.social-share .icon-wechat::before {
-  content: "\e0d2";
-}
-.social-share .icon-wechat:hover {
-  background-color: #57bd6a;
-}
-.social-share .icon-weibo {
-  color: #d44040;
-  border-color: #d44040;
-}
-.social-share .icon-weibo::before {
-  content: "\e0e3";
-}
-.social-share .icon-weibo:hover {
-  background-color: #d44040;
-}
-.social-share .icon-facebook {
-  color: #415dc9;
-  border-color: #415dc9;
-}
-.social-share .icon-facebook::before {
-  content: "\e0e6";
-}
-.social-share .icon-facebook:hover {
-  background-color: #415dc9;
-}
-.social-share .icon-twitter {
-  color: #56b6e7;
-  border-color: #56b6e7;
-}
-.social-share .icon-twitter::before {
-  content: "\e0c1";
-}
-.social-share .icon-twitter:hover {
-  background-color: #56b6e7;
-}
-.social-share .icon-telegram {
-  color: #56b6e7;
-  border-color: #56b6e7;
-}
-.social-share .icon-telegram::before {
-  content: "\e062";
-}
-.social-share .icon-telegram:hover {
-  background-color: #56b6e7;
-}
-.social-share .icon-linkedin {
-  color: #0077b5;
-  border-color: #0077b5;
-}
-.social-share .icon-linkedin::before {
-  content: "\e0ed";
-}
-.social-share .icon-linkedin:hover {
-  background-color: #0077b5;
-}
-.social-share .icon-whatsapp {
-  color: #25d366;
-  border-color: #25d366;
-}
-.social-share .icon-whatsapp::before {
-  content: "\e0f0";
-}
-.social-share .icon-whatsapp:hover {
-  background-color: #25d366;
 }
 #post #pagination {
   overflow: hidden;
