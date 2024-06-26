@@ -3117,7 +3117,7 @@ body {
   background: var(--efu-background);
   color: var(--efu-fontcolor);
   font-size: 16px;
-  font-family: PingFang SC,Hiragino Sans GB,Microsoft YaHei;
+  font-family: CEF Fonts CJK,PingFang SC,Hiragino Sans GB,Microsoft YaHei;
   line-height: 2;
   -webkit-tap-highlight-color: transparent;
   margin: 0;
@@ -3233,7 +3233,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: CEF Fonts CJK Mono,monospace, monospace;
   font-size: 16px;
 }
 small {
