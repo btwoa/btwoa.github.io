@@ -3208,9 +3208,6 @@ hr {
   overflow: visible;
   display: none;
 }
-pre {
-  font-family: monospace, monospace;
-}
 a {
   color: var(--efu-fontcolor);
   text-decoration: none;
@@ -3232,7 +3229,8 @@ strong {
 }
 code,
 kbd,
-samp {
+samp,
+pre {
   font-family: CEF Fonts CJK Mono,monospace, monospace;
   font-size: 16px;
 }
@@ -9863,6 +9861,7 @@ span.tags-punctuation {
   -ms-flex-direction: column;
   flex-direction: column;
   width: calc(100% / 3 - 0.5rem);
+  min-width: 200px;
   -webkit-box-align: start;
   -moz-box-align: start;
   -o-box-align: start;

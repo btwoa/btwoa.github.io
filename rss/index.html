@@ -127,13 +127,7 @@ gtag('config', 'G-F0Z27Y09HY'); </script><script charset="UTF-8" id="LA_COLLECT"
         error: 'https://assets.btwoa.com/gif/goahead.gif'
     },
     copyright: {"limit":50,"author":"作者: btwoa","link":"链接: ","source":"来源: 放养平凡","info":"著作权归作者所有。 商业转载请联系作者获得授权，非商业转载请注明出处。"},
-    highlight: {
-        enable: true,
-        limit: 200,
-        expand: true,
-        copy: true,
-        syntax: 'prismjs'
-    },
+    highlight: {"limit":200,"expand":true,"copy":true,"syntax":"prismjs"},
     randomlink: true,
     lang: {"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"day":"天前","hour":"小时前","just":"刚刚","min":"分钟前","month":"个月前"},"day":" 天","f12":"开发者模式已打开，请遵循GPL协议。","totalk":"无需删除空行，直接输入评论即可","search":{"empty":"找不到你查询的内容：${query}","hit":"找到 ${hits} 条结果，用时 ${time} 毫秒","placeholder":"输入关键词快速查找","count":"共 <b>${count}</b> 条结果。"},"barrage":{"title":"热评"}},
     aside: {
@@ -265,7 +259,7 @@ if (sco_keyboards) {
             item: '.OwO-items li'
         })
 
-        barrageTwikoo()
+        true && barrageTwikoo()
     }
 
     const loadTwikoo = () => {
