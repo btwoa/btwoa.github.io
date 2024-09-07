@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/artalk.json</loc>
+    <loc>https://blog.btwoa.com/other.json</loc>
     
     <lastmod>2024-06-11</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/other.json</loc>
+    <loc>https://blog.btwoa.com/artalk.json</loc>
     
     <lastmod>2024-06-11</lastmod>
     
@@ -1008,13 +1008,6 @@
 
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Create-Blog/</loc>
-    <lastmod>2024-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/categories/Optimized-Style/</loc>
     <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -1022,14 +1015,21 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Practical-Resource/</loc>
+    <loc>https://blog.btwoa.com/categories/Warning-Message/</loc>
     <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Warning-Message/</loc>
+    <loc>https://blog.btwoa.com/categories/Create-Blog/</loc>
+    <lastmod>2024-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/categories/Practical-Resource/</loc>
     <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1113,14 +1113,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Practical-Framework/</loc>
+    <loc>https://blog.btwoa.com/categories/Global-Proxy/</loc>
     <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Global-Proxy/</loc>
+    <loc>https://blog.btwoa.com/categories/Practical-Framework/</loc>
     <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
