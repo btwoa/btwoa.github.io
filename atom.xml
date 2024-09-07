@@ -190,6 +190,36 @@
   </entry>
   
   <entry>
+    <title>为Linux服务器配置Clash Premium实现TUN模式下科学上网</title>
+    <link href="https://blog.btwoa.com/53da714d/"/>
+    <id>https://blog.btwoa.com/53da714d/</id>
+    <published>2023-08-27T04:16:21.000Z</published>
+    <updated>2023-08-27T04:16:21.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近被下载网速反复折磨，换源又不能解决全部问题，索性给手头的服务器装上Clash，实现上网自由。&lt;/p&gt;
+&lt;h2 id=&quot;Clash-Dashboard&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#Clash-Dashboard&quot;&gt;&lt;/a&gt;Clash</summary>
+        
+      
+    
+    
+    
+    <category term="科学上网" scheme="https://blog.btwoa.com/categories/Global-Proxy/"/>
+    
+    
+    <category term="TUN" scheme="https://blog.btwoa.com/tags/TUN/"/>
+    
+    <category term="Dashboard" scheme="https://blog.btwoa.com/tags/Dashboard/"/>
+    
+    <category term="Clash Premium" scheme="https://blog.btwoa.com/tags/Clash-Premium/"/>
+    
+  </entry>
+  
+  <entry>
     <title>使用PlanetScale重新部署Qexo</title>
     <link href="https://blog.btwoa.com/de778eed/"/>
     <id>https://blog.btwoa.com/de778eed/</id>
@@ -557,36 +587,6 @@
     <category term="Vercel" scheme="https://blog.btwoa.com/tags/Vercel/"/>
     
     <category term="Cloudflare" scheme="https://blog.btwoa.com/tags/Cloudflare/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>展示文章标签 | 添加文章侧边栏目录 | Apollo</title>
-    <link href="https://blog.btwoa.com/a9b56db2/"/>
-    <id>https://blog.btwoa.com/a9b56db2/</id>
-    <published>2022-07-28T03:23:19.000Z</published>
-    <updated>2022-07-28T03:23:19.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;对Apollo极简主题的增强性优化&lt;/p&gt;
-&lt;h2 id=&quot;Apollo主题&quot;&gt;&lt;a class=&quot;headerlink&quot; href=&quot;#Apollo主题&quot;&gt;&lt;/a&gt;Apollo主题&lt;/h2&gt;
-&lt;p&gt;将主题切换为apollo&lt;/p&gt;
-&lt;div class=&quot;note </summary>
-        
-      
-    
-    
-    
-    <category term="优化风格" scheme="https://blog.btwoa.com/categories/Optimized-Style/"/>
-    
-    
-    <category term="Hexo" scheme="https://blog.btwoa.com/tags/Hexo/"/>
-    
-    <category term="Apollo" scheme="https://blog.btwoa.com/tags/Apollo/"/>
     
   </entry>
   
