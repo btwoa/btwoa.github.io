@@ -8560,71 +8560,6 @@ span.tags-punctuation {
 .post-tips a:hover {
   color: var(--efu-main);
 }
-.pace {
-  pointer-events: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  z-index: 2000;
-  position: fixed;
-  margin: auto;
-  top: 4px;
-  left: 0;
-  right: 0;
-  height: 8px;
-  border-radius: 8px;
-  width: 4rem;
-  background: var(--efu-secondbg);
-  border: var(--style-border);
-  overflow: hidden;
-}
-.pace.pace-inactive {
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -ms-transition: 0.3s;
-  transition: 0.3s;
-  top: -8px;
-}
-.pace.pace-inactive .pace-progress {
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
-  -webkit-transition: 0.3s ease-in;
-  -moz-transition: 0.3s ease-in;
-  -o-transition: 0.3s ease-in;
-  -ms-transition: 0.3s ease-in;
-  transition: 0.3s ease-in;
-}
-.pace .pace-progress {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  max-width: 200px;
-  z-index: 2000;
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 100%;
-  height: 100%;
-  width: 100%;
-  background: var(--efu-logo-color);
-  -webkit-animation: gradient 2s ease infinite;
-  -moz-animation: gradient 2s ease infinite;
-  -o-animation: gradient 2s ease infinite;
-  -ms-animation: gradient 2s ease infinite;
-  animation: gradient 2s ease infinite;
-  background-size: 200%;
-}
 #pagination {
   width: 100%;
 }
@@ -17567,7 +17502,6 @@ div#banners .bannerText {
   margin-left: 4px;
 }
 #post #pagination {
-  width: auto;
   overflow: hidden;
   position: inherit;
   border: var(--style-border-always);
@@ -17613,12 +17547,18 @@ div#banners .bannerText {
   }
 }
 #post #pagination.pagination-post {
-  margin: 0 2rem 1rem;
+  margin-top: 1.5rem;
   background: var(--efu-card-bg);
 }
 @media screen and (min-width: 768px) {
   #post #pagination.pagination-post {
     border-radius: 12px;
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 1300px) {
+  #post #pagination.pagination-post {
+    margin-top: 0;
   }
 }
 #post #pagination .next-post,
@@ -20273,8 +20213,8 @@ div.timenode:hover .meta:after {
 .post-comment {
   background: var(--efu-card-bg);
 }
-.post #post-comment {
-  padding: 0 2rem;
+div#post-comment {
+  margin-top: 2rem;
 }
 #post-comment > div.comment-head > div.comment-privacy {
   display: block;
@@ -20326,7 +20266,7 @@ div.timenode:hover .meta:after {
 }
 #post-comment .comment-head {
   font-size: 0.8em;
-  margin: 0.5rem 0;
+  margin-bottom: 0.5rem;
   position: relative;
 }
 #post-comment .comment-head .count span:last-child {
