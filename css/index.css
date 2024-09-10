@@ -6214,14 +6214,13 @@ span.tags-punctuation::before {
   -webkit-align-items: center;
   align-items: center;
   border-radius: 8px;
-  background-color: rgba(255,0,0,0.5);
-  border-left: 5px solid var(--efu-red);
+  background-color: var(--efu-main);
   padding: 10px 16px;
   color: var(--efu-white);
 }
 .expire i.solitude {
   color: var(--efu-white);
-  margin-right: 8px;
+  margin-right: 12px;
 }
 #footer {
   position: relative;
@@ -20375,6 +20374,9 @@ div#post-comment {
   -ms-flex-direction: column-reverse !important;
   flex-direction: column-reverse !important;
 }
+#twikoo .tk-footer {
+  display: none !important;
+}
 #twikoo > div.tk-comments > div.tk-comments-container > div.tk-comments-title > span:nth-child(1) {
   display: none !important;
 }
@@ -20528,7 +20530,7 @@ div#post-comment {
 .tk-row-actions-start {
   position: absolute;
   top: -84px;
-  left: 17px;
+  left: 12px;
 }
 @media screen and (max-width: 768px) {
   .tk-submit .el-button--primary {
@@ -20954,13 +20956,19 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
 #vcomment .vcount {
   display: none !important;
 }
+#vcomment .vempty {
+  display: none !important;
+}
+#vcomment .vpower.txt-right {
+  display: none !important;
+}
 #vcomment .vpreview-btn {
   display: none;
 }
 #vcomment .vemoji-btn {
   position: absolute;
-  bottom: 4.5px;
-  left: 50px;
+  bottom: 6px;
+  left: 12px;
 }
 #vcomment .vpanel {
   display: -webkit-box;
@@ -21191,6 +21199,9 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
 #vcomment .vrow .vcol svg {
   width: 18px;
   height: 18px;
+}
+#vcomment .vrow .vcol.vcol-30 {
+  display: none;
 }
 #vcomment #veditor {
   display: block;

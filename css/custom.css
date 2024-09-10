@@ -14,7 +14,7 @@
 
 .postAI-icon {
   background: var(--efu-secondbg);
-  border: var(--style-border);
+  border: 1px solid var(--efu-main);
   border-radius: 8px;
   cursor: pointer;
   width: 40px;
@@ -39,10 +39,10 @@
 }
 
 .talk-container {
-  border: var(--style-border);
+  border: 1px solid var(--efu-main);
   margin-left: 25px;
   max-width: calc(100% - 65px);
-  border-radius: 6px;
+  border-radius: 8px;
   position: relative;
 }
 
@@ -51,7 +51,7 @@
   position: absolute;
   height: 16px;
   width: 16px;
-  border: var(--style-border);
+  border: 1px solid var(--efu-main);
   left: -8px;
   top: 9px;
   background: var(--efu-secondbg);
