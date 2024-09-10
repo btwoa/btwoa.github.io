@@ -9705,12 +9705,16 @@ span.tags-punctuation {
   margin-bottom: 60px;
 }
 #sidebar #sidebar-menus .card-tag-cloud a {
-  color: var(--efu-fontcolor) !important;
+  color: var(--efu-fontcolor);
   padding: 2px 8px 2px 12px;
   border-radius: 8px;
   border: var(--style-border-always);
   background: var(--efu-card-bg);
   font-size: 14px !important;
+}
+#sidebar #sidebar-menus .card-tag-cloud a:hover {
+  background: var(--efu-main);
+  color: var(--efu-white);
 }
 #sidebar #sidebar-menus .card-tag-cloud a sup {
   opacity: 0.6;
@@ -9741,6 +9745,16 @@ span.tags-punctuation {
 }
 #sidebar #sidebar-menus .sidebar-menu-item span.darkmode_switchbutton {
   padding: 4px 8px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+#sidebar #sidebar-menus .sidebar-menu-item span.darkmode_switchbutton:hover {
+  background: var(--efu-main);
+  color: var(--efu-white);
 }
 [data-theme="dark"] #sidebar #sidebar-menus .sidebar-menu-item span.darkmode_switchbutton {
   background: var(--efu-orange);
@@ -11976,6 +11990,12 @@ body[data-type=music] #page-header #nav a {
 }
 body[data-type=music] #page-header.not-top-img #nav .back-home-button {
   color: var(--efu-white);
+}
+body[data-type=music] #page-header #nav #nav-right .nav-button a.console_switchbutton label i {
+  background: var(--efu-white);
+}
+body[data-type=music] #page-header #nav #nav-right .nav-button a.console_switchbutton:hover label i {
+  background: var(--efu-card-bg);
 }
 body[data-type=music] .page .layout#content-inner {
   background: none;
@@ -18276,18 +18296,18 @@ figure.highlight .code-expand-btn:not(.expand-done) ~ pre {
   filter: alpha(opacity=80);
 }
 .search-dialog .search-close-button {
-  color: var(--efu-secondtext);
+  position: absolute;
+  top: 0.8rem;
+  right: 1rem;
+  color: var(--efu-gray);
   font-size: 1.4em;
   line-height: 1;
   cursor: pointer;
-  padding: 4px;
-  border-radius: 50px;
-  margin-left: 4px;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -ms-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: color 0.2s ease-in-out 0s;
+  -moz-transition: color 0.2s ease-in-out 0s;
+  -o-transition: color 0.2s ease-in-out 0s;
+  -ms-transition: color 0.2s ease-in-out 0s;
+  transition: color 0.2s ease-in-out 0s;
 }
 .search-dialog .search-close-button:hover {
   color: var(--efu-main);
@@ -20375,7 +20395,7 @@ div#post-comment {
   flex-direction: column-reverse !important;
 }
 #twikoo .tk-footer {
-  display: none !important;
+  visibility: hidden !important;
 }
 #twikoo > div.tk-comments > div.tk-comments-container > div.tk-comments-title > span:nth-child(1) {
   display: none !important;
@@ -20960,7 +20980,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
   display: none !important;
 }
 #vcomment .vpower.txt-right {
-  display: none !important;
+  visibility: hidden !important;
 }
 #vcomment .vpreview-btn {
   display: none;
