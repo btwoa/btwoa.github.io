@@ -16315,7 +16315,7 @@ div#banners .bannerText {
   -o-transform: rotate(10deg) translateY(-10%) scale(2);
   -ms-transform: rotate(10deg) translateY(-10%) scale(2);
   transform: rotate(10deg) translateY(-10%) scale(2);
-  filter: blur(10px);
+  filter: blur(30px);
 }
 .post .post-bg .coverdiv:after {
   position: absolute;
@@ -17818,9 +17818,9 @@ div#banners .bannerText {
 }
 [data-theme=dark] {
   --efu-theme: #ff9700;
-  --efu-theme-op: rgba(242,185,75,0.137);
-  --efu-theme-op-deep: rgba(242,185,75,0.867);
-  --efu-theme-none: '#f2b94b00';
+  --efu-theme-op: rgba(255,151,0,0.137);
+  --efu-theme-op-deep: rgba(255,151,0,0.867);
+  --efu-theme-none: rgba(255,151,0,0);
   --efu-blue: #0084ff;
   --efu-red: #ff3842;
   --efu-pink: #d44040;
@@ -17866,7 +17866,7 @@ div#banners .bannerText {
   --efu-theme-op: rgba(176,0,0,0.137);
   --efu-theme-op-deep: rgba(176,0,0,0.867);
   --efu-theme-op-light: rgba(66,89,239,0.051);
-  --efu-theme-none: '#b0000001';
+  --efu-theme-none: rgba(176,0,0,0);
   --efu-blue: #425aef;
   --efu-red: #f04a63;
   --efu-pink: #ff7c7c;
