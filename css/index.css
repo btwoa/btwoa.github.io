@@ -7416,12 +7416,16 @@ span.tags-punctuation::before {
 }
 #nav #toggle-menu {
   display: none;
-  padding: 0.1rem 0 0 0.3rem;
   vertical-align: top;
 }
 @media screen and (max-width: 768px) {
   #nav #toggle-menu {
-    display: inline-block;
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-box;
+    display: inline-flex;
   }
 }
 #nav #toggle-menu:hover {
@@ -7859,11 +7863,6 @@ span.tags-punctuation::before {
 .nav-button {
   cursor: pointer;
 }
-#site-name .iconfont {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 48px;
-}
 #site-logo {
   width: 121px;
 }
@@ -8167,10 +8166,10 @@ span.tags-punctuation::before {
     background-color: var(--efu-main);
   }
 }
-.post .back-home-button {
+.post .post-bg .back-home-button {
   color: var(--efu-white);
 }
-.post .back-home-button:hover {
+.post .post-bg .back-home-button:hover {
   background: var(--efu-white-op);
   color: var(--efu-white);
   cursor: pointer;
@@ -8190,6 +8189,11 @@ span.tags-punctuation::before {
 }
 .post .nav-fixed #nav #site-name:after {
   color: var(--efu-card-bg);
+}
+@media screen and (min-width: 900px) {
+  .post .not-top-img #nav a:hover {
+    background: var(--efu-lighttext);
+  }
 }
 .back-menu-list {
   display: -webkit-box;

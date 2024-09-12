@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/other.json</loc>
+    <loc>https://blog.btwoa.com/twikoo.json</loc>
     
     <lastmod>2024-06-11</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/twikoo.json</loc>
+    <loc>https://blog.btwoa.com/other.json</loc>
     
     <lastmod>2024-06-11</lastmod>
     
@@ -1029,6 +1029,13 @@
   </url>
   
   <url>
+    <loc>https://blog.btwoa.com/categories/Practical-Resource/</loc>
+    <lastmod>2024-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/categories/Game-Tutorial/</loc>
     <lastmod>2024-09-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -1036,7 +1043,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Practical-Resource/</loc>
+    <loc>https://blog.btwoa.com/categories/CTF/</loc>
     <lastmod>2024-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1051,13 +1058,6 @@
   
   <url>
     <loc>https://blog.btwoa.com/categories/Renew-License/</loc>
-    <lastmod>2024-09-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/categories/CTF/</loc>
     <lastmod>2024-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1113,14 +1113,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Global-Proxy/</loc>
+    <loc>https://blog.btwoa.com/categories/Practical-Framework/</loc>
     <lastmod>2024-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Practical-Framework/</loc>
+    <loc>https://blog.btwoa.com/categories/Global-Proxy/</loc>
     <lastmod>2024-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
