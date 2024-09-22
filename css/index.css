@@ -16016,10 +16016,10 @@ div#banners .bannerText {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   border-radius: 12px;
-  border: var(--style-border);
+  border: 2px solid var(--efu-card-border);
   cursor: pointer;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -16036,46 +16036,46 @@ div#banners .bannerText {
   color: #fff;
 }
 #post .post-copyright .social-share .icon-qq {
-  color: #56b6e7;
-  border-color: #56b6e7;
+  color: #09f;
+  border-color: #09f;
 }
 #post .post-copyright .social-share .icon-qq:hover {
-  background-color: #56b6e7;
+  background-color: #09f;
 }
 #post .post-copyright .social-share .icon-weibo {
-  color: #d44040;
-  border-color: #d44040;
+  color: #d52c2b;
+  border-color: #d52c2b;
 }
 #post .post-copyright .social-share .icon-weibo:hover {
-  background-color: #d44040;
+  background-color: #d52c2b;
 }
 #post .post-copyright .social-share .icon-facebook {
-  color: #415dc9;
-  border-color: #415dc9;
+  color: #0866ff;
+  border-color: #0866ff;
 }
 #post .post-copyright .social-share .icon-facebook:hover {
-  background-color: #415dc9;
+  background-color: #0866ff;
 }
 #post .post-copyright .social-share .icon-twitter {
-  color: #56b6e7;
-  border-color: #56b6e7;
+  color: #0f1419;
+  border-color: #0f1419;
 }
 #post .post-copyright .social-share .icon-twitter:hover {
-  background-color: #56b6e7;
+  background-color: #0f1419;
 }
 #post .post-copyright .social-share .icon-telegram {
-  color: #56b6e7;
-  border-color: #56b6e7;
+  color: #2481cc;
+  border-color: #2481cc;
 }
 #post .post-copyright .social-share .icon-telegram:hover {
-  background-color: #56b6e7;
+  background-color: #2481cc;
 }
 #post .post-copyright .social-share .icon-linkedin {
-  color: #0077b5;
-  border-color: #0077b5;
+  color: #0a66c2;
+  border-color: #0a66c2;
 }
 #post .post-copyright .social-share .icon-linkedin:hover {
-  background-color: #0077b5;
+  background-color: #0a66c2;
 }
 #post .post-copyright .social-share .icon-whatsapp {
   color: #25d366;
@@ -16085,16 +16085,16 @@ div#banners .bannerText {
   background-color: #25d366;
 }
 #post .post-copyright .social-share .icon-link {
-  color: #425aef;
-  border-color: #425aef;
+  color: #f58025;
+  border-color: #f58025;
 }
 #post .post-copyright .social-share .icon-link:hover {
-  background-color: #425aef;
+  background-color: #f58025;
 }
 #post .post-copyright .social-share .icon-qrcode {
   position: relative;
-  color: #000;
-  border-color: #000;
+  color: #2cbb00;
+  border-color: #2cbb00;
 }
 @media screen and (max-width: 900px) {
   #post .post-copyright .social-share .icon-qrcode {
@@ -16102,7 +16102,7 @@ div#banners .bannerText {
   }
 }
 #post .post-copyright .social-share .icon-qrcode:hover {
-  background-color: #000;
+  background-color: #2cbb00;
 }
 #post .post-copyright .social-share .icon-qrcode:hover .share-main {
   display: -webkit-box;
