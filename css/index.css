@@ -15879,10 +15879,11 @@ div#banners .bannerText {
   -ms-transition: 0.3s;
   transition: 0.3s;
   position: relative;
+  padding: 28px 0 0 0;
 }
 @media screen and (max-width: 768px) {
   #post .post-share {
-    padding: 1rem 1.3rem;
+    padding: 28px 0 0 0;
   }
 }
 #post .post-share .social-share {
