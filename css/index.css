@@ -7298,7 +7298,7 @@ span.tags-punctuation::before {
   height: 40px;
   margin: auto 0;
 }
-#page-header.nav-fixed #nav #menus[style*="padding-right: 300px;"] .menus_items {
+#page-header.nav-fixed #nav #menus[style*="padding-right 300px;"] .menus_items {
   -webkit-transform: translateX(-150px);
   -moz-transform: translateX(-150px);
   -o-transform: translateX(-150px);
@@ -9892,12 +9892,14 @@ span.tags-punctuation {
 }
 #home_top {
   max-width: 1400px;
-  margin: 0 auto;
-  padding: 0.5rem 1.5rem;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0 1.5rem;
 }
 @media screen and (max-width: 768px) {
   #home_top {
-    padding: 0 1rem;
+    padding: 0;
     margin-top: 0;
   }
 }
@@ -9964,18 +9966,18 @@ span.tags-punctuation {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: justify;
-  -moz-box-pack: justify;
-  -o-box-pack: justify;
-  -ms-flex-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
   -webkit-box-lines: multiple;
   -moz-box-lines: multiple;
   -o-box-lines: multiple;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
   -ms-flex-line-pack: justify;
   -webkit-align-content: space-between;
   align-content: space-between;
@@ -10042,7 +10044,7 @@ span.tags-punctuation {
   -o-animation: rowup 60s linear infinite;
   -ms-animation: rowup 60s linear infinite;
   animation: rowup 60s linear infinite;
-  width: 300px;
+  width: 320px;
   margin-left: auto;
 }
 #bannerGroup .tags-group-icon-pair {
@@ -10063,11 +10065,47 @@ span.tags-punctuation {
   display: -ms-flexbox;
   display: box;
   display: flex;
-  gap: 0.5rem;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -o-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  height: calc(328px + 0.5rem);
+  -ms-flex-line-pack: justify;
+  -webkit-align-content: space-between;
+  align-content: space-between;
+  position: relative;
+  -webkit-animation: slide-in 0.6s 0.1s backwards;
+  -moz-animation: slide-in 0.6s 0.1s backwards;
+  -o-animation: slide-in 0.6s 0.1s backwards;
+  -ms-animation: slide-in 0.6s 0.1s backwards;
+  animation: slide-in 0.6s 0.1s backwards;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
 }
 @media screen and (max-width: 1200px) {
   .topGroup {
-    overflow-x: auto;
+    overflow-x: scroll;
+    height: fit-content;
   }
   .topGroup::-webkit-scrollbar {
     display: none;
@@ -10081,35 +10119,7 @@ span.tags-punctuation {
     display: -ms-flexbox;
     display: box;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
-    -o-box-orient: horizontal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-lines: multiple;
-    -moz-box-lines: multiple;
-    -o-box-lines: multiple;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: start;
-    -moz-box-pack: start;
-    -o-box-pack: start;
-    -ms-flex-pack: start;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start;
-    height: calc(328px + 0.5rem);
-    -ms-flex-line-pack: justify;
-    -webkit-align-content: space-between;
-    align-content: space-between;
     width: calc(50% - 0.25rem);
-    position: relative;
-    -webkit-animation: slide-in 0.6s 0.1s backwards;
-    -moz-animation: slide-in 0.6s 0.1s backwards;
-    -o-animation: slide-in 0.6s 0.1s backwards;
-    -ms-animation: slide-in 0.6s 0.1s backwards;
-    animation: slide-in 0.6s 0.1s backwards;
   }
 }
 .topGroup .recent-post-item {
@@ -10119,12 +10129,6 @@ span.tags-punctuation {
   display: -ms-flexbox;
   display: box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -o-box-orient: vertical;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
   -o-box-flex: 1;
@@ -10132,6 +10136,12 @@ span.tags-punctuation {
   -webkit-flex: 1 1 30%;
   -ms-flex: 1 1 30%;
   flex: 1 1 30%;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
   -moz-box-align: start;
   -o-box-align: start;
@@ -10250,12 +10260,13 @@ span.tags-punctuation {
   .topGroup .todayCard {
     position: absolute;
     width: 100%;
-    z-index: 3;
     height: 100%;
+    z-index: 1;
     top: 0;
     right: 0;
     background: var(--ba-card-bg);
     border-radius: 12px;
+    margin-left: 1rem;
     overflow: hidden;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -10270,6 +10281,8 @@ span.tags-punctuation {
     display: flex;
     cursor: pointer;
     pointer-events: all;
+    -webkit-box-shadow: var(--ba-shadow-border);
+    box-shadow: var(--ba-shadow-border);
   }
   .topGroup .todayCard::after {
     position: absolute;
@@ -10278,8 +10291,6 @@ span.tags-punctuation {
     height: 100%;
     top: 0;
     left: 0;
-    -webkit-box-shadow: 0 -109px 133px -9px none inset;
-    box-shadow: 0 -109px 133px -9px none inset;
   }
   .topGroup .todayCard.hide {
     opacity: 0;
@@ -10305,11 +10316,13 @@ span.tags-punctuation {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     filter: alpha(opacity=80);
     font-size: 0.6rem;
+    margin-left: 3px;
+    margin-top: 4px;
   }
   .topGroup .todayCard .todayCard-info .todayCard-title {
     font-size: 28px;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 40px;
   }
   .topGroup .todayCard .todayCard-cover {
     position: absolute;
