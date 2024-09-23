@@ -9964,6 +9964,12 @@ span.tags-punctuation {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
   -webkit-box-lines: multiple;
   -moz-box-lines: multiple;
   -o-box-lines: multiple;
@@ -10141,6 +10147,10 @@ span.tags-punctuation {
   position: relative;
   -webkit-box-shadow: var(--ba-shadow-border);
   box-shadow: var(--ba-shadow-border);
+}
+.topGroup .recent-post-item:nth-last-child(2):nth-child(1),
+.topGroup .recent-post-item:nth-last-child(1):nth-child(2) {
+  width: calc(100% / 2 - 0.5rem);
 }
 @media screen and (max-width: 1200px) {
   .topGroup .recent-post-item {
