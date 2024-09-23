@@ -9326,10 +9326,10 @@ span.tags-punctuation {
     -moz-box-flex: 1;
     -o-box-flex: 1;
     box-flex: 1;
-    -webkit-flex: 1 1 33.3%;
-    -ms-flex: 1 1 33.3%;
-    flex: 1 1 33.3%;
-    max-width: 32.6%;
+    -webkit-flex: 1 1 30%;
+    -ms-flex: 1 1 30%;
+    flex: 1 1 30%;
+    max-width: 33.33%;
     -webkit-box-shadow: var(--efu-shadow-border);
     box-shadow: var(--efu-shadow-border);
   }
@@ -9999,7 +9999,7 @@ span.tags-punctuation {
   display: box;
   display: flex;
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1200px) {
   #bannerGroup {
     width: calc(50% - 0.25rem);
     height: calc(328px + 0.5rem);
@@ -10073,7 +10073,7 @@ span.tags-punctuation {
     display: none;
   }
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1200px) {
   .topGroup {
     display: -webkit-box;
     display: -moz-box;
@@ -10125,8 +10125,13 @@ span.tags-punctuation {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: calc(100% / 3 - 0.5rem);
-  min-width: 200px;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1 1 30%;
+  -ms-flex: 1 1 30%;
+  flex: 1 1 30%;
   -webkit-box-align: start;
   -moz-box-align: start;
   -o-box-align: start;
@@ -10241,7 +10246,7 @@ span.tags-punctuation {
 .topGroup .todayCard {
   display: none;
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1200px) {
   .topGroup .todayCard {
     position: absolute;
     width: 100%;
