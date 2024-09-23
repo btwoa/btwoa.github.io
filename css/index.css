@@ -9057,7 +9057,7 @@ span.tags-punctuation {
 }
 @media screen and (max-width: 1300px) {
   #recent-posts > .recent-post-item .post_cover {
-    width: 75%;
+    width: 100%;
     display: -webkit-box;
     display: -moz-box;
     display: -webkit-flex;
