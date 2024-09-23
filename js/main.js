@@ -110,7 +110,7 @@ const asideStatus = () => {
 
 function initThemeColor() {
     const currentTop = window.scrollY || document.documentElement.scrollTop;
-    const themeColor = currentTop > 0 ? '--efu-card-bg' : PAGE_CONFIG.is_post ? '--efu-main' : '--efu-background';
+    const themeColor = currentTop > 0 ? '--ba-card-bg' : PAGE_CONFIG.is_post ? '--ba-main' : '--ba-background';
     applyThemeColor(getComputedStyle(document.documentElement).getPropertyValue(themeColor));
 }
 

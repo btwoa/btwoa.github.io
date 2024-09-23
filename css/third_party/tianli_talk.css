@@ -8,21 +8,21 @@
   height: 38px;
   cursor: pointer;
   transition: 0.3s;
-  box-shadow: var(--efu-shadow-border);
-  background: var(--efu-card-bg);
+  box-shadow: var(--ba-shadow-border);
+  background: var(--ba-card-bg);
   border-radius: 20px;
   overflow: hidden;
   padding: 10px;
-  color: var(--efu-fontcolor);
+  color: var(--ba-fontcolor);
   width: 42px;
   border: var(--style-border-always);
 }
 #efuTalk.on,
 #efuTalk:hover {
-  background: var(--efu-lighttext);
-  color: var(--efu-card-bg);
+  background: var(--ba-lighttext);
+  color: var(--ba-card-bg);
   width: 159px;
-  border-color: var(--efu-lighttext);
+  border-color: var(--ba-lighttext);
 }
 #efuTalk span.efuTalkTitle {
   display: flex;
@@ -40,14 +40,14 @@ maxWidth768()
 #postChat_iframeContainer {
   z-index: 1000;
   border: var(--style-border-always);
-  background: var(--efu-card-bg);
+  background: var(--ba-card-bg);
   animation: to_show_fromLeftBottom 0.2s ease-out;
   border-radius: 12px;
 maxWidth768()
 }
 #efuTalk.on span.efuTalkTitle,
 #efuTalk:hover span.efuTalkTitle {
-  color: var(--efu-card-bg);
+  color: var(--ba-card-bg);
   opacity: 1;
 }
 #postChat_button {

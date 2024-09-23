@@ -37,7 +37,7 @@
             }
         },
         snackbarShow: (text, showAction = false, duration = 5000) => {
-            document.styleSheets[0].addRule(':root', `--efu-snackbar-time:${duration}ms!important`);
+            document.styleSheets[0].addRule(':root', `--ba-snackbar-time:${duration}ms!important`);
             Snackbar.show({
                 text,
                 showAction,
@@ -143,7 +143,7 @@
             };
 
             if (lightboxType === 'mediumZoom') {
-                mediumZoom && mediumZoom(selector, {background: "var(--efu-card-bg)"});
+                mediumZoom && mediumZoom(selector, {background: "var(--ba-card-bg)"});
             } else if (lightboxType === 'fancybox') {
                 selector.forEach(i => {
                     if (i.parentNode.tagName !== 'A') {

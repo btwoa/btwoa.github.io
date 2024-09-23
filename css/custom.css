@@ -13,8 +13,8 @@
 }
 
 .postAI-icon {
-  background: var(--efu-secondbg);
-  border: 1px solid var(--efu-main);
+  background: var(--ba-secondbg);
+  border: 1px solid var(--ba-main);
   border-radius: 8px;
   cursor: pointer;
   width: 40px;
@@ -31,15 +31,15 @@
 .postAI-icon svg {
   width: 20px;
   height: 20px;
-  fill: var(--efu-main);
+  fill: var(--ba-main);
 }
 
 .postAI-icon svg path {
-  fill: var(--efu-main)
+  fill: var(--ba-main)
 }
 
 .talk-container {
-  border: 1px solid var(--efu-main);
+  border: 1px solid var(--ba-main);
   margin-left: 25px;
   max-width: calc(100% - 65px);
   border-radius: 8px;
@@ -51,10 +51,10 @@
   position: absolute;
   height: 16px;
   width: 16px;
-  border: 1px solid var(--efu-main);
+  border: 1px solid var(--ba-main);
   left: -8px;
   top: 9px;
-  background: var(--efu-secondbg);
+  background: var(--ba-secondbg);
   border-top: none;
   border-right: none;
   transform: rotate(44deg);
@@ -62,7 +62,7 @@
 
 .postAI-talk {
   line-height: 1.7;
-  background: var(--efu-secondbg);
+  background: var(--ba-secondbg);
   padding: 6px 14px;
   border-radius: 8px;
   font-size: 14px;
@@ -84,7 +84,7 @@ span.postAI-content {
 }
 
 .blinking-cursor {
-  background-color: var(--efu-main);
+  background-color: var(--ba-main);
   width: 2px;
   height: 16px;
   display: inline-block;
@@ -181,7 +181,7 @@ span.postAI-content {
 }
 
 #aside-content .card-history .history_slide_time {
-  color: var(--efu-secondtext);
+  color: var(--ba-secondtext);
   font-size: 14px;
   font-style: italic;
   font-weight: lighter
@@ -196,20 +196,20 @@ span.postAI-content {
 }
 
 #aside-content .card-history .history_slide_link a {
-  color: var(--efu-main);
+  color: var(--ba-main);
   padding: 0 4px;
   border-radius: 4px
 }
 
 #aside-content .card-history .history_slide_link a:hover {
-  color: var(--efu-white);
-  background: var(--efu-main)
+  color: var(--ba-white);
+  background: var(--ba-main)
 }
 
 /* 新年侧边栏
 
 #newYear {
-    color: var(--efu-card-bg);
+    color: var(--ba-card-bg);
     padding: 0 !important;
    }
    
@@ -229,7 +229,7 @@ span.postAI-content {
     padding: 1rem;
     position: relative;
     border-radius: 12px;
-    background-color: var(--efu-theme);
+    background-color: var(--ba-theme);
    }
    
    #newYear-main * {
