@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.btwoa.com/message/index.html</loc>
+    
+    <lastmod>2024-09-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/links/index.html</loc>
     
     <lastmod>2024-09-24</lastmod>
@@ -137,15 +146,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/artalk.json</loc>
-    
-    <lastmod>2024-06-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/other.json</loc>
     
     <lastmod>2024-06-11</lastmod>
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/twikoo.json</loc>
+    <loc>https://blog.btwoa.com/artalk.json</loc>
     
     <lastmod>2024-06-11</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/message/index.html</loc>
+    <loc>https://blog.btwoa.com/twikoo.json</loc>
     
     <lastmod>2024-06-11</lastmod>
     
@@ -1008,14 +1008,14 @@
 
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Create-Blog/</loc>
+    <loc>https://blog.btwoa.com/categories/Optimized-Style/</loc>
     <lastmod>2024-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Optimized-Style/</loc>
+    <loc>https://blog.btwoa.com/categories/Create-Blog/</loc>
     <lastmod>2024-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1064,13 +1064,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Compiles-Perfectly/</loc>
-    <lastmod>2024-09-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/categories/Perfect-Brush/</loc>
     <lastmod>2024-09-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1078,7 +1071,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Transforms-The-Region/</loc>
+    <loc>https://blog.btwoa.com/categories/Compiles-Perfectly/</loc>
     <lastmod>2024-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1086,6 +1079,13 @@
   
   <url>
     <loc>https://blog.btwoa.com/categories/Domain-Email/</loc>
+    <lastmod>2024-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/categories/Transforms-The-Region/</loc>
     <lastmod>2024-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
