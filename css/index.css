@@ -20352,7 +20352,7 @@ div.timenode .body {
   margin: 4px 0 16px 24px;
   padding: 16px;
   border-radius: 8px;
-  background: var(--blockquote-bg);
+  background: #f5d4d3;
 }
 div.timenode .body p {
   margin: 0 !important;
