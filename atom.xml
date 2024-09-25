@@ -43,7 +43,7 @@
   </entry>
   
   <entry>
-    <title>为博客启用动态表情 | Fluent Emoji 3D</title>
+    <title>启用Fluent Emoji动态表情</title>
     <link href="https://blog.btwoa.com/1ac79a84/"/>
     <id>https://blog.btwoa.com/1ac79a84/</id>
     <published>2024-05-03T01:24:19.000Z</published>
@@ -63,7 +63,7 @@
     <category term="优化风格" scheme="https://blog.btwoa.com/categories/Optimized-Style/"/>
     
     
-    <category term="Fluent Emoji 3D" scheme="https://blog.btwoa.com/tags/Fluent-Emoji-3D/"/>
+    <category term="Fluent Emoji" scheme="https://blog.btwoa.com/tags/Fluent-Emoji/"/>
     
   </entry>
   
@@ -131,7 +131,7 @@
   </entry>
   
   <entry>
-    <title>ArchLinux搭配Hyprland实现丝滑动效</title>
+    <title>安装体验动态平铺式合成器</title>
     <link href="https://blog.btwoa.com/e40b2b38/"/>
     <id>https://blog.btwoa.com/e40b2b38/</id>
     <published>2024-01-28T11:06:31.000Z</published>
@@ -159,7 +159,7 @@
   </entry>
   
   <entry>
-    <title>人性化的QQ机器人框架 | Koishi</title>
+    <title>人性化的QQ机器人框架Koishi</title>
     <link href="https://blog.btwoa.com/9fd737cc/"/>
     <id>https://blog.btwoa.com/9fd737cc/</id>
     <published>2023-08-27T12:26:11.000Z</published>
@@ -190,7 +190,7 @@
   </entry>
   
   <entry>
-    <title>为Linux服务器配置Clash Premium实现TUN模式下科学上网</title>
+    <title>为服务器启用Clash Premium的TUN模式</title>
     <link href="https://blog.btwoa.com/53da714d/"/>
     <id>https://blog.btwoa.com/53da714d/</id>
     <published>2023-08-27T04:16:21.000Z</published>
@@ -251,7 +251,7 @@
   </entry>
   
   <entry>
-    <title>OnePlus 7 Pro刷入KernelSU后的实际体验</title>
+    <title>上手KernelSU后的实际体验</title>
     <link href="https://blog.btwoa.com/37855097/"/>
     <id>https://blog.btwoa.com/37855097/</id>
     <published>2023-03-10T10:05:57.000Z</published>
@@ -281,7 +281,7 @@
   </entry>
   
   <entry>
-    <title>免费搭建网站统计服务并引入个人网站 | Umami</title>
+    <title>借助Umami搭建免费的网站统计服务</title>
     <link href="https://blog.btwoa.com/5ab50253/"/>
     <id>https://blog.btwoa.com/5ab50253/</id>
     <published>2023-03-07T12:30:39.000Z</published>
@@ -370,7 +370,7 @@
   </entry>
   
   <entry>
-    <title>未适配主题部署友链朋友圈 | Fcircle</title>
+    <title>未适配主题部署友链朋友圈</title>
     <link href="https://blog.btwoa.com/20ba6584/"/>
     <id>https://blog.btwoa.com/20ba6584/</id>
     <published>2022-10-11T07:20:51.000Z</published>
@@ -402,7 +402,7 @@
   </entry>
   
   <entry>
-    <title>为Hexo部署在线编辑器 | Qexo</title>
+    <title>借助Qexo搭建Hexo后台</title>
     <link href="https://blog.btwoa.com/2qe37d61/"/>
     <id>https://blog.btwoa.com/2qe37d61/</id>
     <published>2022-10-08T04:13:38.000Z</published>
@@ -433,7 +433,7 @@
   </entry>
   
   <entry>
-    <title>Python多版本共存并正常使用pip | Windows</title>
+    <title>Windows环境实现Python多版本共存</title>
     <link href="https://blog.btwoa.com/bf438597/"/>
     <id>https://blog.btwoa.com/bf438597/</id>
     <published>2022-10-07T07:40:55.000Z</published>
@@ -460,7 +460,7 @@
   </entry>
   
   <entry>
-    <title>注册免费域名时由于技术错误无法注册 | Freenom</title>
+    <title>无法注册Freenom免费域名该怎么办</title>
     <link href="https://blog.btwoa.com/29ccf94f/"/>
     <id>https://blog.btwoa.com/29ccf94f/</id>
     <published>2022-09-11T12:57:56.000Z</published>
@@ -485,7 +485,7 @@
   </entry>
   
   <entry>
-    <title>通过SaaS为Cloudflare CDN自定义节点</title>
+    <title>通过SaaS自选Cloudflare优质节点</title>
     <link href="https://blog.btwoa.com/d04c383b/"/>
     <id>https://blog.btwoa.com/d04c383b/</id>
     <published>2022-09-11T03:40:35.000Z</published>
@@ -511,7 +511,7 @@
   </entry>
   
   <entry>
-    <title>为自己配置免费的自定义域名邮箱 | Mail.ru</title>
+    <title>借助Mail.ru配置免费的自定义域名邮箱</title>
     <link href="https://blog.btwoa.com/8140beac/"/>
     <id>https://blog.btwoa.com/8140beac/</id>
     <published>2022-09-06T03:35:13.000Z</published>
@@ -538,7 +538,7 @@
   </entry>
   
   <entry>
-    <title>国区案件转区教程 | Steam</title>
+    <title>Steam国区案件转区教程</title>
     <link href="https://blog.btwoa.com/789f27e5/"/>
     <id>https://blog.btwoa.com/789f27e5/</id>
     <published>2022-08-08T12:49:53.000Z</published>
@@ -563,7 +563,7 @@
   </entry>
   
   <entry>
-    <title>如何正常访问Vercel项目</title>
+    <title>Vercel项目访问受阻记录</title>
     <link href="https://blog.btwoa.com/1fbd5fc1/"/>
     <id>https://blog.btwoa.com/1fbd5fc1/</id>
     <published>2022-07-31T11:25:29.000Z</published>
@@ -574,8 +574,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;更换平台即服务为Vercel，自定义404页面，解决*.vercel.app已被SNI阻断和DNS污染屏蔽问题&lt;/p&gt;
-&lt;h2 id=&quot;平台即服务&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;平台即服务&quot;&gt;&lt;a class=&quot;headerlink&quot;</summary>
         
       
     

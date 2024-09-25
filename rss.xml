@@ -47,7 +47,7 @@
     </item>
     
     <item>
-      <title>为博客启用动态表情 | Fluent Emoji 3D</title>
+      <title>启用Fluent Emoji动态表情</title>
       <link>https://blog.btwoa.com/1ac79a84/</link>
       <guid>https://blog.btwoa.com/1ac79a84/</guid>
       <pubDate>Fri, 03 May 2024 01:24:19 GMT</pubDate>
@@ -66,7 +66,7 @@
       <category domain="https://blog.btwoa.com/categories/Optimized-Style/">优化风格</category>
       
       
-      <category domain="https://blog.btwoa.com/tags/Fluent-Emoji-3D/">Fluent Emoji 3D</category>
+      <category domain="https://blog.btwoa.com/tags/Fluent-Emoji/">Fluent Emoji</category>
       
       
       <comments>https://blog.btwoa.com/1ac79a84/#disqus_thread</comments>
@@ -141,7 +141,7 @@
     </item>
     
     <item>
-      <title>ArchLinux搭配Hyprland实现丝滑动效</title>
+      <title>安装体验动态平铺式合成器</title>
       <link>https://blog.btwoa.com/e40b2b38/</link>
       <guid>https://blog.btwoa.com/e40b2b38/</guid>
       <pubDate>Sun, 28 Jan 2024 11:06:31 GMT</pubDate>
@@ -171,7 +171,7 @@
     </item>
     
     <item>
-      <title>人性化的QQ机器人框架 | Koishi</title>
+      <title>人性化的QQ机器人框架Koishi</title>
       <link>https://blog.btwoa.com/9fd737cc/</link>
       <guid>https://blog.btwoa.com/9fd737cc/</guid>
       <pubDate>Sun, 27 Aug 2023 12:26:11 GMT</pubDate>
@@ -204,7 +204,7 @@
     </item>
     
     <item>
-      <title>为Linux服务器配置Clash Premium实现TUN模式下科学上网</title>
+      <title>为服务器启用Clash Premium的TUN模式</title>
       <link>https://blog.btwoa.com/53da714d/</link>
       <guid>https://blog.btwoa.com/53da714d/</guid>
       <pubDate>Sun, 27 Aug 2023 04:16:21 GMT</pubDate>
@@ -269,7 +269,7 @@
     </item>
     
     <item>
-      <title>OnePlus 7 Pro刷入KernelSU后的实际体验</title>
+      <title>上手KernelSU后的实际体验</title>
       <link>https://blog.btwoa.com/37855097/</link>
       <guid>https://blog.btwoa.com/37855097/</guid>
       <pubDate>Fri, 10 Mar 2023 10:05:57 GMT</pubDate>
@@ -301,7 +301,7 @@
     </item>
     
     <item>
-      <title>免费搭建网站统计服务并引入个人网站 | Umami</title>
+      <title>借助Umami搭建免费的网站统计服务</title>
       <link>https://blog.btwoa.com/5ab50253/</link>
       <guid>https://blog.btwoa.com/5ab50253/</guid>
       <pubDate>Tue, 07 Mar 2023 12:30:39 GMT</pubDate>
@@ -396,7 +396,7 @@
     </item>
     
     <item>
-      <title>未适配主题部署友链朋友圈 | Fcircle</title>
+      <title>未适配主题部署友链朋友圈</title>
       <link>https://blog.btwoa.com/20ba6584/</link>
       <guid>https://blog.btwoa.com/20ba6584/</guid>
       <pubDate>Tue, 11 Oct 2022 07:20:51 GMT</pubDate>
@@ -430,7 +430,7 @@
     </item>
     
     <item>
-      <title>为Hexo部署在线编辑器 | Qexo</title>
+      <title>借助Qexo搭建Hexo后台</title>
       <link>https://blog.btwoa.com/2qe37d61/</link>
       <guid>https://blog.btwoa.com/2qe37d61/</guid>
       <pubDate>Sat, 08 Oct 2022 04:13:38 GMT</pubDate>
@@ -463,7 +463,7 @@
     </item>
     
     <item>
-      <title>Python多版本共存并正常使用pip | Windows</title>
+      <title>Windows环境实现Python多版本共存</title>
       <link>https://blog.btwoa.com/bf438597/</link>
       <guid>https://blog.btwoa.com/bf438597/</guid>
       <pubDate>Fri, 07 Oct 2022 07:40:55 GMT</pubDate>
@@ -492,7 +492,7 @@
     </item>
     
     <item>
-      <title>注册免费域名时由于技术错误无法注册 | Freenom</title>
+      <title>无法注册Freenom免费域名该怎么办</title>
       <link>https://blog.btwoa.com/29ccf94f/</link>
       <guid>https://blog.btwoa.com/29ccf94f/</guid>
       <pubDate>Sun, 11 Sep 2022 12:57:56 GMT</pubDate>
@@ -519,7 +519,7 @@
     </item>
     
     <item>
-      <title>通过SaaS为Cloudflare CDN自定义节点</title>
+      <title>通过SaaS自选Cloudflare优质节点</title>
       <link>https://blog.btwoa.com/d04c383b/</link>
       <guid>https://blog.btwoa.com/d04c383b/</guid>
       <pubDate>Sun, 11 Sep 2022 03:40:35 GMT</pubDate>
@@ -547,7 +547,7 @@
     </item>
     
     <item>
-      <title>为自己配置免费的自定义域名邮箱 | Mail.ru</title>
+      <title>借助Mail.ru配置免费的自定义域名邮箱</title>
       <link>https://blog.btwoa.com/8140beac/</link>
       <guid>https://blog.btwoa.com/8140beac/</guid>
       <pubDate>Tue, 06 Sep 2022 03:35:13 GMT</pubDate>
@@ -576,7 +576,7 @@
     </item>
     
     <item>
-      <title>国区案件转区教程 | Steam</title>
+      <title>Steam国区案件转区教程</title>
       <link>https://blog.btwoa.com/789f27e5/</link>
       <guid>https://blog.btwoa.com/789f27e5/</guid>
       <pubDate>Mon, 08 Aug 2022 12:49:53 GMT</pubDate>
@@ -603,7 +603,7 @@
     </item>
     
     <item>
-      <title>如何正常访问Vercel项目</title>
+      <title>Vercel项目访问受阻记录</title>
       <link>https://blog.btwoa.com/1fbd5fc1/</link>
       <guid>https://blog.btwoa.com/1fbd5fc1/</guid>
       <pubDate>Sun, 31 Jul 2022 11:25:29 GMT</pubDate>
@@ -612,8 +612,7 @@
         
           
           
-      <description>&lt;p&gt;更换平台即服务为Vercel，自定义404页面，解决*.vercel.app已被SNI阻断和DNS污染屏蔽问题&lt;/p&gt;
-&lt;h2 id=&quot;平台即服务&quot;&gt;&lt;a class=&quot;headerlink&quot;</description>
+      <description>&lt;h2 id=&quot;平台即服务&quot;&gt;&lt;a class=&quot;headerlink&quot;</description>
           
         
       
