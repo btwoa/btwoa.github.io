@@ -3549,6 +3549,12 @@ b,
 strong {
   color: var(--ba-lighttext);
 }
+b:hover,
+strong:hover {
+  color: var(--ba-white);
+  border-radius: 4px;
+  background: var(--ba-main);
+}
 .button--animated {
   border-radius: 8px;
   -webkit-transition: 0.3s;
@@ -18054,7 +18060,7 @@ div#banners .bannerText {
   --ba-yellow: #ffc93e;
   --ba-yellow-op: rgba(255,201,62,0.188);
   --ba-orange: #ff953e;
-  --ba-fontcolor: #f7f7fa;
+  --ba-fontcolor: #fff;
   --ba-background: #18171d;
   --ba-reverse: #fff;
   --ba-maskbg: rgba(0,0,0,0.6);
@@ -18102,7 +18108,7 @@ div#banners .bannerText {
   --ba-yellow-op: rgba(217,156,0,0.102);
   --ba-orange: #e38100;
   --ba-purple: #7a60d2;
-  --ba-fontcolor: #363636;
+  --ba-fontcolor: #000;
   --ba-background: #f7f9fe;
   --ba-reverse: #000;
   --ba-maskbg: rgba(255,255,255,0.6);
@@ -20352,7 +20358,7 @@ div.timenode .body {
   margin: 4px 0 16px 24px;
   padding: 16px;
   border-radius: 8px;
-  background: #f5d4d3;
+  background: var(--ba-theme-op);
 }
 div.timenode .body p {
   margin: 0 !important;
