@@ -10406,7 +10406,7 @@ mixWidth1200()
   bottom: 2rem;
   left: 2rem;
   z-index: 2;
-  color: var(--ba-white);
+  color: var(--ba-fontcolor);
   max-width: 60%;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -10474,9 +10474,9 @@ mixWidth1200()
   bottom: 1rem;
 }
 .topGroup .todayCard .banner-button {
-  background: var(--ba-white-op);
+  background: var(--ba-black-op);
   border-radius: 20px;
-  color: var(--ba-white);
+  color: var(--ba-black);
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
