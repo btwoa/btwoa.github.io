@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.btwoa.com/privacy/index.html</loc>
+    <loc>https://blog.btwoa.com/websitelogs/index.html</loc>
+    
+    <lastmod>2024-09-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/demo/index.html</loc>
     
     <lastmod>2024-09-26</lastmod>
     
@@ -20,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/websitelogs/index.html</loc>
+    <loc>https://blog.btwoa.com/privacy/index.html</loc>
     
     <lastmod>2024-09-26</lastmod>
     
@@ -248,15 +257,6 @@
     <loc>https://blog.btwoa.com/53da714d/</loc>
     
     <lastmod>2023-08-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/demo/index.html</loc>
-    
-    <lastmod>2023-08-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1096,14 +1096,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Transforms-The-Region/</loc>
+    <loc>https://blog.btwoa.com/categories/Domain-Email/</loc>
     <lastmod>2024-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Domain-Email/</loc>
+    <loc>https://blog.btwoa.com/categories/Transforms-The-Region/</loc>
     <lastmod>2024-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

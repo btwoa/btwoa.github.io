@@ -6546,7 +6546,7 @@ span.tags-punctuation::before {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  margin: 0.5rem 0 0.7rem 8px;
+  margin: 0.5rem 0 0.5rem 8px;
 }
 #footer #st-footer .footer-title-group a {
   margin-left: 8px;

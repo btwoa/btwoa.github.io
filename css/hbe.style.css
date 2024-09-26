@@ -11,17 +11,24 @@
 	overflow: hidden;
 }
 .hbe-content {
+	height: 800px;
 	text-align: center;
 	font-size: 150%;
 	padding: 1em 0;
+	
+	@media screen and (max-width: 800px) {
+		height: 600px;
+	}
+
 }
 
 .hbe-input {
 	position: relative;
 	z-index: 1;
 	display: inline-block;
-	margin: 1em;
-	width: 80%;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 60%;
 	min-width: 200px;
 	vertical-align: top;
 }
@@ -38,10 +45,7 @@
 	border: none;
 	border-radius: 0;
 	background: #f0f0f0;
-	color: #aaa;
-	font-weight: 400;
-	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	-webkit-appearance: none; /* for box shadows to show on iOS */
+	color: var(--ba-main);
 }
 
 .hbe-input-field:focus {
@@ -69,7 +73,8 @@
 .hbe-input-label-content {
 	position: relative;
 	display: block;
-	padding: 1.6em 0;
+	padding: 1em;
+	font-weight: bold;
 	width: 100%;
 }
 
@@ -82,26 +87,40 @@
 
 /* hbe button in post page */
 .hbe-button {
-  width: 130px;
-  height: 40px;
-  background: linear-gradient(to bottom, #4eb5e5 0%,#389ed5 100%); /* W3C */
-  border: none;
-  border-radius: 5px;
-  position: relative;
-  border-bottom: 4px solid #2b8bc6;
-  color: #fbfbfb;
-  font-weight: 600;
-  font-family: 'Open Sans', sans-serif;
-  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
-  font-size: 15px;
-  text-align: left;
-  text-indent: 5px;
-  box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
-  cursor: pointer;
+	width: 130px;
+	height: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	font-weight: bold;
+	font-size: 10px;
+	color: var(--ba-white);
+	background-color: var(--ba-main);
+	border: none;
+	border-radius: 40px;
+	-webkit-box-shadow: 0px 8px 15px var(--ba-black-op);
+	box-shadow: 0px 8px 15px var(--ba-black-op);
+	padding: 0.5rem 1rem;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+	display: block;
+	margin: 0 auto
+}
 
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 20px;
+.hbe-button:hover {
+	background-color: var(--ba-main);
+	-webkit-box-shadow: var(--ba-shadow-button);
+	box-shadow: var(--ba-shadow-button);
+	color: var(--ba-white);
+	-webkit-transform: translateY(-7px);
+	-moz-transform: translateY(-7px);
+	-o-transform: translateY(-7px);
+	-ms-transform: translateY(-7px);
+	transform: translateY(-7px);
 }
 
 .hbe-button:active {
@@ -114,10 +133,6 @@
   width: 0;
   height: 0;
   display: block;
-  border-top: 20px solid #187dbc;
-  border-bottom: 20px solid #187dbc;
-  border-left: 16px solid transparent;
-  border-right: 20px solid #187dbc;
   position: absolute;
   opacity: 0.6;
   right: 0;
@@ -377,7 +392,7 @@
 }
 
 .hbe-input-label-content-flip {
-	color: #8B8C8B;
+	color: var(--ba-main);
 	padding: 0.25em 0;
 	-webkit-transition: -webkit-transform 0.25s;
 	transition: transform 0.25s;
@@ -386,6 +401,7 @@
 }
 
 .hbe-input-label-content-flip::after {
+	display: none;
 	content: attr(data-content);
 	position: absolute;
 	font-weight: 800;
@@ -489,8 +505,9 @@
 	width: 100%;
 	padding: 0.8em 0.5em;
 	background: transparent;
-	border: 2px solid;
-	color: #8781bd;
+	border: 3px solid;
+	border-radius: 12px;
+	color: var(--ba-main);
 	-webkit-transition: border-color 0.25s;
 	transition: border-color 0.25s;
 }
@@ -510,21 +527,22 @@
 .hbe-input-label-content-blink {
 	padding: 0 1em;
 	font-weight: 400;
-	color: #b5b5b5;
+	color: var(--ba-main);
 }
 
 .hbe-input-label-content-blink::after {
+	display: none;
 	content: attr(data-content);
 	position: absolute;
 	top: -200%;
 	left: 0;
-	color: #8781bd ;
+	color: var(--ba-main);
 	font-weight: 800;
 }
 
 .hbe-input-field-blink:focus,
 .input--filled .hbe-input-field-blink {
-	border-color: #8781bd ;
+	border-color: var(--ba-main);
 }
 
 .hbe-input-field-blink:focus + .hbe-input-label-blink,
