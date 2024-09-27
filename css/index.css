@@ -9982,7 +9982,6 @@ span.tags-punctuation {
   width: 100%;
   margin-bottom: 0;
   -webkit-user-select: none;
-mixWidth1200()
 }
 @media screen and (max-width: 768px) {
   #home_top .recent-top-post-group {
@@ -9991,7 +9990,7 @@ mixWidth1200()
     background: var(--ba-background);
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   #home_top .recent-top-post-group {
     overflow: visible;
     overflow-x: visible;
@@ -10020,15 +10019,26 @@ mixWidth1200()
   overflow-x: scroll;
   gap: 0.5rem;
 }
-#home_top .recent-top-post-group::-webkit-scrollbar {
+#home_top .recent-top-post-group .recent-post-top::-webkit-scrollbar {
   display: none;
 }
 @media screen and (max-width: 768px) {
-  #home_top .recent-top-post-group {
+  #home_top .recent-top-post-group .recent-post-top {
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    -o-box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 0.5rem;
   }
 }
-#home_top .recent-top-post-group .recent-post-group {
+@media screen and (min-width: 768px) {
+  #home_top .recent-top-post-group .recent-post-top {
+    overflow-x: visible;
+  }
+}
+#home_top .recent-top-post-group .recent-post-top .recent-post-group {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -10058,8 +10068,16 @@ mixWidth1200()
   align-content: space-between;
   gap: 0.5rem;
 }
-@media screen and (max-width: 1200px) {
-  #home_top .recent-top-post-group .recent-post-group {
+#home_top .recent-top-post-group .recent-post-top .recent-post-group.hide {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  #home_top .recent-top-post-group .recent-post-top .recent-post-group {
     -webkit-box-lines: single;
     -moz-box-lines: single;
     -o-box-lines: single;
@@ -10101,10 +10119,6 @@ mixWidth1200()
   #bannerGroup {
     height: 340px;
     padding: 0 1rem;
-  }
-}
-@media screen and (max-width: 1200px) {
-  #bannerGroup {
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
     -o-box-flex: 1;
@@ -10196,11 +10210,7 @@ mixWidth1200()
 }
 @media screen and (max-width: 768px) {
   .topGroup {
-    display: none;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .topGroup {
+    padding: 0 1rem;
     overflow-x: scroll;
     height: fit-content;
   }
@@ -10246,7 +10256,7 @@ mixWidth1200()
 .topGroup .recent-post-item:nth-child(n+7) {
   display: none;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
   .topGroup .recent-post-item:nth-child(n+7) {
     display: -webkit-box;
     display: -moz-box;
@@ -10254,6 +10264,15 @@ mixWidth1200()
     display: -ms-flexbox;
     display: box;
     display: flex;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .topGroup .recent-post-item {
+    width: calc(100% / 2 - 0.25rem);
+    margin-left: 0;
+  }
+  .topGroup .recent-post-item:nth-child(n+5) {
+    display: none;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -10383,7 +10402,7 @@ mixWidth1200()
   -webkit-box-shadow: var(--ba-shadow-border);
   box-shadow: var(--ba-shadow-border);
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
   .topGroup .todayCard {
     display: none;
   }
@@ -10414,6 +10433,11 @@ mixWidth1200()
   -o-transition: 0.3s;
   -ms-transition: 0.3s;
   transition: 0.3s;
+}
+@media screen and (max-width: 1000px) {
+  .topGroup .todayCard .todayCard-info {
+    display: none;
+  }
 }
 .topGroup .todayCard .todayCard-info.hide {
   bottom: 1rem;
@@ -10471,6 +10495,16 @@ mixWidth1200()
   -ms-transition: 0.3s;
   transition: 0.3s;
 }
+@media screen and (max-width: 1000px) {
+  .topGroup .todayCard .banner-button-group {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .topGroup .todayCard .banner-button-group {
+    right: 3rem;
+  }
+}
 .topGroup .todayCard .banner-button-group.hide {
   bottom: 1rem;
 }
@@ -10512,9 +10546,22 @@ mixWidth1200()
   -webkit-justify-content: center;
   justify-content: center;
 }
+@media screen and (max-width: 1200px) {
+  .topGroup .todayCard .banner-button {
+    width: 40px;
+  }
+  .topGroup .todayCard .banner-button .banner-button-text {
+    display: none;
+  }
+}
 .topGroup .todayCard .banner-button i {
   margin-right: 8px;
   font-size: 22px;
+}
+@media screen and (max-width: 1200px) {
+  .topGroup .todayCard .banner-button i {
+    margin: auto;
+  }
 }
 .topGroup .todayCard .banner-button:hover {
   background: var(--ba-theme);
@@ -10550,7 +10597,7 @@ mixWidth1200()
   flex-wrap: wrap;
   height: 120px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   .banners-links {
     -webkit-box-orient: horizontal;
     -moz-box-orient: horizontal;
@@ -15487,7 +15534,16 @@ div#banners .bannerText {
     z-index: -1;
   }
 }
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  #home_top .tags-group-all {
+    opacity: 0.1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    filter: alpha(opacity=10);
+    filter: blur(8px);
+    z-index: -1;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
   #home_top .tags-group-all {
     opacity: 0.2;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
@@ -15779,26 +15835,6 @@ div#banners .bannerText {
 .author-content-item .card-content .banner-button-group .banner-button i {
   margin-right: 8px;
   font-size: 22px;
-}
-@media screen and (max-width: 900px) {
-  .author-content-item .card-content .banner-button-group {
-    right: 1rem;
-    bottom: 1rem;
-  }
-  .author-content-item .card-content .banner-button-group .banner-button {
-    background: 0 0;
-    color: var(--ba-white);
-    padding: 0;
-    width: 30px;
-    height: 30px;
-  }
-  .author-content-item .card-content .banner-button-group .banner-button i {
-    margin-right: 0;
-    font-size: 1.5rem;
-  }
-  .author-content-item .card-content .banner-button-text {
-    display: none;
-  }
 }
 .switch_message {
   display: -webkit-box;
