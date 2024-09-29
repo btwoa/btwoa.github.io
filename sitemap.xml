@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/artalk.json</loc>
+    <loc>https://blog.btwoa.com/other.json</loc>
     
     <lastmod>2024-06-11</lastmod>
     
@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/other.json</loc>
+    <loc>https://blog.btwoa.com/artalk.json</loc>
     
     <lastmod>2024-06-11</lastmod>
     
@@ -1040,7 +1040,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Warning-Message/</loc>
+    <loc>https://blog.btwoa.com/categories/Game-Tutorial/</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1054,14 +1054,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Knowledge-Summary/</loc>
+    <loc>https://blog.btwoa.com/categories/Warning-Message/</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Game-Tutorial/</loc>
+    <loc>https://blog.btwoa.com/categories/Knowledge-Summary/</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1103,14 +1103,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Cloudflare/</loc>
+    <loc>https://blog.btwoa.com/categories/Domain-Email/</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Domain-Email/</loc>
+    <loc>https://blog.btwoa.com/categories/Cloudflare/</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1131,14 +1131,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Practical-Framework/</loc>
+    <loc>https://blog.btwoa.com/categories/Global-Proxy/</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Global-Proxy/</loc>
+    <loc>https://blog.btwoa.com/categories/Practical-Framework/</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
