@@ -6,7 +6,7 @@
 // var uglify = require('gulp-uglify');
 // // 压缩js
 // gulp.task('compress', () =>
-// gulp.src('./public/**/*.js')
+// gulp.src(['./public/**/*.js','!./public/a0685bc9/index.html', '!./source/_posts/037.Solitude主题杂项配置指南.md'])
 // .pipe(terser())
 // .pipe(uglify())
 // .pipe(gulp.dest('./public'))
@@ -21,7 +21,7 @@
 // });
 // //压缩html
 // gulp.task('minify-html', () => {
-// return gulp.src(['./public/**/*.html', '!./public/a0685bc9/index.html'])
+// return gulp.src(['./public/**/*.html', '!./public/a0685bc9/index.html', '!./source/_posts/037.Solitude主题杂项配置指南.md'])
 // .pipe(htmlclean())
 // .pipe(htmlmin({
 // removeComments: true, //清除html注释
