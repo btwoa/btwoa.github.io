@@ -289,6 +289,8 @@
 // })
 
 // /* 指针样式 */
+  
+// // 原版
 
 // const largeCircle = document.getElementById('largeCircle');
 // const smallCircle = document.getElementById('smallCircle');
@@ -359,6 +361,101 @@
 //     mouseX = event.clientX;
 //     mouseY = event.clientY;
 
+//     if (!isLargeCircleVisible) {
+//         requestAnimationFrame(animate);
+//     }
+// }
+
+// // 监听鼠标事件
+// document.addEventListener('mousemove', handleMove);
+
+// document.addEventListener('mousedown', (event) => {
+//     isMouseDown = true;
+//     mouseX = event.clientX;
+//     mouseY = event.clientY;
+//     setPosition(mouseX, mouseY);
+//     largeCircle.classList.add('pulse'); // 按下时添加脉冲动画
+// });
+
+// document.addEventListener('mouseup', () => {
+//     isMouseDown = false;
+//     setPosition(mouseX, mouseY);
+//     largeCircle.classList.remove('pulse'); // 松开时移除脉冲动画
+// });
+
+// // 优化
+
+// const largeCircle = document.getElementById('largeCircle');
+// const smallCircle = document.getElementById('smallCircle');
+
+// let isMouseDown = false;
+// let isLargeCircleVisible = false;
+// let mouseX = 0;
+// let mouseY = 0;
+
+// // 设置元素的位置
+// function setPosition(x, y) {
+//     const halfLargeCircleWidth = largeCircle.offsetWidth / 2;
+//     const halfSmallCircleWidth = smallCircle.offsetWidth / 2;
+
+//     // 只在需要时更新样式，减少 DOM 操作
+//     if (smallCircle.style.left !== `${x - halfSmallCircleWidth}px`) {
+//         smallCircle.style.left = `${x - halfSmallCircleWidth}px`;
+//         smallCircle.style.top = `${y - halfSmallCircleWidth}px`;
+//     }
+
+//     if (largeCircle.style.left !== `${x - halfLargeCircleWidth}px`) {
+//         largeCircle.style.left = `${x - halfLargeCircleWidth}px`;
+//         largeCircle.style.top = `${y - halfLargeCircleWidth}px`;
+//     }
+
+//     // 根据鼠标按下状态调整圆的大小
+//     const largeCircleScale = isMouseDown ? 'scale(0.5)' : 'scale(1)';
+//     const smallCircleScale = isMouseDown ? 'scale(2)' : 'scale(1)';
+
+//     if (largeCircle.style.transform !== largeCircleScale) {
+//         largeCircle.style.transform = largeCircleScale;
+//     }
+
+//     if (smallCircle.style.transform !== smallCircleScale) {
+//         smallCircle.style.transform = smallCircleScale;
+//     }
+// }
+
+// // 更新悬停状态
+// function updateHoverStatus(x, y) {
+//     const hoverElements = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a, div, pre, code, input, textarea');
+//     const isHoveringText = Array.from(hoverElements).some(el => {
+//         const rect = el.getBoundingClientRect();
+//         return x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom;
+//     });
+
+//     // 仅在状态变化时更新样式，避免不必要的操作
+//     if (isHoveringText !== document.body.classList.contains('hovered')) {
+//         document.body.classList.toggle('hovered', isHoveringText);
+//     }
+// }
+
+// // 动画帧函数
+// function animate() {
+//     setPosition(mouseX, mouseY);
+//     updateHoverStatus(mouseX, mouseY);
+
+//     if (!isLargeCircleVisible) {
+//         isLargeCircleVisible = true;
+//         largeCircle.style.display = 'block';
+//         smallCircle.style.display = 'block';
+//     }
+
+//     requestAnimationFrame(animate);
+// }
+
+// // 处理鼠标移动事件
+// function handleMove(event) {
+//     mouseX = event.clientX;
+//     mouseY = event.clientY;
+
+//     // 只在首次移动时启动动画帧
 //     if (!isLargeCircleVisible) {
 //         requestAnimationFrame(animate);
 //     }
