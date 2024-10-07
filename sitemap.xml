@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.btwoa.com/websitelogs/index.html</loc>
+    <loc>https://blog.btwoa.com/links/index.html</loc>
     
     <lastmod>2024-10-07</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/links/index.html</loc>
+    <loc>https://blog.btwoa.com/websitelogs/index.html</loc>
     
     <lastmod>2024-10-07</lastmod>
     
@@ -1070,14 +1070,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Knowledge-Summary/</loc>
+    <loc>https://blog.btwoa.com/categories/CTF/</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/CTF/</loc>
+    <loc>https://blog.btwoa.com/categories/Knowledge-Summary/</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1112,13 +1112,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Free-Domain/</loc>
-    <lastmod>2024-10-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/categories/Domain-Email/</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -1126,7 +1119,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Environment-Variable/</loc>
+    <loc>https://blog.btwoa.com/categories/Free-Domain/</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1140,7 +1133,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Practical-Framework/</loc>
+    <loc>https://blog.btwoa.com/categories/Environment-Variable/</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1148,6 +1141,13 @@
   
   <url>
     <loc>https://blog.btwoa.com/categories/Global-Proxy/</loc>
+    <lastmod>2024-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/categories/Practical-Framework/</loc>
     <lastmod>2024-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
