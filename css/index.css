@@ -9591,6 +9591,7 @@ span.tags-punctuation {
   line-height: 30px;
   margin-top: 0;
   font-weight: 700;
+  color: var(--heo-fontcolor);
   margin-bottom: 0;
   width: 100%;
   -webkit-transition: 0.3s;
@@ -9796,7 +9797,7 @@ span.tags-punctuation {
     -webkit-flex: 1 1 40%;
     -ms-flex: 1 1 40%;
     flex: 1 1 40%;
-    max-width: 50%;
+    max-width: calc(50% - 0.25rem);
     -webkit-box-shadow: var(--ba-shadow-border);
     box-shadow: var(--ba-shadow-border);
   }
