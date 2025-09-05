@@ -9593,6 +9593,7 @@ span.tags-punctuation {
   font-weight: 700;
   color: var(--heo-fontcolor);
   margin-bottom: 0;
+  height: 60px;
   width: 100%;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
