@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/other.json</loc>
+    <loc>https://blog.btwoa.com/twikoo.json</loc>
     
     <lastmod>2024-06-11</lastmod>
     
@@ -227,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/twikoo.json</loc>
+    <loc>https://blog.btwoa.com/other.json</loc>
     
     <lastmod>2024-06-11</lastmod>
     
@@ -680,6 +680,13 @@
   </url>
   
   <url>
+    <loc>https://blog.btwoa.com/tags/Injection/</loc>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/tags/BUUCTF/</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -688,13 +695,6 @@
   
   <url>
     <loc>https://blog.btwoa.com/tags/Writeup/</loc>
-    <lastmod>2025-10-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/tags/Injection/</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -827,14 +827,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/Mail-ru/</loc>
+    <loc>https://blog.btwoa.com/tags/Steam/</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/Steam/</loc>
+    <loc>https://blog.btwoa.com/tags/Mail-ru/</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -995,20 +995,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/face-to-many/</loc>
-    <lastmod>2025-10-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/tags/Replicate/</loc>
-    <lastmod>2025-10-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/tags/Solitude/</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -1030,7 +1016,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/tags/Fluent-Emoji/</loc>
+    <loc>https://blog.btwoa.com/tags/face-to-many/</loc>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/tags/Replicate/</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1038,6 +1031,13 @@
   
   <url>
     <loc>https://blog.btwoa.com/tags/Pixel-Watch/</loc>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/tags/Fluent-Emoji/</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1144,14 +1144,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Domain-Email/</loc>
+    <loc>https://blog.btwoa.com/categories/Transforms-The-Region/</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/categories/Transforms-The-Region/</loc>
+    <loc>https://blog.btwoa.com/categories/Domain-Email/</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
