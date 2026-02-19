@@ -402,7 +402,7 @@
   
   const CountdownTimer = (() => {
     const config = {
-        targetDate: "2026-02-17",
+        targetDate: "2027-02-06",
         targetName: "春节",
         units: {
             day: { text: "今日", divider: 1, unit: "小时" },
